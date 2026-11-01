@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "trae",
+  "version": "1.0.0",
+  "name": "TRAE",
+  "description": "A god-tier weapon and armor set for Minecraft Fabric 1.21.1.",
+  "authors": [
+    "mushroomserchz-lang"
+  ],
+  "contact": {
+    "homepage": "https://github.com/mushroomserchz-lang/TRAE"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.mushroomserchz.trae.TraeMod"
+    ],
+    "client": [
+      "com.mushroomserchz.trae.TraeClientMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric": "*"
+  }
+}
