@@ -3449,3 +3449,1761 @@ xdg-open: no method available for opening 'https://www.trae.cn/authorization?log
 [Logsdk.http] [trace] new sent events [ 'e20spmud1t', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
 [Logsdk.http] [trace] queue drained, last sent 1
 [90m[main 2026-11-01T02:50:36.239Z][0m [UserStorage] no available persist userInfo to restore.
+[90m[main 2026-11-01T02:51:36.238Z][0m [UserStorage] no available persist userInfo to restore.
+[90m[main 2026-11-01T02:51:37.924Z][0m OAuthLocalServer#[Server] Received url request: /authorize. file:///home/trae/.trae-cn/argv.json
+[90m[main 2026-11-01T02:51:37.926Z][0m [updateLocalCredential] {
+  isRedirect: 'true',
+  scope: 'trae',
+  authCodeInfo: '{"AuthCode":"FQB_Lv3EesGCPxTI-SQ0wsAx9edCuO5igTq9fLn_h0k","ExpireAt":1793502042159,"ExpireDuration":600000}',
+  loginTraceID: '7274ddda-09ab-4e94-8827-7e76915a3396',
+  host: 'https://api.trae.com.cn',
+  userRegion: 'cn',
+  userInfo: '{"AIRegion":"CN","AuditInfo":"{\\"audit_status\\":2,\\"is_auditing\\":false,\\"last_modify_time\\":1781331446,\\"unpass_reason\\":\\"\\"}","AvatarUrl":"https://p3-passport.byteacctimg.com/img/user-avatar/f1a6deca910cbe6bb79820fc4094f6e9~128x128.image","Description":"","Gender":"0","LastLoginTime":"2026-11-01T10:50:40 08:00","LastLoginType":"sms","MigrateToSG":false,"NonPlainTextEmail":"","NonPlainTextMobile":"187******75","Region":"CN","RegisterTime":"2026-06-13T14:16:15.44 08:00","ScreenName":"截戈爻","TenantID":"7o2d894p7dr0o4","UserID":"1096637478344060"}'
+}
+[90m[main 2026-11-01T02:51:37.942Z][0m [exchangeTokenByAuthCode] request https://api.trae.cn/trae/api/v3/oauth/ExchangeToken {
+  ClientID: 'ono9krqynydwx5',
+  AuthCode: 'FQB_Lv3EesGCPxTI-SQ0wsAx9edCuO5igTq9fLn_h0k',
+  CodeVerifier: 'mU1n-JsDkuRnU7K4Is-DVGJC6cp0de9k_TiM8YWVkZefUJWNTY9-P-WchCdQs9Bv',
+  DeviceInfo: {
+    DeviceID: '2574430945438160',
+    MachineID: 'e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602',
+    PlatformCode: 'IDE_PC',
+    DeviceType: 'PC',
+    DeviceName: "trae's computer",
+    DeviceModel: '',
+    ClientVersion: '3.4.11',
+    DevicePublicKey: '-----BEGIN PUBLIC KEY-----\n' +
+      'MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEfp4Ow7+WXSqqs8rIWlioPBlewDk6\n' +
+      'j1vC5xacRm6F0tr0r/IDnaDTiiK1CExuOeHZmKdYn9Cxe8/6OwrYn2QrZQ==\n' +
+      '-----END PUBLIC KEY-----\n',
+    DeviceBrand: '',
+    DeviceCPU: 'INTEL(R) XEON(R) PLATINUM 8582C',
+    OSInfo: 'linux',
+    OSVersion: 'Ubuntu 24.04 LTS'
+  },
+  IDEVersion: '3.4.11'
+}
+[90m[main 2026-11-01T02:51:38.094Z][0m [exchangeToken] response success {
+  ResponseMetadata: {
+    Action: '',
+    OID: {},
+    Region: '',
+    RequestId: '',
+    Service: '',
+    Source: '',
+    TraceID: '00000000000000000000000000000000',
+    Version: '',
+    WID: {}
+  },
+  Result: {
+    BoundDeviceID: '4j6epd01pl2l22',
+    ClientID: 'ono9krqynydwx5',
+    DeviceBindStatus: 'BOUND',
+    RefreshExpireAt: 1809053498035,
+    RefreshToken: '******',
+    Token: '******',
+    TokenExpireAt: 1794711098035,
+    TokenExpireDuration: 1209600000,
+    UserJwt: '******'
+  }
+}
+[90m[main 2026-11-01T02:51:38.095Z][0m OAuthenticator#write ide_credential file to local path
+[90m[main 2026-11-01T02:51:38.095Z][0m [MainICubeAuthManagementService] get userInfo by action %s CREATE_TOKEN
+[90m[main 2026-11-01T02:51:38.095Z][0m [UserStorage] no available persist userTag to restore.
+[90m[main 2026-11-01T02:51:38.096Z][0m OAuthLocalServer#Received oauth2 jwt success
+[90m[main 2026-11-01T02:51:38.096Z][0m OAuthLocalServer#last auth code handler, dispose local server
+[90m[main 2026-11-01T02:51:38.096Z][0m OAuthLocalServer#Authenticator server closed
+[90m[main 2026-11-01T02:51:38.097Z][0m [NetworkProxy] Using default system proxy mode without explicit proxy configuration
+[90m[main 2026-11-01T02:51:38.097Z][0m [MainThirdPartyTokenService] Fetching tokens https://api.trae.cn/trae/api/v3/GetThirdPartyToken {"Types":["feishu","lark"]}
+[90m[main 2026-11-01T02:51:38.098Z][0m [NetworkProxy][SystemProxyDetection] Resolved system proxy status {
+  platform: 'linux',
+  source: 'env',
+  queryStatus: 'not_required',
+  result: 'configured',
+  reason: undefined
+}
+[90m[main 2026-11-01T02:51:38.100Z][0m [MainICubeAuthManagementService] reportTeaEvent, app_id:  711126
+[Logsdk] [trace] report appid with 711126
+[Logsdk] [trace] Composed event {
+  id: '5fdune2igog',
+  originatedBy: 'logsdk',
+  createdAt: 1793501498101,
+  event: {
+    server_time: 1793501499,
+    caller: '',
+    user: {
+      user_unique_id: '2574430945438160',
+      user_id: '0',
+      device_id: '2574430945438160',
+      user_is_login: false
+    },
+    header: {
+      custom: '{"icube_uid":"0","user_id":"0","biz_user_id":"0","user_is_login":false,"user_unique_id":"2574430945438160","device_id":"2574430945438160","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602","arch":"x64","system":"linux","scope":"unknown","build_version":"2.3.98528","vscode_version":"1.107.1","region":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"7a9027d4-82b7-474b-9a47-e613b3f3b1a8","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
+      app_id: 711126,
+      platform: 'electron',
+      os_name: 'linux',
+      tz_offset: -28800,
+      sdk_version: '3.0.12',
+      app_version: '3.4.11',
+      os_version: 'Ubuntu 24.04 LTS',
+      device_model: '',
+      language: 'en',
+      app_language: 'en'
+    },
+    events: [
+      {
+        event: 'icube_login_success',
+        params: '{"provider":"marscode","duration":154953}',
+        time: 1793501499,
+        _staging_flag: undefined
+      },
+      [length]: 1
+    ]
+  }
+}
+[Logsdk.http] [trace] with channel domain https://mcs.zijieapi.com
+[Logsdk] [trace] report appid with 711126
+[Logsdk] [trace] Composed event {
+  id: 'arug46qe26s',
+  originatedBy: 'logsdk',
+  createdAt: 1793501498102,
+  event: {
+    server_time: 1793501499,
+    caller: '',
+    user: {
+      user_unique_id: '2574430945438160',
+      user_id: '0',
+      device_id: '2574430945438160',
+      user_is_login: false
+    },
+    header: {
+      custom: '{"icube_uid":"0","user_id":"0","biz_user_id":"0","user_is_login":false,"user_unique_id":"2574430945438160","device_id":"2574430945438160","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602","arch":"x64","system":"linux","scope":"unknown","build_version":"2.3.98528","vscode_version":"1.107.1","region":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"7a9027d4-82b7-474b-9a47-e613b3f3b1a8","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
+      app_id: 711126,
+      platform: 'electron',
+      os_name: 'linux',
+      tz_offset: -28800,
+      sdk_version: '3.0.12',
+      app_version: '3.4.11',
+      os_version: 'Ubuntu 24.04 LTS',
+      device_model: '',
+      language: 'en',
+      app_language: 'en'
+    },
+    events: [
+      {
+        event: 'native_ide_network_proxy_resolved',
+        params: '{"proxy_mode":"system","proxy_endpoint":"127.0.0.1:18080","bypass_list":""}',
+        time: 1793501499,
+        _staging_flag: undefined
+      },
+      [length]: 1
+    ]
+  }
+}
+[90m[main 2026-11-01T02:51:38.105Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:51:38.112Z][0m [AhaIpcServer] broadcast new event event:DynamicConfigService.onDidUpdateConfig
+[90m[main 2026-11-01T02:51:38.115Z][0m [ICubeProcessManager] defer CKG product policy config update until config is ready
+[90m[main 2026-11-01T02:51:38.115Z][0m [ICubeProcessManager] resolved Harness startup config { enabled: true, source: 'account_default' }
+[90m[main 2026-11-01T02:51:38.120Z][0m [MainICubeAuthWatchManagementService] reconcileCheckTimer shouldRunTimer: false , authCheckIntervalMs -1
+[90m[main 2026-11-01T02:51:38.133Z][0m [ICubeProcessManager] defer CKG product policy auth update until config is ready
+[90m[main 2026-11-01T02:51:38.135Z][0m [MainICubeAuthWatchManagementService] reconcileCheckTimer shouldRunTimer: true , authCheckIntervalMs 600000
+[93m[main 2026-11-01T02:51:38.135Z][0m [MainGtmService] [switch_cn_billing_version] pay_status_evaluated { billingState: 'missing', billingField: 'unavailable' }
+[93m[main 2026-11-01T02:51:38.135Z][0m [MainGtmService] [switch_cn_billing_version] trigger_skipped_invalid_state { billingState: 'missing' }
+[90m[main 2026-11-01T02:51:38.138Z][0m [MainGtmService] Evaluating conditions (startup)
+[90m[main 2026-11-01T02:51:38.139Z][0m [AhaIpcServer] broadcast new event event:BootService.onBootConfigRefreshStart
+[BootService] broadcastToAllCodeWindows, channel: vscode:main::sandbox-boot-config-refresh-start windowCount: 2
+[BootService] sending to windowId: 1
+[BootService] sending to windowId: 3
+[90m[main 2026-11-01T02:51:38.141Z][0m [TokenManager] JWT token refresh is disabled
+[90m[main 2026-11-01T02:51:38.141Z][0m [updateUserInfo] {
+  token: '******',
+  refreshToken: '******',
+  expiredAt: '2026-11-15T02:51:38.035Z',
+  refreshExpiredAt: '2027-04-30T02:51:38.035Z',
+  tokenReleaseAt: '2026-11-01T02:51:38.095Z',
+  userId: '1096637478344060',
+  host: 'https://api.trae.cn',
+  userRegion: { region: 'CN', _aiRegion: 'CN' },
+  account: {
+    username: '******',
+    iss: '',
+    iat: 0,
+    organization: '',
+    work_country: '',
+    email: '******',
+    avatar_url: '******',
+    description: '',
+    scope: '******',
+    loginScope: 'trae',
+    nonPlainTextMobile: '187******75',
+    storeCountryCode: '',
+    storeCountrySrc: '',
+    storeRegion: 'CN',
+    userTag: 'cn',
+    migrateToSG: false
+  }
+}
+[90m[main 2026-11-01T02:51:38.143Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:51:38.144Z][0m [NetworkProxy] Using default system proxy mode without explicit proxy configuration
+[90m[main 2026-11-01T02:51:38.145Z][0m ttnet fetch request https://api.trae.com.cn/icube/api/v1/native/config/query?mid=e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602&did=2574430945438160&uid=1096637478344060&userRegion=CN&packageType=stable_cn&productCode=TRAE&platform=Linux&branch=release_desktop_yoma_linux_cn&arch=x64&tenant=marscode&appVersion=3.4.11&buildVersion=2.3.98528&traeVersionCode=20250325
+[90m[main 2026-11-01T02:51:38.154Z][0m [MainICubeAuthManagementService] show window BrowserWindow {
+  setBounds: [Function (anonymous)],
+  _events: [Object: null prototype] {
+    blur: [Function (anonymous)],
+    focus: [ [Function (anonymous)], [Function: ge] ],
+    close: [ [Function (anonymous)], [Function: ge] ],
+    show: [Function: visibilityChanged],
+    hide: [Function: visibilityChanged],
+    minimize: [Function: visibilityChanged],
+    maximize: [ [Function: visibilityChanged], [Function: ge] ],
+    restore: [Function: visibilityChanged],
+    closed: [
+      [Function (anonymous)],
+      [Function: ge],
+      [Function: ge],
+      [Function: ge],
+      [Function: ge],
+      [Function: ge]
+    ],
+    unmaximize: [Function: ge],
+    'enter-full-screen': [Function: ge],
+    'leave-full-screen': [Function: ge],
+    'enter-html-full-screen': [Function: ge],
+    'leave-html-full-screen': [Function: ge],
+    'always-on-top-changed': [Function: ge],
+    'system-context-menu': [Function: ge],
+    unresponsive: [Function: ge],
+    responsive: [Function: ge],
+    'session-end': [Function: ge]
+  },
+  _eventsCount: 19,
+  _browserViews: [],
+  devToolsWebContents: [Getter]
+}
+[90m[main 2026-11-01T02:51:38.157Z][0m [NetworkProxy][SystemProxyDetection] Resolved system proxy status {
+  platform: 'linux',
+  source: 'env',
+  queryStatus: 'not_required',
+  result: 'configured',
+  reason: undefined
+}
+[90m[main 2026-11-01T02:51:38.163Z][0m [DiagnosisCoordinator] feature state synced: initialized=true
+Error occurred in handler for 'vscode:computerSurfaceCatalog': Error: No handler registered for 'vscode:computerSurfaceCatalog'
+    at Session.<anonymous> (node:electron/js2c/browser_init:2:180309)
+    at Session.emit (node:events:519:28)
+Error occurred in handler for 'vscode:computerSurfaceCatalog': Error: No handler registered for 'vscode:computerSurfaceCatalog'
+    at Session.<anonymous> (node:electron/js2c/browser_init:2:180309)
+    at Session.emit (node:events:519:28)
+[90m[main 2026-11-01T02:51:38.177Z][0m [DiagnosisCoordinator] feature state synced: initialized=true
+[Logsdk.http] [trace] new sent events [ '5fdune2igog', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
+[Logsdk.http] [trace] with channel domain https://mcs.zijieapi.com
+[90m[main 2026-11-01T02:51:38.199Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:38.209Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[93m[main 2026-11-01T02:51:38.210Z][0m [MainThirdPartyTokenService] Failed to refresh: Error: Result is not an array
+    at J2.fetchThirdPartyTokens (file:///usr/share/trae-cn/resources/app/out/main.js:1192:39263)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async J2.refreshTokens (file:///usr/share/trae-cn/resources/app/out/main.js:1192:38527)
+    at async J2.refreshAndBroadcast (file:///usr/share/trae-cn/resources/app/out/main.js:1192:36976)
+[90m[main 2026-11-01T02:51:38.215Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:38.215Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:38.241Z][0m [fetch entitlement serverData] is pending and return existing request
+[Logsdk.http] [trace] new sent events [ 'arug46qe26s', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
+[Logsdk.http] [trace] queue drained, last sent 1
+[90m[main 2026-11-01T02:51:38.267Z][0m ttnet fetch response https://api.trae.com.cn/icube/api/v1/native/config/query?mid=e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602&did=2574430945438160&uid=1096637478344060&userRegion=CN&packageType=stable_cn&productCode=TRAE&platform=Linux&branch=release_desktop_yoma_linux_cn&arch=x64&tenant=marscode&appVersion=3.4.11&buildVersion=2.3.98528&traeVersionCode=20250325 200 OK
+[90m[main 2026-11-01T02:51:38.283Z][0m [fetch entitlement serverData] is pending and return existing request
+[90m[main 2026-11-01T02:51:38.312Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:38.313Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:38.327Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:38.329Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:38.329Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:38.385Z][0m [AhaIpcServer] broadcast new event event:DynamicConfigService.onDidUpdateConfig
+[90m[main 2026-11-01T02:51:38.395Z][0m [ICubeProcessManager] resolve CKG product policy from config { enabled: false, resolved: true }
+[90m[main 2026-11-01T02:51:38.412Z][0m [MainICubeAuthWatchManagementService] reconcileCheckTimer shouldRunTimer: true , authCheckIntervalMs 600000
+[90m[main 2026-11-01T02:51:38.415Z][0m [MainGtmService] Evaluating conditions (post-startup)
+[90m[main 2026-11-01T02:51:38.422Z][0m [MainGtmService] Loaded 7 conditions from dynamic config
+[90m[main 2026-11-01T02:51:38.422Z][0m [MainGtmService] Evaluating conditions (post-startup)
+[90m[main 2026-11-01T02:51:38.422Z][0m [MainGtmService] Evaluating conditions (post-startup)
+[90m[main 2026-11-01T02:51:38.432Z][0m [AhaIpcServer] broadcast new event event:DynamicConfigService.onDidUpdateMFConfig
+[90m[main 2026-11-01T02:51:38.437Z][0m [NetworkProxy] Using default system proxy mode without explicit proxy configuration
+[90m[main 2026-11-01T02:51:38.438Z][0m [NetworkProxy][SystemProxyDetection] Resolved system proxy status {
+  platform: 'linux',
+  source: 'env',
+  queryStatus: 'not_required',
+  result: 'configured',
+  reason: undefined
+}
+[90m[main 2026-11-01T02:51:38.440Z][0m [AhaIpcServer] broadcast new event event:DynamicConfigService.onDidUpdateConfig
+[90m[main 2026-11-01T02:51:38.474Z][0m [ICubeProcessManager] resolve CKG product policy from config { enabled: false, resolved: true }
+[90m[main 2026-11-01T02:51:38.486Z][0m [MainICubeAuthWatchManagementService] reconcileCheckTimer shouldRunTimer: true , authCheckIntervalMs 600000
+[90m[main 2026-11-01T02:51:38.487Z][0m [MainGtmService] Loaded 7 conditions from dynamic config
+[90m[main 2026-11-01T02:51:38.487Z][0m [MainGtmService] Evaluating conditions (post-startup)
+[90m[main 2026-11-01T02:51:38.492Z][0m [MainGtmService] Evaluating conditions (post-startup)
+[90m[main 2026-11-01T02:51:38.495Z][0m [NetworkProxy] Using default system proxy mode without explicit proxy configuration
+[90m[main 2026-11-01T02:51:38.496Z][0m [NetworkProxy][SystemProxyDetection] Resolved system proxy status {
+  platform: 'linux',
+  source: 'env',
+  queryStatus: 'not_required',
+  result: 'configured',
+  reason: undefined
+}
+[90m[main 2026-11-01T02:51:38.520Z][0m ttnet fetch request https://api.trae.com.cn/icube/api/v1/native/config/query?mid=e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602&did=2574430945438160&uid=1096637478344060&userRegion=CN&packageType=stable_cn&productCode=TRAE&platform=Linux&branch=release_desktop_yoma_linux_cn&arch=x64&tenant=marscode&appVersion=3.4.11&buildVersion=2.3.98528&traeVersionCode=20250325
+[90m[main 2026-11-01T02:51:38.527Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:38.528Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:38.578Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:38.578Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:38.578Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:38.602Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:38.603Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:38.604Z][0m ttnet fetch response https://api.trae.com.cn/icube/api/v1/native/config/query?mid=e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602&did=2574430945438160&uid=1096637478344060&userRegion=CN&packageType=stable_cn&productCode=TRAE&platform=Linux&branch=release_desktop_yoma_linux_cn&arch=x64&tenant=marscode&appVersion=3.4.11&buildVersion=2.3.98528&traeVersionCode=20250325 200 OK
+[90m[main 2026-11-01T02:51:38.638Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:38.672Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:38.672Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:38.673Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:38.681Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:38.708Z][0m [AhaIpcServer] broadcast new event event:DynamicConfigService.onDidUpdateConfig
+[90m[main 2026-11-01T02:51:38.723Z][0m [ICubeProcessManager] resolve CKG product policy from config { enabled: false, resolved: true }
+[90m[main 2026-11-01T02:51:38.780Z][0m [MainICubeAuthWatchManagementService] reconcileCheckTimer shouldRunTimer: true , authCheckIntervalMs 600000
+[90m[main 2026-11-01T02:51:38.781Z][0m [MainGtmService] Loaded 7 conditions from dynamic config
+[90m[main 2026-11-01T02:51:38.781Z][0m [MainGtmService] Evaluating conditions (post-startup)
+[90m[main 2026-11-01T02:51:38.782Z][0m [MainGtmService] Evaluating conditions (post-startup)
+[90m[main 2026-11-01T02:51:38.796Z][0m [NetworkProxy] Using default system proxy mode without explicit proxy configuration
+[90m[main 2026-11-01T02:51:38.796Z][0m [NetworkProxy][SystemProxyDetection] Resolved system proxy status {
+  platform: 'linux',
+  source: 'env',
+  queryStatus: 'not_required',
+  result: 'configured',
+  reason: undefined
+}
+[90m[main 2026-11-01T02:51:38.825Z][0m [AhaIpcServer] broadcast new event event:DynamicConfigService.onDidUpdateConfig
+[90m[main 2026-11-01T02:51:38.873Z][0m [ICubeProcessManager] resolve CKG product policy from config { enabled: false, resolved: true }
+[90m[main 2026-11-01T02:51:38.895Z][0m [MainICubeAuthWatchManagementService] reconcileCheckTimer shouldRunTimer: true , authCheckIntervalMs 600000
+[90m[main 2026-11-01T02:51:38.895Z][0m [MainGtmService] Loaded 7 conditions from dynamic config
+[90m[main 2026-11-01T02:51:38.895Z][0m [MainGtmService] Evaluating conditions (post-startup)
+[90m[main 2026-11-01T02:51:38.895Z][0m [MainGtmService] Evaluating conditions (post-startup)
+[90m[main 2026-11-01T02:51:38.900Z][0m [NetworkProxy] Using default system proxy mode without explicit proxy configuration
+[90m[main 2026-11-01T02:51:38.901Z][0m [NetworkProxy][SystemProxyDetection] Resolved system proxy status {
+  platform: 'linux',
+  source: 'env',
+  queryStatus: 'not_required',
+  result: 'configured',
+  reason: undefined
+}
+[90m[main 2026-11-01T02:51:38.906Z][0m [AhaIpcServer] broadcast new event event:DynamicConfigService.onDidUpdateConfig
+[90m[main 2026-11-01T02:51:38.916Z][0m [ICubeProcessManager] resolve CKG product policy from config { enabled: false, resolved: true }
+[90m[main 2026-11-01T02:51:38.932Z][0m [MainICubeAuthWatchManagementService] reconcileCheckTimer shouldRunTimer: true , authCheckIntervalMs 600000
+[90m[main 2026-11-01T02:51:38.933Z][0m [MainGtmService] Loaded 7 conditions from dynamic config
+[90m[main 2026-11-01T02:51:38.933Z][0m [MainGtmService] Evaluating conditions (post-startup)
+[90m[main 2026-11-01T02:51:38.933Z][0m [MainGtmService] Evaluating conditions (post-startup)
+[90m[main 2026-11-01T02:51:38.975Z][0m [NetworkProxy] Using default system proxy mode without explicit proxy configuration
+[90m[main 2026-11-01T02:51:38.975Z][0m [NetworkProxy][SystemProxyDetection] Resolved system proxy status {
+  platform: 'linux',
+  source: 'env',
+  queryStatus: 'not_required',
+  result: 'configured',
+  reason: undefined
+}
+[90m[main 2026-11-01T02:51:39.001Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:39.002Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:39.002Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:39.011Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:39.012Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+Error occurred in handler for 'vscode:computerSurfaceCatalog': Error: No handler registered for 'vscode:computerSurfaceCatalog'
+    at Session.<anonymous> (node:electron/js2c/browser_init:2:180309)
+    at Session.emit (node:events:519:28)
+[90m[main 2026-11-01T02:51:39.024Z][0m [CKG cleanup] completed {
+  removedEntries: 0,
+  removedBytes: 0,
+  failedEntries: 0,
+  durationMs: 579
+}
+[91m[main 2026-11-01T02:51:39.177Z][0m [cdnLocation] all cdn check endpoints failed [Error [AggregateError]: All promises were rejected]
+[90m[main 2026-11-01T02:51:39.182Z][0m ttnet fetch request https://api.trae.com.cn/icube/api/v1/user
+[90m[main 2026-11-01T02:51:39.187Z][0m ttnet fetch request https://api.trae.com.cn/icube/api/v1/notifications/count?version=3.4.11&packageType=stable_cn&platform=IDE&storeCountryCode=
+[90m[main 2026-11-01T02:51:39.197Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/pay/ide_user_pay_status
+[90m[main 2026-11-01T02:51:39.203Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/ug/activity/info
+[90m[main 2026-11-01T02:51:39.207Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/pay/ide_user_ent_usage
+[90m[main 2026-11-01T02:51:39.209Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/ug/checkin_credits/status
+[90m[main 2026-11-01T02:51:39.209Z][0m [MainThirdPartyTokenService] Fetching tokens https://api.trae.cn/trae/api/v3/GetThirdPartyToken {"Types":["feishu","lark"]}
+[90m[main 2026-11-01T02:51:39.210Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/ug/checkin_credits/status
+[90m[main 2026-11-01T02:51:39.210Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/ug/activity/info
+[90m[main 2026-11-01T02:51:39.210Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/ug/checkin_credits/status
+[90m[main 2026-11-01T02:51:39.210Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/ug/checkin_credits/status
+[Logsdk] [trace] Re-configure user with {
+  user_unique_id: '2574430945438160',
+  user_id: '1096637478344060',
+  device_id: '2574430945438160',
+  user_is_login: true
+}
+[Logsdk] [trace] report appid with 711126
+[Logsdk] [trace] Composed event {
+  id: 'i7anbmf78ns',
+  originatedBy: 'logsdk',
+  createdAt: 1793501499212,
+  event: {
+    server_time: 1793501500,
+    caller: '',
+    user: {
+      user_unique_id: '2574430945438160',
+      user_id: '1096637478344060',
+      device_id: '2574430945438160',
+      user_is_login: true
+    },
+    header: {
+      custom: '{"icube_uid":"1096637478344060","user_id":"1096637478344060","biz_user_id":"1096637478344060","user_is_login":true,"user_unique_id":"2574430945438160","device_id":"2574430945438160","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602","arch":"x64","system":"linux","scope":"marscode","build_version":"2.3.98528","vscode_version":"1.107.1","tenant":"marscode","region":"CN","aiRegion":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"7a9027d4-82b7-474b-9a47-e613b3f3b1a8","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
+      app_id: 711126,
+      platform: 'electron',
+      os_name: 'linux',
+      tz_offset: -28800,
+      sdk_version: '3.0.12',
+      app_version: '3.4.11',
+      os_version: 'Ubuntu 24.04 LTS',
+      device_model: '',
+      language: 'en',
+      app_language: 'en'
+    },
+    events: [
+      {
+        event: 'native_ide_network_proxy_resolved',
+        params: '{"proxy_mode":"system","proxy_endpoint":"127.0.0.1:18080","bypass_list":""}',
+        time: 1793501500,
+        _staging_flag: undefined
+      },
+      [length]: 1
+    ]
+  }
+}
+[Logsdk.http] [trace] with channel domain https://mcs.zijieapi.com
+[Logsdk] [trace] report appid with 711126
+[Logsdk] [trace] Composed event {
+  id: 't2esonrbm1c',
+  originatedBy: 'logsdk',
+  createdAt: 1793501499213,
+  event: {
+    server_time: 1793501500,
+    caller: '',
+    user: {
+      user_unique_id: '2574430945438160',
+      user_id: '1096637478344060',
+      device_id: '2574430945438160',
+      user_is_login: true
+    },
+    header: {
+      custom: '{"icube_uid":"1096637478344060","user_id":"1096637478344060","biz_user_id":"1096637478344060","user_is_login":true,"user_unique_id":"2574430945438160","device_id":"2574430945438160","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602","arch":"x64","system":"linux","scope":"marscode","build_version":"2.3.98528","vscode_version":"1.107.1","tenant":"marscode","region":"CN","aiRegion":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"7a9027d4-82b7-474b-9a47-e613b3f3b1a8","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
+      app_id: 711126,
+      platform: 'electron',
+      os_name: 'linux',
+      tz_offset: -28800,
+      sdk_version: '3.0.12',
+      app_version: '3.4.11',
+      os_version: 'Ubuntu 24.04 LTS',
+      device_model: '',
+      language: 'en',
+      app_language: 'en'
+    },
+    events: [
+      {
+        event: 'native_ide_network_proxy_resolved',
+        params: '{"proxy_mode":"system","proxy_endpoint":"127.0.0.1:18080","bypass_list":""}',
+        time: 1793501500,
+        _staging_flag: undefined
+      },
+      [length]: 1
+    ]
+  }
+}
+[Logsdk] [trace] report appid with 711126
+[Logsdk] [trace] Composed event {
+  id: '8kh80u6k1b',
+  originatedBy: 'logsdk',
+  createdAt: 1793501499213,
+  event: {
+    server_time: 1793501500,
+    caller: '',
+    user: {
+      user_unique_id: '2574430945438160',
+      user_id: '1096637478344060',
+      device_id: '2574430945438160',
+      user_is_login: true
+    },
+    header: {
+      custom: '{"icube_uid":"1096637478344060","user_id":"1096637478344060","biz_user_id":"1096637478344060","user_is_login":true,"user_unique_id":"2574430945438160","device_id":"2574430945438160","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602","arch":"x64","system":"linux","scope":"marscode","build_version":"2.3.98528","vscode_version":"1.107.1","tenant":"marscode","region":"CN","aiRegion":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"7a9027d4-82b7-474b-9a47-e613b3f3b1a8","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
+      app_id: 711126,
+      platform: 'electron',
+      os_name: 'linux',
+      tz_offset: -28800,
+      sdk_version: '3.0.12',
+      app_version: '3.4.11',
+      os_version: 'Ubuntu 24.04 LTS',
+      device_model: '',
+      language: 'en',
+      app_language: 'en'
+    },
+    events: [
+      {
+        event: 'native_ide_network_proxy_resolved',
+        params: '{"proxy_mode":"system","proxy_endpoint":"127.0.0.1:18080","bypass_list":""}',
+        time: 1793501500,
+        _staging_flag: undefined
+      },
+      [length]: 1
+    ]
+  }
+}
+[Logsdk] [trace] report appid with 711126
+[Logsdk] [trace] Composed event {
+  id: 'as1ertbrtos',
+  originatedBy: 'logsdk',
+  createdAt: 1793501499213,
+  event: {
+    server_time: 1793501500,
+    caller: '',
+    user: {
+      user_unique_id: '2574430945438160',
+      user_id: '1096637478344060',
+      device_id: '2574430945438160',
+      user_is_login: true
+    },
+    header: {
+      custom: '{"icube_uid":"1096637478344060","user_id":"1096637478344060","biz_user_id":"1096637478344060","user_is_login":true,"user_unique_id":"2574430945438160","device_id":"2574430945438160","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602","arch":"x64","system":"linux","scope":"marscode","build_version":"2.3.98528","vscode_version":"1.107.1","tenant":"marscode","region":"CN","aiRegion":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"7a9027d4-82b7-474b-9a47-e613b3f3b1a8","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
+      app_id: 711126,
+      platform: 'electron',
+      os_name: 'linux',
+      tz_offset: -28800,
+      sdk_version: '3.0.12',
+      app_version: '3.4.11',
+      os_version: 'Ubuntu 24.04 LTS',
+      device_model: '',
+      language: 'en',
+      app_language: 'en'
+    },
+    events: [
+      {
+        event: 'native_ide_network_proxy_resolved',
+        params: '{"proxy_mode":"system","proxy_endpoint":"127.0.0.1:18080","bypass_list":""}',
+        time: 1793501500,
+        _staging_flag: undefined
+      },
+      [length]: 1
+    ]
+  }
+}
+[Logsdk] [trace] report appid with 711126
+[Logsdk] [trace] Composed event {
+  id: 'nji6inc83ek',
+  originatedBy: 'logsdk',
+  createdAt: 1793501499216,
+  event: {
+    server_time: 1793501500,
+    caller: '',
+    user: {
+      user_unique_id: '2574430945438160',
+      user_id: '1096637478344060',
+      device_id: '2574430945438160',
+      user_is_login: true
+    },
+    header: {
+      custom: '{"icube_uid":"1096637478344060","user_id":"1096637478344060","biz_user_id":"1096637478344060","user_is_login":true,"user_unique_id":"2574430945438160","device_id":"2574430945438160","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602","arch":"x64","system":"linux","scope":"marscode","build_version":"2.3.98528","vscode_version":"1.107.1","tenant":"marscode","region":"CN","aiRegion":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"7a9027d4-82b7-474b-9a47-e613b3f3b1a8","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
+      app_id: 711126,
+      platform: 'electron',
+      os_name: 'linux',
+      tz_offset: -28800,
+      sdk_version: '3.0.12',
+      app_version: '3.4.11',
+      os_version: 'Ubuntu 24.04 LTS',
+      device_model: '',
+      language: 'en',
+      app_language: 'en'
+    },
+    events: [
+      {
+        event: 'native_ide_network_proxy_resolved',
+        params: '{"proxy_mode":"system","proxy_endpoint":"127.0.0.1:18080","bypass_list":""}',
+        time: 1793501500,
+        _staging_flag: undefined
+      },
+      [length]: 1
+    ]
+  }
+}
+[Logsdk] [trace] report appid with 711126
+[Logsdk] [trace] Composed event {
+  id: '6r3pnei2qmc',
+  originatedBy: 'logsdk',
+  createdAt: 1793501499218,
+  event: {
+    server_time: 1793501500,
+    caller: '',
+    user: {
+      user_unique_id: '2574430945438160',
+      user_id: '1096637478344060',
+      device_id: '2574430945438160',
+      user_is_login: true
+    },
+    header: {
+      custom: '{"icube_uid":"1096637478344060","user_id":"1096637478344060","biz_user_id":"1096637478344060","user_is_login":true,"user_unique_id":"2574430945438160","device_id":"2574430945438160","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602","arch":"x64","system":"linux","scope":"marscode","build_version":"2.3.98528","vscode_version":"1.107.1","tenant":"marscode","region":"CN","aiRegion":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"7a9027d4-82b7-474b-9a47-e613b3f3b1a8","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
+      app_id: 711126,
+      platform: 'electron',
+      os_name: 'linux',
+      tz_offset: -28800,
+      sdk_version: '3.0.12',
+      app_version: '3.4.11',
+      os_version: 'Ubuntu 24.04 LTS',
+      device_model: '',
+      language: 'en',
+      app_language: 'en'
+    },
+    events: [
+      {
+        event: 'native_ide_network_proxy_resolved',
+        params: '{"proxy_mode":"system","proxy_endpoint":"127.0.0.1:18080","bypass_list":""}',
+        time: 1793501500,
+        _staging_flag: undefined
+      },
+      [length]: 1
+    ]
+  }
+}
+[90m[main 2026-11-01T02:51:39.221Z][0m ttnet fetch request https://api.trae.com.cn/icube/api/v1/assistant/profile?assistantType=default
+[90m[main 2026-11-01T02:51:39.229Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:39.230Z][0m [AhaIpcServer] broadcast new event event:BootService.onDidBootConfigChanged
+[BootService] broadcastToAllCodeWindows, channel: vscode:main::sandbox-boot-config-change windowCount: 2
+[BootService] sending to windowId: 1
+[BootService] sending to windowId: 3
+[90m[main 2026-11-01T02:51:39.276Z][0m enter node enviroment
+[91m[main 2026-11-01T02:51:39.278Z][0m ttnet fetch error https://api.trae.com.cn/icube/api/v1/assistant/profile?assistantType=default Error [AbortError]: This operation was aborted
+    at new DOMException (node:internal/per_context/domexception:76:18)
+    at AbortController.abort (node:internal/abort_controller:504:18)
+    at AbortSignal.s (file:///usr/share/trae-cn/resources/app/out/main.js:2601:70166)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:845:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:778:26)
+    at runAbort (node:internal/abort_controller:486:10)
+    at abortSignal (node:internal/abort_controller:457:3)
+    at AbortController.abort (node:internal/abort_controller:505:5)
+    at vT.setContext (file:///usr/share/trae-cn/resources/app/out/main.js:2637:44968)
+    at P0.value (file:///usr/share/trae-cn/resources/app/out/main.js:2637:52694)
+    at Mj._deliver (file:///usr/share/trae-cn/resources/app/out/main.js:30:2894)
+    at Mj._deliverQueue (file:///usr/share/trae-cn/resources/app/out/main.js:30:2985)
+    at Mj.fire (file:///usr/share/trae-cn/resources/app/out/main.js:30:3321)
+    at Mj.resume (file:///usr/share/trae-cn/resources/app/out/main.js:30:3908)
+    at Timeout._onTimeout (file:///usr/share/trae-cn/resources/app/out/main.js:30:4264)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7)
+[90m[main 2026-11-01T02:51:39.279Z][0m ttnet fetch request https://api.trae.com.cn/icube/api/v1/assistant/profile?assistantType=default
+Error occurred in handler for 'vscode:computerSurfaceCatalog': Error: No handler registered for 'vscode:computerSurfaceCatalog'
+    at Session.<anonymous> (node:electron/js2c/browser_init:2:180309)
+    at Session.emit (node:events:519:28)
+[90m[main 2026-11-01T02:51:39.294Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:51:39.295Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:51:39.300Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:51:39.301Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:51:39.302Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:51:39.302Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:51:39.302Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:51:39.304Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:51:39.304Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:51:39.305Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:39.333Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/ug/activity/info
+[90m[main 2026-11-01T02:51:39.336Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:39.341Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:39.341Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:39.382Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:39.408Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:51:39.426Z][0m ttnet fetch response https://api.trae.com.cn/icube/api/v1/notifications/count?version=3.4.11&packageType=stable_cn&platform=IDE&storeCountryCode= 200 OK
+[90m[main 2026-11-01T02:51:39.429Z][0m ttnet fetch response https://api.trae.com.cn/icube/api/v1/user 200 OK
+[90m[main 2026-11-01T02:51:39.430Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/ug/checkin_credits/status 200 OK
+[Logsdk.http] [trace] new sent events [ 'i7anbmf78ns', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
+[Logsdk.http] [trace] with channel domain https://mcs.zijieapi.com
+[90m[main 2026-11-01T02:51:39.476Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/ug/activity/info 200 OK
+[90m[main 2026-11-01T02:51:39.480Z][0m [MainGtmService] Evaluating conditions (post-startup)
+[90m[main 2026-11-01T02:51:39.493Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/ug/checkin_credits/status 200 OK
+[90m[main 2026-11-01T02:51:39.500Z][0m ttnet fetch response https://api.trae.com.cn/icube/api/v1/assistant/profile?assistantType=default 200 OK
+[90m[main 2026-11-01T02:51:39.511Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/pay/ide_user_pay_status 200 OK
+[90m[main 2026-11-01T02:51:39.516Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/pay/ide_user_ent_usage 200 OK
+[90m[main 2026-11-01T02:51:39.517Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/ug/checkin_credits/status 200 OK
+[90m[main 2026-11-01T02:51:39.521Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/ug/checkin_credits/status 200 OK
+[90m[main 2026-11-01T02:51:39.521Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/ug/activity/info 200 OK
+[90m[main 2026-11-01T02:51:39.533Z][0m [MainGtmService] Evaluating conditions (post-startup)
+[90m[main 2026-11-01T02:51:39.534Z][0m [MainGtmService] Evaluating conditions (post-startup)
+[90m[main 2026-11-01T02:51:39.537Z][0m [MainGtmService] Evaluating conditions (post-startup)
+[Logsdk] [trace] Re-configure user with {
+  user_unique_id: '2574430945438160',
+  user_id: '1096637478344060',
+  device_id: '2574430945438160',
+  user_is_login: true
+}
+[93m[main 2026-11-01T02:51:39.572Z][0m [MainThirdPartyTokenService] Failed to refresh: Error: Result is not an array
+    at J2.fetchThirdPartyTokens (file:///usr/share/trae-cn/resources/app/out/main.js:1192:39263)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async J2.refreshTokens (file:///usr/share/trae-cn/resources/app/out/main.js:1192:38527)
+    at async J2.refreshAndBroadcast (file:///usr/share/trae-cn/resources/app/out/main.js:1192:36976)
+[90m[main 2026-11-01T02:51:39.586Z][0m [MainGtmService] Evaluating conditions (post-startup)
+[90m[main 2026-11-01T02:51:39.588Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:39.592Z][0m ttnet fetch request https://api.trae.com.cn/icube/api/v1/native/config/query?mid=e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602&did=2574430945438160&uid=1096637478344060&userRegion=CN&packageType=stable_cn&productCode=TRAE&platform=Linux&branch=release_desktop_yoma_linux_cn&arch=x64&tenant=marscode&appVersion=3.4.11&buildVersion=2.3.98528&traeVersionCode=20250325
+[90m[main 2026-11-01T02:51:39.597Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/ug/activity/info 200 OK
+[Logsdk.http] [trace] new sent events [
+  't2esonrbm1c',
+  '8kh80u6k1b',
+  'as1ertbrtos',
+  'nji6inc83ek',
+  '6r3pnei2qmc',
+  [length]: 5
+] result { e: 0, sc: 5, tc: 5 }
+[Logsdk.http] [trace] queue drained, last sent 5
+[90m[main 2026-11-01T02:51:39.600Z][0m ttnet fetch response https://api.trae.com.cn/icube/api/v1/native/config/query?mid=e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602&did=2574430945438160&uid=1096637478344060&userRegion=CN&packageType=stable_cn&productCode=TRAE&platform=Linux&branch=release_desktop_yoma_linux_cn&arch=x64&tenant=marscode&appVersion=3.4.11&buildVersion=2.3.98528&traeVersionCode=20250325 200 OK
+[90m[main 2026-11-01T02:51:39.620Z][0m [AhaIpcServer] broadcast new event event:DynamicConfigService.onDidUpdateConfig
+[90m[main 2026-11-01T02:51:39.629Z][0m [ICubeProcessManager] resolve CKG product policy from config { enabled: false, resolved: true }
+[90m[main 2026-11-01T02:51:39.639Z][0m [MainICubeAuthWatchManagementService] reconcileCheckTimer shouldRunTimer: true , authCheckIntervalMs 600000
+[90m[main 2026-11-01T02:51:39.640Z][0m [MainGtmService] Loaded 7 conditions from dynamic config
+[90m[main 2026-11-01T02:51:39.641Z][0m [MainGtmService] Evaluating conditions (post-startup)
+[90m[main 2026-11-01T02:51:39.641Z][0m [MainGtmService] Evaluating conditions (post-startup)
+[90m[main 2026-11-01T02:51:39.672Z][0m [NetworkProxy] Using default system proxy mode without explicit proxy configuration
+[90m[main 2026-11-01T02:51:39.673Z][0m [NetworkProxy][SystemProxyDetection] Resolved system proxy status {
+  platform: 'linux',
+  source: 'env',
+  queryStatus: 'not_required',
+  result: 'configured',
+  reason: undefined
+}
+[90m[main 2026-11-01T02:51:39.673Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/ug/activity/info
+[90m[main 2026-11-01T02:51:39.674Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/ug/checkin_credits/status
+[Logsdk] [trace] report appid with 711126
+[Logsdk] [trace] Composed event {
+  id: '6nfpqvvoak4',
+  originatedBy: 'logsdk',
+  createdAt: 1793501499682,
+  event: {
+    server_time: 1793501500,
+    caller: '',
+    user: {
+      user_unique_id: '2574430945438160',
+      user_id: '1096637478344060',
+      device_id: '2574430945438160',
+      user_is_login: true
+    },
+    header: {
+      custom: '{"icube_uid":"1096637478344060","user_id":"1096637478344060","biz_user_id":"1096637478344060","user_is_login":true,"user_unique_id":"2574430945438160","device_id":"2574430945438160","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602","arch":"x64","system":"linux","scope":"marscode","build_version":"2.3.98528","vscode_version":"1.107.1","tenant":"marscode","region":"CN","aiRegion":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"7a9027d4-82b7-474b-9a47-e613b3f3b1a8","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","identity":"0","identity_str":"Free","is_freshman":"1","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
+      app_id: 711126,
+      platform: 'electron',
+      os_name: 'linux',
+      tz_offset: -28800,
+      sdk_version: '3.0.12',
+      app_version: '3.4.11',
+      os_version: 'Ubuntu 24.04 LTS',
+      device_model: '',
+      language: 'en',
+      app_language: 'en'
+    },
+    events: [
+      {
+        event: 'native_ide_network_proxy_resolved',
+        params: '{"proxy_mode":"system","proxy_endpoint":"127.0.0.1:18080","bypass_list":""}',
+        time: 1793501500,
+        _staging_flag: undefined
+      },
+      [length]: 1
+    ]
+  }
+}
+[Logsdk.http] [trace] with channel domain https://mcs.zijieapi.com
+[90m[main 2026-11-01T02:51:39.688Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:39.688Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:39.688Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:39.689Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:39.707Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:39.712Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:51:39.713Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:51:39.725Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/pay/ide_user_ent_usage
+[90m[main 2026-11-01T02:51:39.727Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:51:39.739Z][0m ttnet fetch request https://trae-api-cn.mchost.guru/api/remote/v1/skills?page_size=100&sort_by=updated_at&sort_order=desc
+[90m[main 2026-11-01T02:51:39.740Z][0m ttnet fetch request https://trae-api-cn.mchost.guru/api/remote/v1/skills?page_size=100&sort_by=updated_at&sort_order=desc
+[90m[main 2026-11-01T02:51:39.740Z][0m ttnet fetch request https://api.trae.com.cn/extensions/api/-/skill/list-v3?product_name=ide&chat_mode=code&package_type=stable&client_version=3.4.11&os=linux
+[90m[main 2026-11-01T02:51:39.774Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:39.774Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:39.774Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:39.777Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:39.780Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[Logsdk.http] [trace] new sent events [ '6nfpqvvoak4', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
+[Logsdk.http] [trace] queue drained, last sent 1
+[90m[main 2026-11-01T02:51:39.825Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/ug/checkin_credits/status 200 OK
+[90m[main 2026-11-01T02:51:39.829Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/ug/activity/info 200 OK
+[90m[main 2026-11-01T02:51:39.835Z][0m [MainGtmService] Evaluating conditions (post-startup)
+[90m[main 2026-11-01T02:51:39.842Z][0m [AhaIpcServer] ElectronAhaIpcServer handleRequest [2] DynamicConfigService.getConfigWhenPullDone undefined
+[90m[main 2026-11-01T02:51:39.875Z][0m [AhaIpcServer] ElectronAhaIpcServer handleRequest [2] DynamicConfigService.getConfigWhenPullDone success hasResult: true duration: 0ms
+[90m[main 2026-11-01T02:51:39.910Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:39.915Z][0m ttnet fetch response https://api.trae.com.cn/extensions/api/-/skill/list-v3?product_name=ide&chat_mode=code&package_type=stable&client_version=3.4.11&os=linux 200 OK
+[90m[main 2026-11-01T02:51:39.920Z][0m ttnet fetch response https://trae-api-cn.mchost.guru/api/remote/v1/skills?page_size=100&sort_by=updated_at&sort_order=desc 200 OK
+[90m[main 2026-11-01T02:51:39.922Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/pay/ide_user_ent_usage 200 OK
+[90m[main 2026-11-01T02:51:39.988Z][0m ttnet fetch response https://trae-api-cn.mchost.guru/api/remote/v1/skills?page_size=100&sort_by=updated_at&sort_order=desc 200 OK
+[90m[main 2026-11-01T02:51:40.087Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/pay/ide_user_ent_usage
+[90m[main 2026-11-01T02:51:40.090Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:40.098Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:40.109Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:51:40.111Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:40.113Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:40.113Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:40.121Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:40.194Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:40.294Z][0m ttnet fetch request https://api.trae.com.cn/icube/api/v1/notifications/count?version=3.4.11&packageType=stable_cn&platform=IDE&storeCountryCode=
+[90m[main 2026-11-01T02:51:40.303Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:40.307Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/pay/ide_user_ent_usage 200 OK
+[90m[main 2026-11-01T02:51:40.400Z][0m ttnet fetch request https://api.trae.com.cn/extensions/api/-/plugin/list?page_size=200&registry=trae-remote-official&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux
+[90m[main 2026-11-01T02:51:40.403Z][0m ttnet fetch request https://trae-api-cn.mchost.guru/api/remote/v1/plugins?page_size=200&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux
+[90m[main 2026-11-01T02:51:40.404Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:40.432Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:40.482Z][0m ttnet fetch response https://api.trae.com.cn/icube/api/v1/notifications/count?version=3.4.11&packageType=stable_cn&platform=IDE&storeCountryCode= 200 OK
+[90m[main 2026-11-01T02:51:40.516Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:40.526Z][0m ttnet fetch request https://trae-api-cn.mchost.guru/api/remote/v1/skills/38XYTQ0VA93LFE
+[90m[main 2026-11-01T02:51:40.532Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:40.572Z][0m ttnet binary fetch request
+[90m[main 2026-11-01T02:51:40.581Z][0m ttnet fetch response https://trae-api-cn.mchost.guru/api/remote/v1/plugins?page_size=200&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux 200 OK
+[90m[main 2026-11-01T02:51:40.585Z][0m ttnet fetch response https://api.trae.com.cn/extensions/api/-/plugin/list?page_size=200&registry=trae-remote-official&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux 200 OK
+[90m[main 2026-11-01T02:51:40.587Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:40.627Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:40.675Z][0m ttnet fetch response https://trae-api-cn.mchost.guru/api/remote/v1/skills/38XYTQ0VA93LFE 200 OK
+[90m[main 2026-11-01T02:51:40.716Z][0m ttnet binary fetch response 200 OK
+[90m[main 2026-11-01T02:51:40.998Z][0m ttnet fetch request https://trae-api-cn.mchost.guru/api/ide/v1/get_resource_url
+[90m[main 2026-11-01T02:51:41.011Z][0m [MainThirdPartyTokenService] Fetching tokens https://api.trae.cn/trae/api/v3/GetThirdPartyToken {"Types":["feishu","lark"]}
+[90m[main 2026-11-01T02:51:41.012Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:51:41.073Z][0m ttnet fetch response https://trae-api-cn.mchost.guru/api/ide/v1/get_resource_url 200 OK
+[90m[main 2026-11-01T02:51:41.077Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[93m[main 2026-11-01T02:51:41.093Z][0m [MainThirdPartyTokenService] Failed to refresh: Error: Result is not an array
+    at J2.fetchThirdPartyTokens (file:///usr/share/trae-cn/resources/app/out/main.js:1192:39263)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async J2.refreshTokens (file:///usr/share/trae-cn/resources/app/out/main.js:1192:38527)
+    at async J2.refreshAndBroadcast (file:///usr/share/trae-cn/resources/app/out/main.js:1192:36976)
+[90m[main 2026-11-01T02:51:41.100Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:41.104Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:41.107Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/pay/ide_user_ent_usage
+[90m[main 2026-11-01T02:51:41.112Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:51:41.123Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:41.175Z][0m ttnet binary fetch request
+[90m[main 2026-11-01T02:51:41.205Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:41.217Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/pay/ide_user_ent_usage 200 OK
+[90m[main 2026-11-01T02:51:41.227Z][0m ttnet binary fetch response 200 OK
+[90m[main 2026-11-01T02:51:41.228Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:41.232Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:41.274Z][0m ttnet fetch request https://api.trae.com.cn/extensions/api/-/skill/list-v3?page_size=100&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux
+[90m[main 2026-11-01T02:51:41.274Z][0m ttnet fetch request https://api.trae.com.cn/extensions/api/-/skill/categories?product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux
+[90m[main 2026-11-01T02:51:41.277Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:41.278Z][0m ttnet fetch request https://trae-api-cn.mchost.guru/api/remote/v1/skills?page_size=100&sort_by=updated_at&sort_order=desc
+[90m[main 2026-11-01T02:51:41.283Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:41.288Z][0m [AhaIpcServer] ElectronAhaIpcServer handleRequest [5] BootService.getBootConfig undefined
+[90m[main 2026-11-01T02:51:41.291Z][0m [AhaIpcServer] ElectronAhaIpcServer handleRequest [5] BootService.getBootConfig success hasResult: true duration: 0ms
+[90m[main 2026-11-01T02:51:41.309Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:41.336Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:41.373Z][0m ttnet fetch request https://api.trae.com.cn/extensions/api/-/plugin/registries?product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux
+[90m[main 2026-11-01T02:51:41.385Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:41.385Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:41.395Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:41.398Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:41.436Z][0m ttnet fetch response https://api.trae.com.cn/extensions/api/-/skill/list-v3?page_size=100&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux 200 OK
+[90m[main 2026-11-01T02:51:41.475Z][0m ttnet fetch response https://api.trae.com.cn/extensions/api/-/skill/categories?product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux 200 OK
+[90m[main 2026-11-01T02:51:41.527Z][0m ttnet fetch response https://trae-api-cn.mchost.guru/api/remote/v1/skills?page_size=100&sort_by=updated_at&sort_order=desc 200 OK
+[90m[main 2026-11-01T02:51:41.532Z][0m ttnet fetch response https://api.trae.com.cn/extensions/api/-/plugin/registries?product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux 200 OK
+[90m[main 2026-11-01T02:51:41.586Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:41.586Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:41.610Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:41.615Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:41.616Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:41.686Z][0m [RuntimeWindowProjectRegistry] Window Project state updated {
+  windowId: 3,
+  projectId: '6ae6a93d35aa49f69443d259',
+  workspaceUri: undefined
+}
+[90m[main 2026-11-01T02:51:41.719Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:41.724Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:41.735Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:41.737Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:41.777Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:41.778Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:41.778Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:41.778Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:41.778Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:41.778Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:41.778Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:41.779Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:41.779Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:41.779Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:41.781Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:41.784Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:41.786Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:41.790Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:41.794Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:41.799Z][0m ttnet fetch request https://api.trae.com.cn/extensions/api/-/skill/list-v3?page_size=100&page_token=eyJ2IjoxLCJvZmZzZXQiOjEwMCwiZmlsdGVyX2hhc2giOiIyY2RjZDExNDU4NGMwY2U2NzYxMTk5NzQwNWVhZmU0MDNiYzdlZjNjZTU1ZTQwYmJiYTkxMTk1YTVjNTg1Mzk2In0&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux
+[90m[main 2026-11-01T02:51:41.800Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:41.801Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:41.811Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:41.817Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:41.821Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:41.822Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:41.828Z][0m ttnet fetch request https://api.trae.com.cn/extensions/api/-/plugin/recommended?product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux
+[90m[main 2026-11-01T02:51:41.829Z][0m ttnet fetch request https://api.trae.com.cn/extensions/api/-/plugin/list?page_size=200&registry=trae-remote-official&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux
+[90m[main 2026-11-01T02:51:41.830Z][0m ttnet fetch request https://api.trae.com.cn/extensions/api/-/plugin/categories?registry=trae-remote-official&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux
+[90m[main 2026-11-01T02:51:41.832Z][0m ttnet fetch request https://trae-api-cn.mchost.guru/api/remote/v1/plugins?page_size=200&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux
+[90m[main 2026-11-01T02:51:41.833Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:41.881Z][0m ttnet fetch request https://trae-api-cn.mchost.guru/api/remote/v1/skills/U0UNMYES4B0OLS
+[90m[main 2026-11-01T02:51:41.885Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:41.900Z][0m ttnet fetch response https://api.trae.com.cn/extensions/api/-/skill/list-v3?page_size=100&page_token=eyJ2IjoxLCJvZmZzZXQiOjEwMCwiZmlsdGVyX2hhc2giOiIyY2RjZDExNDU4NGMwY2U2NzYxMTk5NzQwNWVhZmU0MDNiYzdlZjNjZTU1ZTQwYmJiYTkxMTk1YTVjNTg1Mzk2In0&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux 200 OK
+[90m[main 2026-11-01T02:51:41.901Z][0m ttnet fetch response https://api.trae.com.cn/extensions/api/-/plugin/categories?registry=trae-remote-official&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux 200 OK
+[90m[main 2026-11-01T02:51:41.905Z][0m ttnet fetch response https://api.trae.com.cn/extensions/api/-/plugin/recommended?product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux 200 OK
+[90m[main 2026-11-01T02:51:41.910Z][0m ttnet fetch response https://api.trae.com.cn/extensions/api/-/plugin/list?page_size=200&registry=trae-remote-official&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux 200 OK
+[90m[main 2026-11-01T02:51:41.915Z][0m ttnet fetch response https://trae-api-cn.mchost.guru/api/remote/v1/plugins?page_size=200&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux 200 OK
+[90m[main 2026-11-01T02:51:41.976Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:41.977Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:41.979Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:42.020Z][0m ttnet fetch request https://api.trae.com.cn/extensions/api/-/plugin/list?page_size=200&registry=trae-remote-official&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux
+[90m[main 2026-11-01T02:51:42.028Z][0m [DiagnosisCoordinator] feature state synced: initialized=true
+[90m[main 2026-11-01T02:51:42.030Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:42.075Z][0m ttnet fetch request https://api.trae.com.cn/extensions/api/-/plugin/detail?plugin_id=45e41177-59cc-442e-9aa7-32fcdb337929&version=0.0.25&registry=trae-remote-official&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux
+[90m[main 2026-11-01T02:51:42.075Z][0m ttnet fetch request https://api.trae.com.cn/extensions/api/-/plugin/detail?plugin_id=91e7d517-ac1f-4684-b0e1-cac6dec93ee2&version=0.1.0&registry=trae-remote-official&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux
+[90m[main 2026-11-01T02:51:42.076Z][0m ttnet fetch request https://api.trae.com.cn/extensions/api/-/plugin/detail?plugin_id=7d920c20-40e3-4256-989a-cd795fde340e&version=0.1.0&registry=trae-remote-official&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux
+[90m[main 2026-11-01T02:51:42.078Z][0m ttnet fetch request https://api.trae.com.cn/extensions/api/-/plugin/detail?plugin_id=44c9d28f-8f0a-4505-80a0-92a7ff3dbdb4&version=0.1.0&registry=trae-remote-official&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux
+[90m[main 2026-11-01T02:51:42.080Z][0m ttnet fetch request https://api.trae.com.cn/extensions/api/-/plugin/detail?plugin_id=773395b1-ce9c-45a1-ace6-514370159a0f&version=0.1.0&registry=trae-remote-official&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux
+[90m[main 2026-11-01T02:51:42.100Z][0m [DiagnosisCoordinator] feature state synced: initialized=true
+[90m[main 2026-11-01T02:51:42.107Z][0m ttnet fetch response https://api.trae.com.cn/extensions/api/-/plugin/list?page_size=200&registry=trae-remote-official&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux 200 OK
+[90m[main 2026-11-01T02:51:42.108Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:42.180Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:42.187Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:42.190Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:42.192Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:42.193Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:42.228Z][0m ttnet fetch response https://api.trae.com.cn/extensions/api/-/plugin/detail?plugin_id=773395b1-ce9c-45a1-ace6-514370159a0f&version=0.1.0&registry=trae-remote-official&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux 200 OK
+[90m[main 2026-11-01T02:51:42.229Z][0m ttnet fetch response https://api.trae.com.cn/extensions/api/-/plugin/detail?plugin_id=44c9d28f-8f0a-4505-80a0-92a7ff3dbdb4&version=0.1.0&registry=trae-remote-official&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux 200 OK
+[90m[main 2026-11-01T02:51:42.230Z][0m ttnet fetch response https://api.trae.com.cn/extensions/api/-/plugin/detail?plugin_id=91e7d517-ac1f-4684-b0e1-cac6dec93ee2&version=0.1.0&registry=trae-remote-official&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux 200 OK
+[90m[main 2026-11-01T02:51:42.236Z][0m ttnet fetch response https://api.trae.com.cn/extensions/api/-/plugin/detail?plugin_id=7d920c20-40e3-4256-989a-cd795fde340e&version=0.1.0&registry=trae-remote-official&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux 200 OK
+[90m[main 2026-11-01T02:51:42.237Z][0m ttnet fetch response https://api.trae.com.cn/extensions/api/-/plugin/detail?plugin_id=45e41177-59cc-442e-9aa7-32fcdb337929&version=0.0.25&registry=trae-remote-official&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux 200 OK
+[90m[main 2026-11-01T02:51:42.242Z][0m ttnet fetch response https://trae-api-cn.mchost.guru/api/remote/v1/skills/U0UNMYES4B0OLS 200 OK
+[90m[main 2026-11-01T02:51:42.284Z][0m [MainThirdPartyTokenService] Fetching tokens https://api.trae.cn/trae/api/v3/GetThirdPartyToken {"Types":["feishu","lark"]}
+[90m[main 2026-11-01T02:51:42.295Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[93m[main 2026-11-01T02:51:42.372Z][0m [MainThirdPartyTokenService] Failed to refresh: Error: Result is not an array
+    at J2.fetchThirdPartyTokens (file:///usr/share/trae-cn/resources/app/out/main.js:1192:39263)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async J2.refreshTokens (file:///usr/share/trae-cn/resources/app/out/main.js:1192:38527)
+    at async J2.refreshAndBroadcast (file:///usr/share/trae-cn/resources/app/out/main.js:1192:36976)
+[90m[main 2026-11-01T02:51:42.426Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:42.426Z][0m [AhaIpcServer] ElectronAhaIpcServer handleRequest [6] BootService.getBootConfig undefined
+[90m[main 2026-11-01T02:51:42.427Z][0m [AhaIpcServer] ElectronAhaIpcServer handleRequest [6] BootService.getBootConfig success hasResult: true duration: 0ms
+[90m[main 2026-11-01T02:51:42.436Z][0m ttnet fetch request https://trae-api-cn.mchost.guru/api/ide/v1/get_resource_url
+[90m[main 2026-11-01T02:51:42.573Z][0m ttnet fetch request https://api.trae.com.cn/extensions/api/-/plugin/detail?plugin_id=6614a267-48fb-485f-8758-fea6136602f8&version=1.0.5&registry=trae-remote-official&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux
+[90m[main 2026-11-01T02:51:42.576Z][0m ttnet fetch request https://api.trae.com.cn/extensions/api/-/plugin/detail?plugin_id=b679bee3-4ce9-423b-af9e-5186dfb47834&version=0.1.2&registry=trae-remote-official&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux
+[90m[main 2026-11-01T02:51:42.601Z][0m ttnet fetch response https://trae-api-cn.mchost.guru/api/ide/v1/get_resource_url 200 OK
+[90m[main 2026-11-01T02:51:42.623Z][0m ttnet fetch response https://api.trae.com.cn/extensions/api/-/plugin/detail?plugin_id=6614a267-48fb-485f-8758-fea6136602f8&version=1.0.5&registry=trae-remote-official&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux 200 OK
+[90m[main 2026-11-01T02:51:42.639Z][0m ttnet fetch response https://api.trae.com.cn/extensions/api/-/plugin/detail?plugin_id=b679bee3-4ce9-423b-af9e-5186dfb47834&version=0.1.2&registry=trae-remote-official&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux 200 OK
+[90m[main 2026-11-01T02:51:42.732Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:42.733Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:42.735Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:42.736Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:42.894Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:42.997Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:43.019Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:43.102Z][0m [DiagnosisCoordinator] feature state synced: initialized=true
+[90m[main 2026-11-01T02:51:43.103Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:43.124Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:43.126Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:43.127Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:43.128Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:43.129Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:43.280Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:43.290Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:43.290Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:43.291Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:43.291Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:43.291Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:43.335Z][0m [DiagnosisCoordinator] feature state synced: initialized=true
+[90m[main 2026-11-01T02:51:43.402Z][0m ttnet fetch request https://api.trae.com.cn/extensions/api/-/plugin/list?page_size=200&registry=trae-remote-official&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux
+[90m[main 2026-11-01T02:51:43.404Z][0m ttnet fetch request https://trae-api-cn.mchost.guru/api/remote/v1/plugins?page_size=200&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux
+[90m[main 2026-11-01T02:51:43.409Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:43.416Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:43.417Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:43.418Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:43.418Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:43.419Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:43.420Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:43.421Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:43.426Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:43.432Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:43.577Z][0m ttnet fetch response https://api.trae.com.cn/extensions/api/-/plugin/list?page_size=200&registry=trae-remote-official&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux 200 OK
+[90m[main 2026-11-01T02:51:43.580Z][0m ttnet fetch response https://trae-api-cn.mchost.guru/api/remote/v1/plugins?page_size=200&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux 200 OK
+[90m[main 2026-11-01T02:51:43.588Z][0m [DiagnosisCoordinator] feature state synced: initialized=true
+[90m[main 2026-11-01T02:51:43.629Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:43.918Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:43.923Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:43.985Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:43.985Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:44.011Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:44.013Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:44.013Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:44.014Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:45.283Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:45.309Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:45.310Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:45.312Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:45.314Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:45.316Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:45.344Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:45.368Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:45.373Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:45.374Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:45.377Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:45.417Z][0m [app] web-contents-created type: window id: 4 url: 
+[90m[main 2026-11-01T02:51:45.441Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:45.442Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:45.442Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:45.453Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/pay/ide_user_pay_status
+[90m[main 2026-11-01T02:51:45.454Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/ug/activity/info
+[90m[main 2026-11-01T02:51:45.454Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/pay/ide_user_ent_usage
+[90m[main 2026-11-01T02:51:45.487Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:51:45.494Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:51:45.495Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:51:45.575Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/ug/activity/info 200 OK
+[90m[main 2026-11-01T02:51:45.577Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:45.586Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/pay/ide_user_pay_status 200 OK
+[90m[main 2026-11-01T02:51:45.596Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:45.603Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/pay/ide_user_ent_usage 200 OK
+[90m[main 2026-11-01T02:51:45.637Z][0m [MainGtmService] Evaluating conditions (post-startup)
+[90m[main 2026-11-01T02:51:45.639Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:45.642Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/ug/checkin_credits/status
+[90m[main 2026-11-01T02:51:45.650Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:51:45.672Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/pay/ide_user_ent_usage
+[90m[main 2026-11-01T02:51:45.672Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:45.683Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:51:45.683Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/pay/ide_user_ent_usage
+[90m[main 2026-11-01T02:51:45.688Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:51:45.694Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:45.751Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:45.754Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/ug/checkin_credits/status 200 OK
+[90m[main 2026-11-01T02:51:45.775Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/pay/ide_user_ent_usage 200 OK
+[90m[main 2026-11-01T02:51:45.781Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/pay/ide_user_ent_usage 200 OK
+[90m[main 2026-11-01T02:51:46.034Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:46.053Z][0m ttnet fetch request https://trae-api-cn.mchost.guru/api/remote/v1/skills?page_size=100&sort_by=updated_at&sort_order=desc
+[90m[main 2026-11-01T02:51:46.054Z][0m ttnet fetch request https://api.trae.com.cn/extensions/api/-/skill/list-v3?page_size=100&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux
+[90m[main 2026-11-01T02:51:46.090Z][0m ttnet fetch response https://trae-api-cn.mchost.guru/api/remote/v1/skills?page_size=100&sort_by=updated_at&sort_order=desc 200 OK
+[90m[main 2026-11-01T02:51:46.093Z][0m ttnet fetch response https://api.trae.com.cn/extensions/api/-/skill/list-v3?page_size=100&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux 200 OK
+[90m[main 2026-11-01T02:51:46.118Z][0m ttnet fetch request https://api.trae.com.cn/extensions/api/-/skill/list-v3?page_size=100&page_token=eyJ2IjoxLCJvZmZzZXQiOjEwMCwiZmlsdGVyX2hhc2giOiIyY2RjZDExNDU4NGMwY2U2NzYxMTk5NzQwNWVhZmU0MDNiYzdlZjNjZTU1ZTQwYmJiYTkxMTk1YTVjNTg1Mzk2In0&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux
+[90m[main 2026-11-01T02:51:46.147Z][0m ttnet fetch response https://api.trae.com.cn/extensions/api/-/skill/list-v3?page_size=100&page_token=eyJ2IjoxLCJvZmZzZXQiOjEwMCwiZmlsdGVyX2hhc2giOiIyY2RjZDExNDU4NGMwY2U2NzYxMTk5NzQwNWVhZmU0MDNiYzdlZjNjZTU1ZTQwYmJiYTkxMTk1YTVjNTg1Mzk2In0&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux 200 OK
+[90m[main 2026-11-01T02:51:46.155Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:46.174Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:46.174Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:46.175Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:46.176Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:46.176Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:46.195Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:46.195Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:47.891Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:50.890Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:51.805Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:52.439Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:51:52.877Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:52.897Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:52.898Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:52.917Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:52.918Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:52.919Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:52.919Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:52.919Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:52.939Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:51:52.940Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:52:11.973Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/ug/checkin_credits/claim
+[90m[main 2026-11-01T02:52:11.975Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:52:12.119Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/ug/checkin_credits/claim 200 OK
+[90m[main 2026-11-01T02:52:12.121Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/ug/checkin_credits/status
+[90m[main 2026-11-01T02:52:12.122Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/pay/ide_user_ent_usage
+[90m[main 2026-11-01T02:52:12.122Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:52:12.123Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:52:12.124Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/ug/checkin_credits/status
+[90m[main 2026-11-01T02:52:12.126Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:52:12.185Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/ug/checkin_credits/status 200 OK
+[90m[main 2026-11-01T02:52:12.190Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/ug/checkin_credits/status 200 OK
+[90m[main 2026-11-01T02:52:12.254Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/pay/ide_user_ent_usage 200 OK
+[90m[main 2026-11-01T02:53:36.953Z][0m ttnet fetch request https://api.trae.com.cn/icube/api/v1/assistant/profile?assistantType=default
+[90m[main 2026-11-01T02:53:36.954Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:53:37.008Z][0m ttnet fetch response https://api.trae.com.cn/icube/api/v1/assistant/profile?assistantType=default 200 OK
+[90m[main 2026-11-01T02:53:37.011Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:53:41.504Z][0m [MainThirdPartyTokenService] Fetching tokens https://api.trae.cn/trae/api/v3/GetThirdPartyToken {"Types":["feishu","lark"]}
+[90m[main 2026-11-01T02:53:41.508Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[93m[main 2026-11-01T02:53:41.586Z][0m [MainThirdPartyTokenService] Failed to refresh: Error: Result is not an array
+    at J2.fetchThirdPartyTokens (file:///usr/share/trae-cn/resources/app/out/main.js:1192:39263)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async J2.refreshTokens (file:///usr/share/trae-cn/resources/app/out/main.js:1192:38527)
+    at async J2.refreshAndBroadcast (file:///usr/share/trae-cn/resources/app/out/main.js:1192:36976)
+[90m[main 2026-11-01T02:53:41.654Z][0m ttnet fetch request https://api.trae.com.cn/icube/api/v1/assistant/profile?assistantType=default
+[90m[main 2026-11-01T02:53:41.655Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:53:41.697Z][0m ttnet fetch response https://api.trae.com.cn/icube/api/v1/assistant/profile?assistantType=default 200 OK
+[90m[main 2026-11-01T02:53:41.699Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:53:41.800Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/pay/ide_user_pay_status
+[90m[main 2026-11-01T02:53:41.801Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/ug/activity/info
+[90m[main 2026-11-01T02:53:41.802Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/pay/ide_user_ent_usage
+[90m[main 2026-11-01T02:53:41.803Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/ug/activity/info
+[90m[main 2026-11-01T02:53:41.804Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/ug/checkin_credits/status
+[90m[main 2026-11-01T02:53:41.805Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:53:41.806Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:53:41.806Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:53:41.807Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:53:41.807Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:53:41.826Z][0m ttnet fetch request https://trae-api-cn.mchost.guru/api/remote/v1/plugins?page_size=200&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux
+[90m[main 2026-11-01T02:53:41.827Z][0m ttnet fetch request https://trae-api-cn.mchost.guru/api/remote/v1/skills?page_size=100&sort_by=updated_at&sort_order=desc
+[90m[main 2026-11-01T02:53:41.827Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:53:41.828Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:53:41.828Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:53:41.828Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:53:41.828Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:53:41.828Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:53:41.851Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:53:41.852Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:53:41.869Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/ug/checkin_credits/status 200 OK
+[90m[main 2026-11-01T02:53:41.874Z][0m ttnet fetch response https://trae-api-cn.mchost.guru/api/remote/v1/plugins?page_size=200&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux 200 OK
+[90m[main 2026-11-01T02:53:41.878Z][0m ttnet fetch response https://trae-api-cn.mchost.guru/api/remote/v1/skills?page_size=100&sort_by=updated_at&sort_order=desc 200 OK
+[90m[main 2026-11-01T02:53:41.881Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/ug/activity/info 200 OK
+[90m[main 2026-11-01T02:53:41.885Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/pay/ide_user_pay_status 200 OK
+[90m[main 2026-11-01T02:53:41.900Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/pay/ide_user_ent_usage 200 OK
+[90m[main 2026-11-01T02:53:41.912Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/ug/activity/info 200 OK
+[90m[main 2026-11-01T02:53:41.914Z][0m [MainGtmService] Evaluating conditions (post-startup)
+[90m[main 2026-11-01T02:53:41.916Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/ug/checkin_credits/status
+[90m[main 2026-11-01T02:53:41.919Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:53:41.948Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/pay/ide_user_ent_usage
+[90m[main 2026-11-01T02:53:41.953Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:53:41.954Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/pay/ide_user_ent_usage
+[90m[main 2026-11-01T02:53:41.955Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:53:41.961Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:53:41.966Z][0m [TncConfigUpdateWaiter] Received tnc-config-updated event row data: {"http_code":200,"net_error":0,"network":true,"stage":3,"update":false,"uuid":"0314d21e-04fa-4393-9af8-619488bbc9ce"}
+[90m[main 2026-11-01T02:53:41.980Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:53:41.990Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/ug/checkin_credits/status 200 OK
+[90m[main 2026-11-01T02:53:42.000Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:53:42.079Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/pay/ide_user_ent_usage 200 OK
+[90m[main 2026-11-01T02:53:42.084Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/pay/ide_user_ent_usage 200 OK
+[90m[main 2026-11-01T02:54:47.595Z][0m ttnet fetch request https://api.trae.com.cn/icube/api/v1/assistant/profile?assistantType=default
+[90m[main 2026-11-01T02:54:47.598Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:54:47.652Z][0m ttnet fetch response https://api.trae.com.cn/icube/api/v1/assistant/profile?assistantType=default 200 OK
+[90m[main 2026-11-01T02:54:47.654Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:55:05.654Z][0m [MainThirdPartyTokenService] Fetching tokens https://api.trae.cn/trae/api/v3/GetThirdPartyToken {"Types":["feishu","lark"]}
+[90m[main 2026-11-01T02:55:05.659Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[93m[main 2026-11-01T02:55:05.715Z][0m [MainThirdPartyTokenService] Failed to refresh: Error: Result is not an array
+    at J2.fetchThirdPartyTokens (file:///usr/share/trae-cn/resources/app/out/main.js:1192:39263)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async J2.refreshTokens (file:///usr/share/trae-cn/resources/app/out/main.js:1192:38527)
+    at async J2.refreshAndBroadcast (file:///usr/share/trae-cn/resources/app/out/main.js:1192:36976)
+[90m[main 2026-11-01T02:55:05.800Z][0m ttnet fetch request https://api.trae.com.cn/icube/api/v1/assistant/profile?assistantType=default
+[90m[main 2026-11-01T02:55:05.802Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:55:05.876Z][0m ttnet fetch response https://api.trae.com.cn/icube/api/v1/assistant/profile?assistantType=default 200 OK
+[90m[main 2026-11-01T02:55:05.879Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T02:55:05.952Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/pay/ide_user_pay_status
+[90m[main 2026-11-01T02:55:05.952Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/ug/activity/info
+[90m[main 2026-11-01T02:55:05.952Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/pay/ide_user_ent_usage
+[90m[main 2026-11-01T02:55:05.953Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/ug/activity/info
+[90m[main 2026-11-01T02:55:05.954Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/ug/checkin_credits/status
+[90m[main 2026-11-01T02:55:05.956Z][0m ttnet fetch request https://trae-api-cn.mchost.guru/api/remote/v1/plugins?page_size=200&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux
+[90m[main 2026-11-01T02:55:05.956Z][0m ttnet fetch request https://trae-api-cn.mchost.guru/api/remote/v1/skills?page_size=100&sort_by=updated_at&sort_order=desc
+[90m[main 2026-11-01T02:55:05.957Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:55:05.957Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:55:05.958Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:55:05.958Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:55:05.958Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:55:05.958Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:55:05.958Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:55:05.959Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:55:05.960Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:55:05.960Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:55:05.960Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:55:05.980Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:55:05.980Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:55:06.012Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/ug/activity/info 200 OK
+[90m[main 2026-11-01T02:55:06.015Z][0m ttnet fetch response https://trae-api-cn.mchost.guru/api/remote/v1/skills?page_size=100&sort_by=updated_at&sort_order=desc 200 OK
+[90m[main 2026-11-01T02:55:06.018Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/pay/ide_user_pay_status 200 OK
+[90m[main 2026-11-01T02:55:06.029Z][0m ttnet fetch response https://trae-api-cn.mchost.guru/api/remote/v1/plugins?page_size=200&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux 200 OK
+[90m[main 2026-11-01T02:55:06.051Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/pay/ide_user_ent_usage 200 OK
+[90m[main 2026-11-01T02:55:06.053Z][0m [MainGtmService] Evaluating conditions (post-startup)
+[90m[main 2026-11-01T02:55:06.057Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/ug/checkin_credits/status
+[90m[main 2026-11-01T02:55:06.062Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:55:06.067Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/ug/checkin_credits/status 200 OK
+[90m[main 2026-11-01T02:55:06.076Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/ug/activity/info 200 OK
+[90m[main 2026-11-01T02:55:06.084Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/pay/ide_user_ent_usage
+[90m[main 2026-11-01T02:55:06.085Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:55:06.085Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:55:06.089Z][0m [TncConfigUpdateWaiter] Received tnc-config-updated event row data: {"http_code":200,"net_error":0,"network":true,"stage":3,"update":false,"uuid":"e6254b02-f1c7-40ea-80dd-6eec38a596d2"}
+[90m[main 2026-11-01T02:55:06.108Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/pay/ide_user_ent_usage
+[90m[main 2026-11-01T02:55:06.110Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:55:06.110Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:55:06.130Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 3
+[90m[main 2026-11-01T02:55:06.161Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/pay/ide_user_ent_usage 200 OK
+[90m[main 2026-11-01T02:55:06.174Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/ug/checkin_credits/status 200 OK
+[90m[main 2026-11-01T02:55:06.195Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/pay/ide_user_ent_usage 200 OK
+[90m[main 2026-11-01T02:55:12.115Z][0m [BootService] network recheck triggered
+[AbstractNetworkChecker] setValue: isFirstSet=false, isChange=false, suppressFirstEvent=true, value="none", cachedValue="none"
+[AbstractNetworkChecker] no change, not firing event
+[AbstractNetworkChecker] setValue: isFirstSet=false, isChange=false, suppressFirstEvent=true, value=false, cachedValue=false
+[AbstractNetworkChecker] no change, not firing event
+[90m[main 2026-11-01T02:55:14.134Z][0m [AhaIpcServer] broadcast new event event:DynamicConfigService.onDidUpdateConfig
+[90m[main 2026-11-01T02:55:14.139Z][0m [ICubeProcessManager] resolve CKG product policy from config { enabled: false, resolved: true }
+[90m[main 2026-11-01T02:55:14.153Z][0m [MainICubeAuthWatchManagementService] reconcileCheckTimer shouldRunTimer: true , authCheckIntervalMs 600000
+[90m[main 2026-11-01T02:55:14.156Z][0m [MainGtmService] Loaded 7 conditions from dynamic config
+[90m[main 2026-11-01T02:55:14.156Z][0m [MainGtmService] Evaluating conditions (post-startup)
+[90m[main 2026-11-01T02:55:14.161Z][0m [NetworkProxy] Using default system proxy mode without explicit proxy configuration
+[90m[main 2026-11-01T02:55:14.161Z][0m [NetworkProxy][SystemProxyDetection] Resolved system proxy status {
+  platform: 'linux',
+  source: 'env',
+  queryStatus: 'not_required',
+  result: 'configured',
+  reason: undefined
+}
+[90m[main 2026-11-01T02:55:14.161Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/ug/activity/info
+[90m[main 2026-11-01T02:55:14.162Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/ug/checkin_credits/status
+[Logsdk] [trace] report appid with 711126
+[Logsdk] [trace] Composed event {
+  id: '94jet2st0pc',
+  originatedBy: 'logsdk',
+  createdAt: 1793501714162,
+  event: {
+    server_time: 1793501715,
+    caller: '',
+    user: {
+      user_unique_id: '2574430945438160',
+      user_id: '1096637478344060',
+      device_id: '2574430945438160',
+      user_is_login: true
+    },
+    header: {
+      custom: '{"icube_uid":"1096637478344060","user_id":"1096637478344060","biz_user_id":"1096637478344060","user_is_login":true,"user_unique_id":"2574430945438160","device_id":"2574430945438160","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602","arch":"x64","system":"linux","scope":"marscode","build_version":"2.3.98528","vscode_version":"1.107.1","tenant":"marscode","region":"CN","aiRegion":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"7a9027d4-82b7-474b-9a47-e613b3f3b1a8","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","identity":"0","identity_str":"Free","is_freshman":"1","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
+      app_id: 711126,
+      platform: 'electron',
+      os_name: 'linux',
+      tz_offset: -28800,
+      sdk_version: '3.0.12',
+      app_version: '3.4.11',
+      os_version: 'Ubuntu 24.04 LTS',
+      device_model: '',
+      language: 'en',
+      app_language: 'en'
+    },
+    events: [
+      {
+        event: 'native_ide_network_proxy_resolved',
+        params: '{"proxy_mode":"system","proxy_endpoint":"127.0.0.1:18080","bypass_list":""}',
+        time: 1793501715,
+        _staging_flag: undefined
+      },
+      [length]: 1
+    ]
+  }
+}
+[Logsdk.http] [trace] with channel domain https://mcs.zijieapi.com
+[90m[main 2026-11-01T02:55:14.165Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T02:55:14.166Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[Logsdk.http] [trace] new sent events [ '94jet2st0pc', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
+[Logsdk.http] [trace] queue drained, last sent 1
+[90m[main 2026-11-01T02:55:14.205Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/ug/activity/info 200 OK
+[90m[main 2026-11-01T02:55:14.270Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/ug/checkin_credits/status 200 OK
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5208:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5208:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1342:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5208:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5731:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2721:(snd_pcm_open_noupdate) Unknown PCM default
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5208:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5208:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1342:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5208:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5731:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2721:(snd_pcm_open_noupdate) Unknown PCM default
+[90m[main 2026-11-01T02:56:45.550Z][0m Lifecycle#app.on(before-quit)
+[90m[main 2026-11-01T02:56:45.550Z][0m Lifecycle#onBeforeShutdown.fire()
+[90m[main 2026-11-01T02:56:45.551Z][0m Lifecycle#window.on('close') - window ID 1
+[90m[main 2026-11-01T02:56:45.551Z][0m Lifecycle#unload() - window ID 1
+[90m[main 2026-11-01T02:56:45.552Z][0m Lifecycle#window.on('close') - window ID 3
+[90m[main 2026-11-01T02:56:45.552Z][0m Lifecycle#unload() - window ID 3
+[91m[main 2026-11-01T02:56:45.595Z][0m CodeWindow: renderer process gone (reason: clean-exit, code: <unknown>)
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at aT._updateTaskFeedback (file:///usr/share/trae-cn/resources/app/out/main.js:2635:129396)
+    at P0.value (file:///usr/share/trae-cn/resources/app/out/main.js:2635:76852)
+    at X._deliver (file:///usr/share/trae-cn/resources/app/out/main.js:30:2894)
+    at X.fire (file:///usr/share/trae-cn/resources/app/out/main.js:30:3214)
+    at iT.publish (file:///usr/share/trae-cn/resources/app/out/main.js:2635:72614)
+    at iT.removeSource (file:///usr/share/trae-cn/resources/app/out/main.js:2635:71801)
+    at WebContents.a (file:///usr/share/trae-cn/resources/app/out/main.js:2635:70225)
+    at WebContents.emit (node:events:531:35)
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at aT._updateTaskFeedback (file:///usr/share/trae-cn/resources/app/out/main.js:2635:129461)
+    at P0.value (file:///usr/share/trae-cn/resources/app/out/main.js:2635:76852)
+    at X._deliver (file:///usr/share/trae-cn/resources/app/out/main.js:30:2894)
+    at X.fire (file:///usr/share/trae-cn/resources/app/out/main.js:30:3214)
+    at iT.publish (file:///usr/share/trae-cn/resources/app/out/main.js:2635:72614)
+    at iT.removeSource (file:///usr/share/trae-cn/resources/app/out/main.js:2635:71801)
+    at WebContents.a (file:///usr/share/trae-cn/resources/app/out/main.js:2635:70225)
+    at WebContents.emit (node:events:531:35)
+[Logsdk] [trace] report appid with 711126
+[Logsdk] [trace] Composed event {
+  id: 'kq9kliultuk',
+  originatedBy: 'logsdk',
+  createdAt: 1793501805665,
+  event: {
+    server_time: 1793501806,
+    caller: '',
+    user: {
+      user_unique_id: '2574430945438160',
+      user_id: '1096637478344060',
+      device_id: '2574430945438160',
+      user_is_login: true
+    },
+    header: {
+      custom: '{"icube_uid":"1096637478344060","user_id":"1096637478344060","biz_user_id":"1096637478344060","user_is_login":true,"user_unique_id":"2574430945438160","device_id":"2574430945438160","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602","arch":"x64","system":"linux","scope":"marscode","build_version":"2.3.98528","vscode_version":"1.107.1","tenant":"marscode","region":"CN","aiRegion":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"7a9027d4-82b7-474b-9a47-e613b3f3b1a8","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","identity":"0","identity_str":"Free","is_freshman":"1","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
+      app_id: 711126,
+      platform: 'electron',
+      os_name: 'linux',
+      tz_offset: -28800,
+      sdk_version: '3.0.12',
+      app_version: '3.4.11',
+      os_version: 'Ubuntu 24.04 LTS',
+      device_model: '',
+      language: 'en',
+      app_language: 'en'
+    },
+    events: [
+      {
+        event: 'native_ide_window_error',
+        params: '{"type":"process_gone","exitCode":0,"reason":"clean-exit"}',
+        time: 1793501806,
+        _staging_flag: undefined
+      },
+      [length]: 1
+    ]
+  }
+}
+[Logsdk.http] [trace] with channel domain https://mcs.zijieapi.com
+[91m[main 2026-11-01T02:56:45.682Z][0m CodeWindow: renderer process gone (reason: clean-exit, code: <unknown>)
+[Logsdk] [trace] report appid with 711126
+[Logsdk] [trace] Composed event {
+  id: '888kdndqa2g',
+  originatedBy: 'logsdk',
+  createdAt: 1793501805689,
+  event: {
+    server_time: 1793501806,
+    caller: '',
+    user: {
+      user_unique_id: '2574430945438160',
+      user_id: '1096637478344060',
+      device_id: '2574430945438160',
+      user_is_login: true
+    },
+    header: {
+      custom: '{"icube_uid":"1096637478344060","user_id":"1096637478344060","biz_user_id":"1096637478344060","user_is_login":true,"user_unique_id":"2574430945438160","device_id":"2574430945438160","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602","arch":"x64","system":"linux","scope":"marscode","build_version":"2.3.98528","vscode_version":"1.107.1","tenant":"marscode","region":"CN","aiRegion":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"7a9027d4-82b7-474b-9a47-e613b3f3b1a8","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","identity":"0","identity_str":"Free","is_freshman":"1","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
+      app_id: 711126,
+      platform: 'electron',
+      os_name: 'linux',
+      tz_offset: -28800,
+      sdk_version: '3.0.12',
+      app_version: '3.4.11',
+      os_version: 'Ubuntu 24.04 LTS',
+      device_model: '',
+      language: 'en',
+      app_language: 'en'
+    },
+    events: [
+      {
+        event: 'native_ide_window_error',
+        params: '{"type":"process_gone","exitCode":0,"reason":"clean-exit"}',
+        time: 1793501806,
+        _staging_flag: undefined
+      },
+      [length]: 1
+    ]
+  }
+}
+[90m[main 2026-11-01T02:56:45.691Z][0m Extension host with pid 8197 exited with code: 0, signal: unknown.
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at pG.send (file:///usr/share/trae-cn/resources/app/out/main.js:36:18447)
+    at fA.sendBuffer (file:///usr/share/trae-cn/resources/app/out/main.js:31:18502)
+    at fA.send (file:///usr/share/trae-cn/resources/app/out/main.js:31:18375)
+    at fA.sendResponse (file:///usr/share/trae-cn/resources/app/out/main.js:31:18193)
+    at P0.value (file:///usr/share/trae-cn/resources/app/out/main.js:32:463)
+    at X._deliver (file:///usr/share/trae-cn/resources/app/out/main.js:30:2894)
+    at X._deliverQueue (file:///usr/share/trae-cn/resources/app/out/main.js:30:2985)
+    at X.fire (file:///usr/share/trae-cn/resources/app/out/main.js:30:3321)
+    at P0.value (file:///usr/share/trae-cn/resources/app/out/main.js:49:8559)
+    at X._deliver (file:///usr/share/trae-cn/resources/app/out/main.js:30:2894)
+    at X.fire (file:///usr/share/trae-cn/resources/app/out/main.js:30:3214)
+    at ForkUtilityProcess.ge (file:///usr/share/trae-cn/resources/app/out/main.js:28:8686)
+    at ForkUtilityProcess.emit (node:events:519:28)
+    at ForkUtilityProcess.a.emit (node:electron/js2c/browser_init:2:144410)
+[90m[main 2026-11-01T02:56:45.692Z][0m Extension host with pid 8191 exited with code: 0, signal: unknown.
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at pG.send (file:///usr/share/trae-cn/resources/app/out/main.js:36:18447)
+    at fA.sendBuffer (file:///usr/share/trae-cn/resources/app/out/main.js:31:18502)
+    at fA.send (file:///usr/share/trae-cn/resources/app/out/main.js:31:18375)
+    at fA.sendResponse (file:///usr/share/trae-cn/resources/app/out/main.js:31:18193)
+    at P0.value (file:///usr/share/trae-cn/resources/app/out/main.js:32:463)
+    at X._deliver (file:///usr/share/trae-cn/resources/app/out/main.js:30:2894)
+    at X._deliverQueue (file:///usr/share/trae-cn/resources/app/out/main.js:30:2985)
+    at X.fire (file:///usr/share/trae-cn/resources/app/out/main.js:30:3321)
+    at P0.value (file:///usr/share/trae-cn/resources/app/out/main.js:49:8559)
+    at X._deliver (file:///usr/share/trae-cn/resources/app/out/main.js:30:2894)
+    at X.fire (file:///usr/share/trae-cn/resources/app/out/main.js:30:3214)
+    at ForkUtilityProcess.ge (file:///usr/share/trae-cn/resources/app/out/main.js:28:8686)
+    at ForkUtilityProcess.emit (node:events:519:28)
+    at ForkUtilityProcess.a.emit (node:electron/js2c/browser_init:2:144410)
+[90m[main 2026-11-01T02:56:45.694Z][0m Extension host with pid 8750 exited with code: 0, signal: unknown.
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at pG.send (file:///usr/share/trae-cn/resources/app/out/main.js:36:18447)
+    at fA.sendBuffer (file:///usr/share/trae-cn/resources/app/out/main.js:31:18502)
+    at fA.send (file:///usr/share/trae-cn/resources/app/out/main.js:31:18375)
+    at fA.sendResponse (file:///usr/share/trae-cn/resources/app/out/main.js:31:18193)
+    at P0.value (file:///usr/share/trae-cn/resources/app/out/main.js:32:463)
+    at X._deliver (file:///usr/share/trae-cn/resources/app/out/main.js:30:2894)
+    at X._deliverQueue (file:///usr/share/trae-cn/resources/app/out/main.js:30:2985)
+    at X.fire (file:///usr/share/trae-cn/resources/app/out/main.js:30:3321)
+    at P0.value (file:///usr/share/trae-cn/resources/app/out/main.js:49:8559)
+    at X._deliver (file:///usr/share/trae-cn/resources/app/out/main.js:30:2894)
+    at X.fire (file:///usr/share/trae-cn/resources/app/out/main.js:30:3214)
+    at ForkUtilityProcess.ge (file:///usr/share/trae-cn/resources/app/out/main.js:28:8686)
+    at ForkUtilityProcess.emit (node:events:519:28)
+    at ForkUtilityProcess.a.emit (node:electron/js2c/browser_init:2:144410)
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at pG.send (file:///usr/share/trae-cn/resources/app/out/main.js:36:18447)
+    at fA.sendBuffer (file:///usr/share/trae-cn/resources/app/out/main.js:31:18502)
+    at fA.send (file:///usr/share/trae-cn/resources/app/out/main.js:31:18375)
+    at fA.sendResponse (file:///usr/share/trae-cn/resources/app/out/main.js:31:18193)
+    at P0.value (file:///usr/share/trae-cn/resources/app/out/main.js:32:463)
+    at X._deliver (file:///usr/share/trae-cn/resources/app/out/main.js:30:2894)
+    at X._deliverQueue (file:///usr/share/trae-cn/resources/app/out/main.js:30:2985)
+    at X.fire (file:///usr/share/trae-cn/resources/app/out/main.js:30:3321)
+    at file:///usr/share/trae-cn/resources/app/out/main.js:28:7719
+    at P0.value (file:///usr/share/trae-cn/resources/app/out/main.js:28:6464)
+    at X._deliver (file:///usr/share/trae-cn/resources/app/out/main.js:30:2894)
+    at X._deliverQueue (file:///usr/share/trae-cn/resources/app/out/main.js:30:2985)
+    at X.fire (file:///usr/share/trae-cn/resources/app/out/main.js:30:3321)
+    at P0.value (file:///usr/share/trae-cn/resources/app/out/main.js:28:6321)
+    at X._deliver (file:///usr/share/trae-cn/resources/app/out/main.js:30:2894)
+    at X.fire (file:///usr/share/trae-cn/resources/app/out/main.js:30:3214)
+    at EventEmitter.ge (file:///usr/share/trae-cn/resources/app/out/main.js:28:8686)
+    at EventEmitter.emit (node:events:531:35)
+    at BrowserWindow.<anonymous> (node:electron/js2c/browser_init:2:82227)
+    at BrowserWindow.emit (node:events:519:28)
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at pG.send (file:///usr/share/trae-cn/resources/app/out/main.js:36:18447)
+    at fA.sendBuffer (file:///usr/share/trae-cn/resources/app/out/main.js:31:18502)
+    at fA.send (file:///usr/share/trae-cn/resources/app/out/main.js:31:18375)
+    at fA.sendResponse (file:///usr/share/trae-cn/resources/app/out/main.js:31:18193)
+    at P0.value (file:///usr/share/trae-cn/resources/app/out/main.js:32:463)
+    at X._deliver (file:///usr/share/trae-cn/resources/app/out/main.js:30:2894)
+    at X._deliverQueue (file:///usr/share/trae-cn/resources/app/out/main.js:30:2985)
+    at X.fire (file:///usr/share/trae-cn/resources/app/out/main.js:30:3321)
+    at file:///usr/share/trae-cn/resources/app/out/main.js:28:7719
+    at P0.value (file:///usr/share/trae-cn/resources/app/out/main.js:28:6464)
+    at X._deliver (file:///usr/share/trae-cn/resources/app/out/main.js:30:2894)
+    at X._deliverQueue (file:///usr/share/trae-cn/resources/app/out/main.js:30:2985)
+    at X.fire (file:///usr/share/trae-cn/resources/app/out/main.js:30:3321)
+    at P0.value (file:///usr/share/trae-cn/resources/app/out/main.js:28:6321)
+    at X._deliver (file:///usr/share/trae-cn/resources/app/out/main.js:30:2894)
+    at X.fire (file:///usr/share/trae-cn/resources/app/out/main.js:30:3214)
+    at EventEmitter.ge (file:///usr/share/trae-cn/resources/app/out/main.js:28:8686)
+    at EventEmitter.emit (node:events:531:35)
+    at BrowserWindow.<anonymous> (node:electron/js2c/browser_init:2:82227)
+    at BrowserWindow.emit (node:events:519:28)
+[Logsdk.http] [trace] new sent events [ 'kq9kliultuk', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
+[Logsdk.http] [trace] with channel domain https://mcs.zijieapi.com
+[Logsdk.http] [trace] new sent events [ '888kdndqa2g', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
+[Logsdk.http] [trace] queue drained, last sent 1
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at pG.send (file:///usr/share/trae-cn/resources/app/out/main.js:36:18447)
+    at fA.sendBuffer (file:///usr/share/trae-cn/resources/app/out/main.js:31:18502)
+    at fA.send (file:///usr/share/trae-cn/resources/app/out/main.js:31:18375)
+    at fA.sendResponse (file:///usr/share/trae-cn/resources/app/out/main.js:31:18193)
+    at P0.value (file:///usr/share/trae-cn/resources/app/out/main.js:32:463)
+    at X._deliver (file:///usr/share/trae-cn/resources/app/out/main.js:30:2894)
+    at X.fire (file:///usr/share/trae-cn/resources/app/out/main.js:30:3214)
+    at P0.value (file:///usr/share/trae-cn/resources/app/out/main.js:28:7849)
+    at X._deliver (file:///usr/share/trae-cn/resources/app/out/main.js:30:2894)
+    at X.fire (file:///usr/share/trae-cn/resources/app/out/main.js:30:3214)
+    at file:///usr/share/trae-cn/resources/app/out/main.js:2635:74830
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at pG.send (file:///usr/share/trae-cn/resources/app/out/main.js:36:18447)
+    at fA.sendBuffer (file:///usr/share/trae-cn/resources/app/out/main.js:31:18502)
+    at fA.send (file:///usr/share/trae-cn/resources/app/out/main.js:31:18375)
+    at fA.sendResponse (file:///usr/share/trae-cn/resources/app/out/main.js:31:18193)
+    at r.then.Error.sendResponse.id (file:///usr/share/trae-cn/resources/app/out/main.js:31:19785)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at pG.send (file:///usr/share/trae-cn/resources/app/out/main.js:36:18447)
+    at fA.sendBuffer (file:///usr/share/trae-cn/resources/app/out/main.js:31:18502)
+    at fA.send (file:///usr/share/trae-cn/resources/app/out/main.js:31:18375)
+    at fA.sendResponse (file:///usr/share/trae-cn/resources/app/out/main.js:31:18193)
+    at r.then.Error.sendResponse.id (file:///usr/share/trae-cn/resources/app/out/main.js:31:19785)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at cy.send (file:///usr/share/trae-cn/resources/app/out/main.js:187:2013)
+    at kT.broadcastToAllCodeWindows (file:///usr/share/trae-cn/resources/app/out/main.js:2637:88361)
+    at AhaSystemMonitor.<anonymous> (file:///usr/share/trae-cn/resources/app/out/main.js:2454:32598)
+    at AhaSystemMonitor.emit (node:events:531:35)
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at cy.send (file:///usr/share/trae-cn/resources/app/out/main.js:187:2013)
+    at kT.broadcastToAllCodeWindows (file:///usr/share/trae-cn/resources/app/out/main.js:2637:88361)
+    at AhaSystemMonitor.<anonymous> (file:///usr/share/trae-cn/resources/app/out/main.js:2454:32598)
+    at AhaSystemMonitor.emit (node:events:531:35)
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at cy.send (file:///usr/share/trae-cn/resources/app/out/main.js:187:2013)
+    at kT.broadcastToAllCodeWindows (file:///usr/share/trae-cn/resources/app/out/main.js:2637:88361)
+    at y4.broadcastPressureState (file:///usr/share/trae-cn/resources/app/out/main.js:2601:97020)
+    at y4.onPressureStateChanged (file:///usr/share/trae-cn/resources/app/out/main.js:2601:90645)
+    at y4.handleSystemUsageChange (file:///usr/share/trae-cn/resources/app/out/main.js:2601:89971)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at cy.send (file:///usr/share/trae-cn/resources/app/out/main.js:187:2013)
+    at kT.broadcastToAllCodeWindows (file:///usr/share/trae-cn/resources/app/out/main.js:2637:88361)
+    at y4.broadcastPressureState (file:///usr/share/trae-cn/resources/app/out/main.js:2601:97020)
+    at y4.onPressureStateChanged (file:///usr/share/trae-cn/resources/app/out/main.js:2601:90645)
+    at y4.handleSystemUsageChange (file:///usr/share/trae-cn/resources/app/out/main.js:2601:89971)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at cy.send (file:///usr/share/trae-cn/resources/app/out/main.js:187:2013)
+    at kT.broadcastToAllCodeWindows (file:///usr/share/trae-cn/resources/app/out/main.js:2637:88361)
+    at AhaSystemMonitor.<anonymous> (file:///usr/share/trae-cn/resources/app/out/main.js:2454:32598)
+    at AhaSystemMonitor.emit (node:events:531:35)
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at cy.send (file:///usr/share/trae-cn/resources/app/out/main.js:187:2013)
+    at kT.broadcastToAllCodeWindows (file:///usr/share/trae-cn/resources/app/out/main.js:2637:88361)
+    at AhaSystemMonitor.<anonymous> (file:///usr/share/trae-cn/resources/app/out/main.js:2454:32598)
+    at AhaSystemMonitor.emit (node:events:531:35)
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at cy.send (file:///usr/share/trae-cn/resources/app/out/main.js:187:2013)
+    at kT.broadcastToAllCodeWindows (file:///usr/share/trae-cn/resources/app/out/main.js:2637:88361)
+    at y4.broadcastPressureState (file:///usr/share/trae-cn/resources/app/out/main.js:2601:97020)
+    at y4.onPressureStateChanged (file:///usr/share/trae-cn/resources/app/out/main.js:2601:90645)
+    at y4.handleSystemUsageChange (file:///usr/share/trae-cn/resources/app/out/main.js:2601:89971)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at cy.send (file:///usr/share/trae-cn/resources/app/out/main.js:187:2013)
+    at kT.broadcastToAllCodeWindows (file:///usr/share/trae-cn/resources/app/out/main.js:2637:88361)
+    at y4.broadcastPressureState (file:///usr/share/trae-cn/resources/app/out/main.js:2601:97020)
+    at y4.onPressureStateChanged (file:///usr/share/trae-cn/resources/app/out/main.js:2601:90645)
+    at y4.handleSystemUsageChange (file:///usr/share/trae-cn/resources/app/out/main.js:2601:89971)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at cy.send (file:///usr/share/trae-cn/resources/app/out/main.js:187:2013)
+    at kT.broadcastToAllCodeWindows (file:///usr/share/trae-cn/resources/app/out/main.js:2637:88361)
+    at AhaSystemMonitor.<anonymous> (file:///usr/share/trae-cn/resources/app/out/main.js:2454:32598)
+    at AhaSystemMonitor.emit (node:events:531:35)
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at cy.send (file:///usr/share/trae-cn/resources/app/out/main.js:187:2013)
+    at kT.broadcastToAllCodeWindows (file:///usr/share/trae-cn/resources/app/out/main.js:2637:88361)
+    at AhaSystemMonitor.<anonymous> (file:///usr/share/trae-cn/resources/app/out/main.js:2454:32598)
+    at AhaSystemMonitor.emit (node:events:531:35)
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at cy.send (file:///usr/share/trae-cn/resources/app/out/main.js:187:2013)
+    at kT.broadcastToAllCodeWindows (file:///usr/share/trae-cn/resources/app/out/main.js:2637:88361)
+    at y4.broadcastPressureState (file:///usr/share/trae-cn/resources/app/out/main.js:2601:97020)
+    at y4.onPressureStateChanged (file:///usr/share/trae-cn/resources/app/out/main.js:2601:90645)
+    at y4.handleSystemUsageChange (file:///usr/share/trae-cn/resources/app/out/main.js:2601:89971)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at cy.send (file:///usr/share/trae-cn/resources/app/out/main.js:187:2013)
+    at kT.broadcastToAllCodeWindows (file:///usr/share/trae-cn/resources/app/out/main.js:2637:88361)
+    at y4.broadcastPressureState (file:///usr/share/trae-cn/resources/app/out/main.js:2601:97020)
+    at y4.onPressureStateChanged (file:///usr/share/trae-cn/resources/app/out/main.js:2601:90645)
+    at y4.handleSystemUsageChange (file:///usr/share/trae-cn/resources/app/out/main.js:2601:89971)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at cy.send (file:///usr/share/trae-cn/resources/app/out/main.js:187:2013)
+    at kT.broadcastToAllCodeWindows (file:///usr/share/trae-cn/resources/app/out/main.js:2637:88361)
+    at AhaSystemMonitor.<anonymous> (file:///usr/share/trae-cn/resources/app/out/main.js:2454:32598)
+    at AhaSystemMonitor.emit (node:events:531:35)
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at cy.send (file:///usr/share/trae-cn/resources/app/out/main.js:187:2013)
+    at kT.broadcastToAllCodeWindows (file:///usr/share/trae-cn/resources/app/out/main.js:2637:88361)
+    at AhaSystemMonitor.<anonymous> (file:///usr/share/trae-cn/resources/app/out/main.js:2454:32598)
+    at AhaSystemMonitor.emit (node:events:531:35)
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at cy.send (file:///usr/share/trae-cn/resources/app/out/main.js:187:2013)
+    at kT.broadcastToAllCodeWindows (file:///usr/share/trae-cn/resources/app/out/main.js:2637:88361)
+    at y4.broadcastPressureState (file:///usr/share/trae-cn/resources/app/out/main.js:2601:97020)
+    at y4.onPressureStateChanged (file:///usr/share/trae-cn/resources/app/out/main.js:2601:90645)
+    at y4.handleSystemUsageChange (file:///usr/share/trae-cn/resources/app/out/main.js:2601:89971)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at cy.send (file:///usr/share/trae-cn/resources/app/out/main.js:187:2013)
+    at kT.broadcastToAllCodeWindows (file:///usr/share/trae-cn/resources/app/out/main.js:2637:88361)
+    at y4.broadcastPressureState (file:///usr/share/trae-cn/resources/app/out/main.js:2601:97020)
+    at y4.onPressureStateChanged (file:///usr/share/trae-cn/resources/app/out/main.js:2601:90645)
+    at y4.handleSystemUsageChange (file:///usr/share/trae-cn/resources/app/out/main.js:2601:89971)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at cy.send (file:///usr/share/trae-cn/resources/app/out/main.js:187:2013)
+    at kT.broadcastToAllCodeWindows (file:///usr/share/trae-cn/resources/app/out/main.js:2637:88361)
+    at AhaSystemMonitor.<anonymous> (file:///usr/share/trae-cn/resources/app/out/main.js:2454:32598)
+    at AhaSystemMonitor.emit (node:events:531:35)
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at cy.send (file:///usr/share/trae-cn/resources/app/out/main.js:187:2013)
+    at kT.broadcastToAllCodeWindows (file:///usr/share/trae-cn/resources/app/out/main.js:2637:88361)
+    at AhaSystemMonitor.<anonymous> (file:///usr/share/trae-cn/resources/app/out/main.js:2454:32598)
+    at AhaSystemMonitor.emit (node:events:531:35)
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at cy.send (file:///usr/share/trae-cn/resources/app/out/main.js:187:2013)
+    at kT.broadcastToAllCodeWindows (file:///usr/share/trae-cn/resources/app/out/main.js:2637:88361)
+    at y4.broadcastPressureState (file:///usr/share/trae-cn/resources/app/out/main.js:2601:97020)
+    at y4.onPressureStateChanged (file:///usr/share/trae-cn/resources/app/out/main.js:2601:90645)
+    at y4.handleSystemUsageChange (file:///usr/share/trae-cn/resources/app/out/main.js:2601:89971)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at cy.send (file:///usr/share/trae-cn/resources/app/out/main.js:187:2013)
+    at kT.broadcastToAllCodeWindows (file:///usr/share/trae-cn/resources/app/out/main.js:2637:88361)
+    at y4.broadcastPressureState (file:///usr/share/trae-cn/resources/app/out/main.js:2601:97020)
+    at y4.onPressureStateChanged (file:///usr/share/trae-cn/resources/app/out/main.js:2601:90645)
+    at y4.handleSystemUsageChange (file:///usr/share/trae-cn/resources/app/out/main.js:2601:89971)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at cy.send (file:///usr/share/trae-cn/resources/app/out/main.js:187:2013)
+    at kT.broadcastToAllCodeWindows (file:///usr/share/trae-cn/resources/app/out/main.js:2637:88361)
+    at AhaSystemMonitor.<anonymous> (file:///usr/share/trae-cn/resources/app/out/main.js:2454:32598)
+    at AhaSystemMonitor.emit (node:events:531:35)
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at cy.send (file:///usr/share/trae-cn/resources/app/out/main.js:187:2013)
+    at kT.broadcastToAllCodeWindows (file:///usr/share/trae-cn/resources/app/out/main.js:2637:88361)
+    at AhaSystemMonitor.<anonymous> (file:///usr/share/trae-cn/resources/app/out/main.js:2454:32598)
+    at AhaSystemMonitor.emit (node:events:531:35)
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at cy.send (file:///usr/share/trae-cn/resources/app/out/main.js:187:2013)
+    at kT.broadcastToAllCodeWindows (file:///usr/share/trae-cn/resources/app/out/main.js:2637:88361)
+    at y4.broadcastPressureState (file:///usr/share/trae-cn/resources/app/out/main.js:2601:97020)
+    at y4.onPressureStateChanged (file:///usr/share/trae-cn/resources/app/out/main.js:2601:90645)
+    at y4.handleSystemUsageChange (file:///usr/share/trae-cn/resources/app/out/main.js:2601:89971)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at cy.send (file:///usr/share/trae-cn/resources/app/out/main.js:187:2013)
+    at kT.broadcastToAllCodeWindows (file:///usr/share/trae-cn/resources/app/out/main.js:2637:88361)
+    at y4.broadcastPressureState (file:///usr/share/trae-cn/resources/app/out/main.js:2601:97020)
+    at y4.onPressureStateChanged (file:///usr/share/trae-cn/resources/app/out/main.js:2601:90645)
+    at y4.handleSystemUsageChange (file:///usr/share/trae-cn/resources/app/out/main.js:2601:89971)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at cy.send (file:///usr/share/trae-cn/resources/app/out/main.js:187:2013)
+    at kT.broadcastToAllCodeWindows (file:///usr/share/trae-cn/resources/app/out/main.js:2637:88361)
+    at AhaSystemMonitor.<anonymous> (file:///usr/share/trae-cn/resources/app/out/main.js:2454:32598)
+    at AhaSystemMonitor.emit (node:events:531:35)
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at cy.send (file:///usr/share/trae-cn/resources/app/out/main.js:187:2013)
+    at kT.broadcastToAllCodeWindows (file:///usr/share/trae-cn/resources/app/out/main.js:2637:88361)
+    at AhaSystemMonitor.<anonymous> (file:///usr/share/trae-cn/resources/app/out/main.js:2454:32598)
+    at AhaSystemMonitor.emit (node:events:531:35)
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at cy.send (file:///usr/share/trae-cn/resources/app/out/main.js:187:2013)
+    at kT.broadcastToAllCodeWindows (file:///usr/share/trae-cn/resources/app/out/main.js:2637:88361)
+    at y4.broadcastPressureState (file:///usr/share/trae-cn/resources/app/out/main.js:2601:97020)
+    at y4.onPressureStateChanged (file:///usr/share/trae-cn/resources/app/out/main.js:2601:90645)
+    at y4.handleSystemUsageChange (file:///usr/share/trae-cn/resources/app/out/main.js:2601:89971)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at cy.send (file:///usr/share/trae-cn/resources/app/out/main.js:187:2013)
+    at kT.broadcastToAllCodeWindows (file:///usr/share/trae-cn/resources/app/out/main.js:2637:88361)
+    at y4.broadcastPressureState (file:///usr/share/trae-cn/resources/app/out/main.js:2601:97020)
+    at y4.onPressureStateChanged (file:///usr/share/trae-cn/resources/app/out/main.js:2601:90645)
+    at y4.handleSystemUsageChange (file:///usr/share/trae-cn/resources/app/out/main.js:2601:89971)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at cy.send (file:///usr/share/trae-cn/resources/app/out/main.js:187:2013)
+    at kT.broadcastToAllCodeWindows (file:///usr/share/trae-cn/resources/app/out/main.js:2637:88361)
+    at AhaSystemMonitor.<anonymous> (file:///usr/share/trae-cn/resources/app/out/main.js:2454:32598)
+    at AhaSystemMonitor.emit (node:events:531:35)
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at cy.send (file:///usr/share/trae-cn/resources/app/out/main.js:187:2013)
+    at kT.broadcastToAllCodeWindows (file:///usr/share/trae-cn/resources/app/out/main.js:2637:88361)
+    at AhaSystemMonitor.<anonymous> (file:///usr/share/trae-cn/resources/app/out/main.js:2454:32598)
+    at AhaSystemMonitor.emit (node:events:531:35)
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at cy.send (file:///usr/share/trae-cn/resources/app/out/main.js:187:2013)
+    at kT.broadcastToAllCodeWindows (file:///usr/share/trae-cn/resources/app/out/main.js:2637:88361)
+    at y4.broadcastPressureState (file:///usr/share/trae-cn/resources/app/out/main.js:2601:97020)
+    at y4.onPressureStateChanged (file:///usr/share/trae-cn/resources/app/out/main.js:2601:90645)
+    at y4.handleSystemUsageChange (file:///usr/share/trae-cn/resources/app/out/main.js:2601:89971)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Error sending from webFrameMain:  Error: Render frame was disposed before WebFrameMain could be accessed
+    at s.send (node:electron/js2c/browser_init:2:164169)
+    at w.send (node:electron/js2c/browser_init:2:148510)
+    at cy.send (file:///usr/share/trae-cn/resources/app/out/main.js:187:2013)
+    at kT.broadcastToAllCodeWindows (file:///usr/share/trae-cn/resources/app/out/main.js:2637:88361)
+    at y4.broadcastPressureState (file:///usr/share/trae-cn/resources/app/out/main.js:2601:97020)
+    at y4.onPressureStateChanged (file:///usr/share/trae-cn/resources/app/out/main.js:2601:90645)
+    at y4.handleSystemUsageChange (file:///usr/share/trae-cn/resources/app/out/main.js:2601:89971)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
