@@ -1,0 +1,6 @@
+[
+  {
+    "key": "ctrl+alt+shift+k",
+    "command": "workbench.action.icubeClaimCheckinCredits"
+  }
+]

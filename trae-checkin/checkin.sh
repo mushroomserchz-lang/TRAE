@@ -5,7 +5,7 @@
 #       再用客户端日志确认 claim 接口返回 200。
 set -u
 
-DIR=/workspace/trae-checkin
+DIR="$(cd "$(dirname "$0")" && pwd)"
 DISPLAY_NUM=":98"
 SCREEN="1440x900x24"
 LOG="$DIR/logs/checkin.log"

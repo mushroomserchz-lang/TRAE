@@ -1643,3 +1643,275 @@ Error occurred in handler for 'vscode:computerSurfaceCatalog': Error: No handler
 [Logsdk.http] [trace] queue drained, last sent 1
 [90m[main 2026-11-01T03:13:56.775Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/ug/checkin_credits/status 200 OK
 [90m[main 2026-11-01T03:13:56.814Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/ug/activity/info 200 OK
+[90m[main 2026-11-01T03:18:54.670Z][0m [BootService] network recheck triggered
+[90m[main 2026-11-01T03:18:54.754Z][0m ttnet fetch request https://api.trae.com.cn/icube/api/v1/notifications/count?version=3.4.11&packageType=stable_cn&platform=IDE&storeCountryCode=
+[90m[main 2026-11-01T03:18:54.756Z][0m [MainICubeAuthWatchManagementService] verifyStrictTokenInBackground
+[90m[main 2026-11-01T03:18:54.798Z][0m ttnet fetch response https://api.trae.com.cn/icube/api/v1/notifications/count?version=3.4.11&packageType=stable_cn&platform=IDE&storeCountryCode= 200 OK
+[AbstractNetworkChecker] setValue: isFirstSet=false, isChange=false, suppressFirstEvent=true, value="none", cachedValue="none"
+[AbstractNetworkChecker] no change, not firing event
+[AbstractNetworkChecker] setValue: isFirstSet=false, isChange=false, suppressFirstEvent=true, value=false, cachedValue=false
+[AbstractNetworkChecker] no change, not firing event
+[90m[main 2026-11-01T03:18:56.696Z][0m ttnet fetch request https://api.trae.com.cn/icube/api/v1/native/config/query?mid=e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602&did=2574430945438160&uid=1096637478344060&userRegion=CN&packageType=stable_cn&productCode=TRAE&platform=Linux&branch=release_desktop_yoma_linux_cn&arch=x64&tenant=marscode&appVersion=3.4.11&buildVersion=2.3.98528&traeVersionCode=20250325
+[90m[main 2026-11-01T03:18:56.771Z][0m ttnet fetch response https://api.trae.com.cn/icube/api/v1/native/config/query?mid=e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602&did=2574430945438160&uid=1096637478344060&userRegion=CN&packageType=stable_cn&productCode=TRAE&platform=Linux&branch=release_desktop_yoma_linux_cn&arch=x64&tenant=marscode&appVersion=3.4.11&buildVersion=2.3.98528&traeVersionCode=20250325 304 Not Modified
+[90m[main 2026-11-01T03:18:56.774Z][0m [AhaIpcServer] broadcast new event event:DynamicConfigService.onDidUpdateConfig
+[90m[main 2026-11-01T03:18:56.778Z][0m [ICubeProcessManager] resolve CKG product policy from config { enabled: false, resolved: true }
+[90m[main 2026-11-01T03:18:56.785Z][0m [MainICubeAuthWatchManagementService] reconcileCheckTimer shouldRunTimer: true , authCheckIntervalMs 600000
+[90m[main 2026-11-01T03:18:56.790Z][0m [MainGtmService] Loaded 7 conditions from dynamic config
+[90m[main 2026-11-01T03:18:56.790Z][0m [MainGtmService] Evaluating conditions (post-startup)
+[90m[main 2026-11-01T03:18:56.794Z][0m [NetworkProxy] Using default system proxy mode without explicit proxy configuration
+[90m[main 2026-11-01T03:18:56.794Z][0m [NetworkProxy][SystemProxyDetection] Resolved system proxy status {
+  platform: 'linux',
+  source: 'env',
+  queryStatus: 'not_required',
+  result: 'configured',
+  reason: undefined
+}
+[90m[main 2026-11-01T03:18:56.794Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/ug/activity/info
+[90m[main 2026-11-01T03:18:56.795Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/ug/checkin_credits/status
+[Logsdk] [trace] report appid with 711126
+[Logsdk] [trace] Composed event {
+  id: '4qpngs5pvsc',
+  originatedBy: 'logsdk',
+  createdAt: 1793503136795,
+  event: {
+    server_time: 1793503137,
+    caller: '',
+    user: {
+      user_unique_id: '2574430945438160',
+      user_id: '1096637478344060',
+      device_id: '2574430945438160',
+      user_is_login: true
+    },
+    header: {
+      custom: '{"icube_uid":"1096637478344060","user_id":"1096637478344060","biz_user_id":"1096637478344060","user_is_login":true,"user_unique_id":"2574430945438160","device_id":"2574430945438160","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602","arch":"x64","system":"linux","scope":"marscode","organization":"","build_version":"2.3.98528","vscode_version":"1.107.1","tenant":"marscode","region":"CN","aiRegion":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"1599ad86-9554-4e5b-b239-5e980b9997e7","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","identity":"0","identity_str":"Free","is_freshman":"1","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"","store_region":"CN","product_code":"TRAE"}',
+      app_id: 711126,
+      platform: 'electron',
+      os_name: 'linux',
+      tz_offset: -28800,
+      sdk_version: '3.0.12',
+      app_version: '3.4.11',
+      os_version: 'Ubuntu 24.04 LTS',
+      device_model: '',
+      language: 'en',
+      app_language: 'en'
+    },
+    events: [
+      {
+        event: 'native_ide_network_proxy_resolved',
+        params: '{"proxy_mode":"system","proxy_endpoint":"127.0.0.1:18080","bypass_list":""}',
+        time: 1793503137,
+        _staging_flag: undefined
+      },
+      [length]: 1
+    ]
+  }
+}
+[Logsdk.http] [trace] with channel domain https://mcs.zijieapi.com
+[90m[main 2026-11-01T03:18:56.797Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T03:18:56.798Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T03:18:56.838Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/ug/activity/info 200 OK
+[Logsdk.http] [trace] new sent events [ '4qpngs5pvsc', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
+[Logsdk.http] [trace] queue drained, last sent 1
+[90m[main 2026-11-01T03:18:56.858Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/ug/checkin_credits/status 200 OK
+[90m[main 2026-11-01T03:23:54.670Z][0m [BootService] network recheck triggered
+[AbstractNetworkChecker] setValue: isFirstSet=false, isChange=false, suppressFirstEvent=true, value="none", cachedValue="none"
+[AbstractNetworkChecker] no change, not firing event
+[AbstractNetworkChecker] setValue: isFirstSet=false, isChange=false, suppressFirstEvent=true, value=false, cachedValue=false
+[AbstractNetworkChecker] no change, not firing event
+[90m[main 2026-11-01T03:23:56.698Z][0m [AhaIpcServer] broadcast new event event:DynamicConfigService.onDidUpdateConfig
+[90m[main 2026-11-01T03:23:56.705Z][0m [ICubeProcessManager] resolve CKG product policy from config { enabled: false, resolved: true }
+[90m[main 2026-11-01T03:23:56.715Z][0m [MainICubeAuthWatchManagementService] reconcileCheckTimer shouldRunTimer: true , authCheckIntervalMs 600000
+[90m[main 2026-11-01T03:23:56.716Z][0m [MainGtmService] Loaded 7 conditions from dynamic config
+[90m[main 2026-11-01T03:23:56.716Z][0m [MainGtmService] Evaluating conditions (post-startup)
+[90m[main 2026-11-01T03:23:56.721Z][0m [NetworkProxy] Using default system proxy mode without explicit proxy configuration
+[90m[main 2026-11-01T03:23:56.721Z][0m [NetworkProxy][SystemProxyDetection] Resolved system proxy status {
+  platform: 'linux',
+  source: 'env',
+  queryStatus: 'not_required',
+  result: 'configured',
+  reason: undefined
+}
+[90m[main 2026-11-01T03:23:56.721Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/ug/activity/info
+[90m[main 2026-11-01T03:23:56.722Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/ug/checkin_credits/status
+[Logsdk] [trace] report appid with 711126
+[Logsdk] [trace] Composed event {
+  id: 'a2o48f439os',
+  originatedBy: 'logsdk',
+  createdAt: 1793503436723,
+  event: {
+    server_time: 1793503437,
+    caller: '',
+    user: {
+      user_unique_id: '2574430945438160',
+      user_id: '1096637478344060',
+      device_id: '2574430945438160',
+      user_is_login: true
+    },
+    header: {
+      custom: '{"icube_uid":"1096637478344060","user_id":"1096637478344060","biz_user_id":"1096637478344060","user_is_login":true,"user_unique_id":"2574430945438160","device_id":"2574430945438160","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602","arch":"x64","system":"linux","scope":"marscode","organization":"","build_version":"2.3.98528","vscode_version":"1.107.1","tenant":"marscode","region":"CN","aiRegion":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"1599ad86-9554-4e5b-b239-5e980b9997e7","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","identity":"0","identity_str":"Free","is_freshman":"1","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"","store_region":"CN","product_code":"TRAE"}',
+      app_id: 711126,
+      platform: 'electron',
+      os_name: 'linux',
+      tz_offset: -28800,
+      sdk_version: '3.0.12',
+      app_version: '3.4.11',
+      os_version: 'Ubuntu 24.04 LTS',
+      device_model: '',
+      language: 'en',
+      app_language: 'en'
+    },
+    events: [
+      {
+        event: 'native_ide_network_proxy_resolved',
+        params: '{"proxy_mode":"system","proxy_endpoint":"127.0.0.1:18080","bypass_list":""}',
+        time: 1793503437,
+        _staging_flag: undefined
+      },
+      [length]: 1
+    ]
+  }
+}
+[Logsdk.http] [trace] with channel domain https://mcs.zijieapi.com
+[90m[main 2026-11-01T03:23:56.725Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T03:23:56.726Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T03:23:56.772Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/ug/checkin_credits/status 200 OK
+[Logsdk.http] [trace] new sent events [ 'a2o48f439os', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
+[Logsdk.http] [trace] queue drained, last sent 1
+[90m[main 2026-11-01T03:23:56.783Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/ug/activity/info 200 OK
+[90m[main 2026-11-01T03:28:54.445Z][0m SupabaseOAuthLocalServer#OAuth callback server closed
+[90m[main 2026-11-01T03:28:54.671Z][0m [BootService] network recheck triggered
+[90m[main 2026-11-01T03:28:54.753Z][0m ttnet fetch request https://api.trae.com.cn/icube/api/v1/notifications/count?version=3.4.11&packageType=stable_cn&platform=IDE&storeCountryCode=
+[90m[main 2026-11-01T03:28:54.757Z][0m [MainICubeAuthWatchManagementService] verifyStrictTokenInBackground
+[90m[main 2026-11-01T03:28:54.831Z][0m ttnet fetch response https://api.trae.com.cn/icube/api/v1/notifications/count?version=3.4.11&packageType=stable_cn&platform=IDE&storeCountryCode= 200 OK
+[AbstractNetworkChecker] setValue: isFirstSet=false, isChange=false, suppressFirstEvent=true, value=false, cachedValue=false
+[AbstractNetworkChecker] no change, not firing event
+[AbstractNetworkChecker] setValue: isFirstSet=false, isChange=false, suppressFirstEvent=true, value="none", cachedValue="none"
+[AbstractNetworkChecker] no change, not firing event
+[90m[main 2026-11-01T03:28:56.697Z][0m ttnet fetch request https://api.trae.com.cn/icube/api/v1/native/config/query?mid=e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602&did=2574430945438160&uid=1096637478344060&userRegion=CN&packageType=stable_cn&productCode=TRAE&platform=Linux&branch=release_desktop_yoma_linux_cn&arch=x64&tenant=marscode&appVersion=3.4.11&buildVersion=2.3.98528&traeVersionCode=20250325
+[90m[main 2026-11-01T03:28:56.843Z][0m ttnet fetch response https://api.trae.com.cn/icube/api/v1/native/config/query?mid=e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602&did=2574430945438160&uid=1096637478344060&userRegion=CN&packageType=stable_cn&productCode=TRAE&platform=Linux&branch=release_desktop_yoma_linux_cn&arch=x64&tenant=marscode&appVersion=3.4.11&buildVersion=2.3.98528&traeVersionCode=20250325 200 OK
+[90m[main 2026-11-01T03:28:56.867Z][0m [AhaIpcServer] broadcast new event event:DynamicConfigService.onDidUpdateConfig
+[90m[main 2026-11-01T03:28:56.874Z][0m [ICubeProcessManager] resolve CKG product policy from config { enabled: false, resolved: true }
+[90m[main 2026-11-01T03:28:56.883Z][0m [MainICubeAuthWatchManagementService] reconcileCheckTimer shouldRunTimer: true , authCheckIntervalMs 600000
+[90m[main 2026-11-01T03:28:56.883Z][0m [MainGtmService] Loaded 7 conditions from dynamic config
+[90m[main 2026-11-01T03:28:56.883Z][0m [MainGtmService] Evaluating conditions (post-startup)
+[90m[main 2026-11-01T03:28:56.891Z][0m [NetworkProxy] Using default system proxy mode without explicit proxy configuration
+[90m[main 2026-11-01T03:28:56.891Z][0m [NetworkProxy][SystemProxyDetection] Resolved system proxy status {
+  platform: 'linux',
+  source: 'env',
+  queryStatus: 'not_required',
+  result: 'configured',
+  reason: undefined
+}
+[90m[main 2026-11-01T03:28:56.891Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/ug/activity/info
+[90m[main 2026-11-01T03:28:56.891Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/ug/checkin_credits/status
+[Logsdk] [trace] report appid with 711126
+[Logsdk] [trace] Composed event {
+  id: 'scdg2ahg1jg',
+  originatedBy: 'logsdk',
+  createdAt: 1793503736892,
+  event: {
+    server_time: 1793503737,
+    caller: '',
+    user: {
+      user_unique_id: '2574430945438160',
+      user_id: '1096637478344060',
+      device_id: '2574430945438160',
+      user_is_login: true
+    },
+    header: {
+      custom: '{"icube_uid":"1096637478344060","user_id":"1096637478344060","biz_user_id":"1096637478344060","user_is_login":true,"user_unique_id":"2574430945438160","device_id":"2574430945438160","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602","arch":"x64","system":"linux","scope":"marscode","organization":"","build_version":"2.3.98528","vscode_version":"1.107.1","tenant":"marscode","region":"CN","aiRegion":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"1599ad86-9554-4e5b-b239-5e980b9997e7","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","identity":"0","identity_str":"Free","is_freshman":"1","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"","store_region":"CN","product_code":"TRAE"}',
+      app_id: 711126,
+      platform: 'electron',
+      os_name: 'linux',
+      tz_offset: -28800,
+      sdk_version: '3.0.12',
+      app_version: '3.4.11',
+      os_version: 'Ubuntu 24.04 LTS',
+      device_model: '',
+      language: 'en',
+      app_language: 'en'
+    },
+    events: [
+      {
+        event: 'native_ide_network_proxy_resolved',
+        params: '{"proxy_mode":"system","proxy_endpoint":"127.0.0.1:18080","bypass_list":""}',
+        time: 1793503737,
+        _staging_flag: undefined
+      },
+      [length]: 1
+    ]
+  }
+}
+[Logsdk.http] [trace] with channel domain https://mcs.zijieapi.com
+[90m[main 2026-11-01T03:28:56.902Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T03:28:56.905Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[Logsdk.http] [trace] new sent events [ 'scdg2ahg1jg', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
+[Logsdk.http] [trace] queue drained, last sent 1
+[90m[main 2026-11-01T03:28:56.984Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/ug/checkin_credits/status 200 OK
+[90m[main 2026-11-01T03:28:56.985Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/ug/activity/info 200 OK
+Error occurred in handler for 'vscode:computerSurfaceCatalog': Error: No handler registered for 'vscode:computerSurfaceCatalog'
+    at Session.<anonymous> (node:electron/js2c/browser_init:2:180309)
+    at Session.emit (node:events:519:28)
+[90m[main 2026-11-01T03:28:57.081Z][0m [DiagnosisCoordinator] feature state synced: initialized=true
+[90m[main 2026-11-01T03:28:57.176Z][0m ttnet fetch request https://api.trae.com.cn/extensions/api/-/plugin/list?page_size=200&registry=trae-remote-official&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux
+[90m[main 2026-11-01T03:28:57.177Z][0m ttnet fetch request https://trae-api-cn.mchost.guru/api/remote/v1/plugins?page_size=200&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux
+[90m[main 2026-11-01T03:28:57.177Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T03:28:57.221Z][0m ttnet fetch response https://api.trae.com.cn/extensions/api/-/plugin/list?page_size=200&registry=trae-remote-official&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux 200 OK
+[90m[main 2026-11-01T03:28:57.286Z][0m ttnet fetch response https://trae-api-cn.mchost.guru/api/remote/v1/plugins?page_size=200&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux 200 OK
+[90m[main 2026-11-01T03:32:09.591Z][0m ttnet fetch request https://api.trae.com.cn/icube/api/v1/assistant/profile?assistantType=default
+[90m[main 2026-11-01T03:32:09.635Z][0m ttnet fetch response https://api.trae.com.cn/icube/api/v1/assistant/profile?assistantType=default 200 OK
+[90m[main 2026-11-01T03:32:12.540Z][0m [MainThirdPartyTokenService] Fetching tokens https://api.trae.cn/trae/api/v3/GetThirdPartyToken {"Types":["feishu","lark"]}
+[90m[main 2026-11-01T03:32:12.544Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[93m[main 2026-11-01T03:32:12.593Z][0m [MainThirdPartyTokenService] Failed to refresh: Error: Result is not an array
+    at J2.fetchThirdPartyTokens (file:///usr/share/trae-cn/resources/app/out/main.js:1192:39263)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async J2.refreshTokens (file:///usr/share/trae-cn/resources/app/out/main.js:1192:38527)
+    at async J2.refreshAndBroadcast (file:///usr/share/trae-cn/resources/app/out/main.js:1192:36976)
+[90m[main 2026-11-01T03:32:12.688Z][0m ttnet fetch request https://api.trae.com.cn/icube/api/v1/assistant/profile?assistantType=default
+[90m[main 2026-11-01T03:32:12.724Z][0m ttnet fetch response https://api.trae.com.cn/icube/api/v1/assistant/profile?assistantType=default 200 OK
+[90m[main 2026-11-01T03:32:12.837Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/pay/ide_user_pay_status
+[90m[main 2026-11-01T03:32:12.837Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/ug/activity/info
+[90m[main 2026-11-01T03:32:12.838Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/pay/ide_user_ent_usage
+[90m[main 2026-11-01T03:32:12.839Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/ug/activity/info
+[90m[main 2026-11-01T03:32:12.839Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/ug/checkin_credits/status
+[90m[main 2026-11-01T03:32:12.841Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T03:32:12.841Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T03:32:12.842Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T03:32:12.842Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T03:32:12.842Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T03:32:12.844Z][0m ttnet fetch request https://api.trae.com.cn/extensions/api/-/skill/list-v3?page_size=100&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux
+[90m[main 2026-11-01T03:32:12.845Z][0m ttnet fetch request https://api.trae.com.cn/extensions/api/-/skill/categories?product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux
+[90m[main 2026-11-01T03:32:12.845Z][0m ttnet fetch request https://trae-api-cn.mchost.guru/api/remote/v1/plugins?page_size=200&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux
+[90m[main 2026-11-01T03:32:12.846Z][0m ttnet fetch request https://trae-api-cn.mchost.guru/api/remote/v1/skills?page_size=100&sort_by=updated_at&sort_order=desc
+[90m[main 2026-11-01T03:32:12.846Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T03:32:12.847Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T03:32:12.847Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T03:32:12.847Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T03:32:12.847Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T03:32:12.847Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T03:32:12.865Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T03:32:12.866Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T03:32:12.885Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/pay/ide_user_pay_status 200 OK
+[90m[main 2026-11-01T03:32:12.888Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/ug/activity/info 200 OK
+[90m[main 2026-11-01T03:32:12.890Z][0m ttnet fetch response https://trae-api-cn.mchost.guru/api/remote/v1/skills?page_size=100&sort_by=updated_at&sort_order=desc 200 OK
+[90m[main 2026-11-01T03:32:12.893Z][0m ttnet fetch response https://api.trae.com.cn/extensions/api/-/skill/list-v3?page_size=100&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux 200 OK
+[90m[main 2026-11-01T03:32:12.896Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/ug/checkin_credits/status 200 OK
+[90m[main 2026-11-01T03:32:12.899Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/ug/activity/info 200 OK
+[90m[main 2026-11-01T03:32:12.907Z][0m ttnet fetch response https://api.trae.com.cn/extensions/api/-/skill/categories?product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux 200 OK
+[90m[main 2026-11-01T03:32:12.922Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/pay/ide_user_ent_usage 200 OK
+[90m[main 2026-11-01T03:32:12.923Z][0m [MainGtmService] Evaluating conditions (post-startup)
+[90m[main 2026-11-01T03:32:12.924Z][0m ttnet fetch request https://api.trae.com.cn/extensions/api/-/skill/list-v3?page_size=100&page_token=eyJ2IjoxLCJvZmZzZXQiOjEwMCwiZmlsdGVyX2hhc2giOiIyY2RjZDExNDU4NGMwY2U2NzYxMTk5NzQwNWVhZmU0MDNiYzdlZjNjZTU1ZTQwYmJiYTkxMTk1YTVjNTg1Mzk2In0&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux
+[90m[main 2026-11-01T03:32:12.926Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/ug/checkin_credits/status
+[90m[main 2026-11-01T03:32:12.927Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T03:32:12.942Z][0m ttnet fetch response https://trae-api-cn.mchost.guru/api/remote/v1/plugins?page_size=200&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux 200 OK
+[90m[main 2026-11-01T03:32:12.947Z][0m [TncConfigUpdateWaiter] Received tnc-config-updated event row data: {"http_code":200,"net_error":0,"network":true,"stage":3,"update":false,"uuid":"3762cfd6-46b3-4ec4-b3e6-73e6c43eafb3"}
+[90m[main 2026-11-01T03:32:12.952Z][0m ttnet fetch request https://api.trae.cn/trae/api/v2/pay/ide_user_ent_usage
+[90m[main 2026-11-01T03:32:12.952Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T03:32:12.954Z][0m getStoreRegion { countryCode: '', countryCodeSrc: '', region: 'CN' }
+[90m[main 2026-11-01T03:32:12.959Z][0m ttnet fetch response https://api.trae.com.cn/extensions/api/-/skill/list-v3?page_size=100&page_token=eyJ2IjoxLCJvZmZzZXQiOjEwMCwiZmlsdGVyX2hhc2giOiIyY2RjZDExNDU4NGMwY2U2NzYxMTk5NzQwNWVhZmU0MDNiYzdlZjNjZTU1ZTQwYmJiYTkxMTk1YTVjNTg1Mzk2In0&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux 200 OK
+[90m[main 2026-11-01T03:32:12.974Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T03:32:12.980Z][0m ttnet fetch request https://api.trae.com.cn/extensions/api/-/plugin/list?page_size=200&registry=trae-remote-official&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux
+[90m[main 2026-11-01T03:32:12.993Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/ug/checkin_credits/status 200 OK
+[90m[main 2026-11-01T03:32:12.998Z][0m [MainICubeAuthManagementService] invoke getUserInfo from codeWindow %s 1
+[90m[main 2026-11-01T03:32:13.022Z][0m ttnet fetch response https://api.trae.com.cn/extensions/api/-/plugin/list?page_size=200&registry=trae-remote-official&product_name=ide&client_version=3.4.11&package_type=stable&chat_mode=code&os=linux 200 OK
+[90m[main 2026-11-01T03:32:13.064Z][0m ttnet fetch response https://api.trae.cn/trae/api/v2/pay/ide_user_ent_usage 200 OK

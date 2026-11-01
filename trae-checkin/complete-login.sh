@@ -7,7 +7,9 @@ if [ -z "$URL" ]; then
   echo "用法: $0 '<登录后浏览器地址栏里的完整回调 URL>'" >&2
   exit 1
 fi
-LOG=/workspace/trae-checkin/logs/login.log
+DIR="$(cd "$(dirname "$0")" && pwd)"
+mkdir -p "$DIR/logs"
+LOG="$DIR/logs/login.log"
 echo "[$(date '+%F %T')] callback: $URL" >>"$LOG"
 curl -s -m 30 "$URL" -w "\n[curl] http=%{http_code}\n" >>"$LOG" 2>&1
 tail -5 "$LOG"
