@@ -26,6 +26,7 @@ public class TraeMod implements ModInitializer {
     @Override
     public void onInitialize() {
         ModItems.register();
+        TraeDamageController.register();
         Registry.register(Registries.ITEM_GROUP, id("creative_tab"), TRAE_GROUP);
     }
 

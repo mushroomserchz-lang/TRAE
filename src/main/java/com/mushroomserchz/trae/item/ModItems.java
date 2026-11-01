@@ -1,52 +1,51 @@
 package com.mushroomserchz.trae;
 
-import com.mushroomserchz.trae.item.GodslayerSwordItem;
-import com.mushroomserchz.trae.item.ModArmorMaterials;
-import net.minecraft.item.ArmorItem;
+import com.mushroomserchz.trae.item.ModItems;
+import net.fabricmc.fabric.api.entity.event.v1.ServerLivingEntityEvents;
+import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
+import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.entity.effect.StatusEffectInstance;
+import net.minecraft.entity.effect.StatusEffects;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
-import net.minecraft.item.Rarity;
-import net.minecraft.item.ToolMaterials;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
 
-public final class ModItems {
-    public static final Item GODS_EDGE = registerItem(
-            "gods_edge",
-            new GodslayerSwordItem(ToolMaterials.NETHERITE, 2048, -2.2F,
-                    new Item.Settings().fireproof().rarity(Rarity.EPIC))
-    );
-
-    public static final Item ABYSSAL_HELMET = registerItem(
-            "abyssal_helmet",
-            new ArmorItem(ModArmorMaterials.OVERLORD, ArmorItem.Type.HELMET,
-                    new Item.Settings().fireproof().rarity(Rarity.EPIC))
-    );
-
-    public static final Item ABYSSAL_CHESTPLATE = registerItem(
-            "abyssal_chestplate",
-            new ArmorItem(ModArmorMaterials.OVERLORD, ArmorItem.Type.CHESTPLATE,
-                    new Item.Settings().fireproof().rarity(Rarity.EPIC))
-    );
-
-    public static final Item ABYSSAL_LEGGINGS = registerItem(
-            "abyssal_leggings",
-            new ArmorItem(ModArmorMaterials.OVERLORD, ArmorItem.Type.LEGGINGS,
-                    new Item.Settings().fireproof().rarity(Rarity.EPIC))
-    );
-
-    public static final Item ABYSSAL_BOOTS = registerItem(
-            "abyssal_boots",
-            new ArmorItem(ModArmorMaterials.OVERLORD, ArmorItem.Type.BOOTS,
-                    new Item.Settings().fireproof().rarity(Rarity.EPIC))
-    );
+public final class TraeDamageController {
+    private TraeDamageController() {
+    }
 
     public static void register() {
+        ServerLivingEntityEvents.ALLOW_DAMAGE.register((entity, source, amount) -> {
+            if (entity instanceof PlayerEntity player && isFullSet(player)) {
+                return false;
+            }
+            return true;
+        });
+
+        ServerTickEvents.END_SERVER_TICK.register(server -> {
+            for (PlayerEntity player : server.getPlayerManager().getPlayerList()) {
+                if (!isFullSet(player)) {
+                    continue;
+                }
+
+                player.setHealth(player.getMaxHealth());
+                player.getHungerManager().setFoodLevel(20);
+                player.getHungerManager().setSaturationLevelClient(20.0F);
+                player.addStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 30, 4, false, false));
+                player.addStatusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 30, 3, false, false));
+                player.addStatusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 30, 4, false, false));
+                player.addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, 30, 2, false, false));
+            }
+        });
     }
 
-    private static Item registerItem(String name, Item item) {
-        return Registry.register(Registries.ITEM, TraeMod.id(name), item);
+    private static boolean isFullSet(PlayerEntity player) {
+        return isArmorPiece(player, EquipmentSlot.HEAD, ModItems.ABYSSAL_HELMET)
+                && isArmorPiece(player, EquipmentSlot.CHEST, ModItems.ABYSSAL_CHESTPLATE)
+                && isArmorPiece(player, EquipmentSlot.LEGS, ModItems.ABYSSAL_LEGGINGS)
+                && isArmorPiece(player, EquipmentSlot.FEET, ModItems.ABYSSAL_BOOTS);
     }
 
-    private ModItems() {
+    private static boolean isArmorPiece(PlayerEntity player, EquipmentSlot slot, Item item) {
+        return player.getEquippedStack(slot).isOf(item);
     }
 }
