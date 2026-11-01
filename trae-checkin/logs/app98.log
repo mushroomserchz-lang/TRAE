@@ -3073,3 +3073,319 @@ Error occurred in handler for 'vscode:computerSurfaceCatalog': Error: No handler
 [Logsdk.http] [trace] new sent events [ 'acjorgevttk', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
 [Logsdk.http] [trace] queue drained, last sent 1
 [90m[main 2026-11-01T02:30:36.239Z][0m [UserStorage] no available persist userInfo to restore.
+[90m[main 2026-11-01T02:31:36.240Z][0m [UserStorage] no available persist userInfo to restore.
+[90m[main 2026-11-01T02:32:36.239Z][0m [UserStorage] no available persist userInfo to restore.
+[90m[main 2026-11-01T02:33:36.239Z][0m [UserStorage] no available persist userInfo to restore.
+[90m[main 2026-11-01T02:34:36.239Z][0m [UserStorage] no available persist userInfo to restore.
+[90m[main 2026-11-01T02:35:12.115Z][0m [BootService] network recheck triggered
+[AbstractNetworkChecker] setValue: isFirstSet=false, isChange=false, suppressFirstEvent=true, value="none", cachedValue="none"
+[AbstractNetworkChecker] no change, not firing event
+[AbstractNetworkChecker] setValue: isFirstSet=false, isChange=false, suppressFirstEvent=true, value=false, cachedValue=false
+[AbstractNetworkChecker] no change, not firing event
+[90m[main 2026-11-01T02:35:14.131Z][0m ttnet fetch request https://api.trae.com.cn/icube/api/v1/native/config/query?mid=e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602&did=2574430945438160&packageType=stable_cn&productCode=TRAE&platform=Linux&branch=release_desktop_yoma_linux_cn&arch=x64&appVersion=3.4.11&buildVersion=2.3.98528&traeVersionCode=20250325
+[90m[main 2026-11-01T02:35:14.203Z][0m ttnet fetch response https://api.trae.com.cn/icube/api/v1/native/config/query?mid=e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602&did=2574430945438160&packageType=stable_cn&productCode=TRAE&platform=Linux&branch=release_desktop_yoma_linux_cn&arch=x64&appVersion=3.4.11&buildVersion=2.3.98528&traeVersionCode=20250325 304 Not Modified
+[90m[main 2026-11-01T02:35:14.206Z][0m [AhaIpcServer] broadcast new event event:DynamicConfigService.onDidUpdateConfig
+[90m[main 2026-11-01T02:35:14.212Z][0m [ICubeProcessManager] resolve CKG product policy from config { enabled: false, resolved: false }
+[90m[main 2026-11-01T02:35:14.226Z][0m [MainICubeAuthWatchManagementService] reconcileCheckTimer shouldRunTimer: false , authCheckIntervalMs -1
+[90m[main 2026-11-01T02:35:14.228Z][0m [MainGtmService] Loaded 2 conditions from dynamic config
+[90m[main 2026-11-01T02:35:14.232Z][0m [NetworkProxy] Using default system proxy mode without explicit proxy configuration
+[90m[main 2026-11-01T02:35:14.232Z][0m [NetworkProxy][SystemProxyDetection] Resolved system proxy status {
+  platform: 'linux',
+  source: 'env',
+  queryStatus: 'not_required',
+  result: 'configured',
+  reason: undefined
+}
+[Logsdk] [trace] report appid with 711126
+[Logsdk] [trace] Composed event {
+  id: 'rj8ss19mmdg',
+  originatedBy: 'logsdk',
+  createdAt: 1793500514232,
+  event: {
+    server_time: 1793500515,
+    caller: '',
+    user: {
+      user_unique_id: '2574430945438160',
+      user_id: '0',
+      device_id: '2574430945438160',
+      user_is_login: false
+    },
+    header: {
+      custom: '{"icube_uid":"0","user_id":"0","biz_user_id":"0","user_is_login":false,"user_unique_id":"2574430945438160","device_id":"2574430945438160","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602","arch":"x64","system":"linux","scope":"unknown","build_version":"2.3.98528","vscode_version":"1.107.1","region":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"7a9027d4-82b7-474b-9a47-e613b3f3b1a8","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
+      app_id: 711126,
+      platform: 'electron',
+      os_name: 'linux',
+      tz_offset: -28800,
+      sdk_version: '3.0.12',
+      app_version: '3.4.11',
+      os_version: 'Ubuntu 24.04 LTS',
+      device_model: '',
+      language: 'en',
+      app_language: 'en'
+    },
+    events: [
+      {
+        event: 'native_ide_network_proxy_resolved',
+        params: '{"proxy_mode":"system","proxy_endpoint":"127.0.0.1:18080","bypass_list":""}',
+        time: 1793500515,
+        _staging_flag: undefined
+      },
+      [length]: 1
+    ]
+  }
+}
+[Logsdk.http] [trace] with channel domain https://mcs.zijieapi.com
+[Logsdk.http] [trace] new sent events [ 'rj8ss19mmdg', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
+[Logsdk.http] [trace] queue drained, last sent 1
+[90m[main 2026-11-01T02:35:36.239Z][0m [UserStorage] no available persist userInfo to restore.
+[90m[main 2026-11-01T02:36:36.239Z][0m [UserStorage] no available persist userInfo to restore.
+[90m[main 2026-11-01T02:37:36.239Z][0m [UserStorage] no available persist userInfo to restore.
+[90m[main 2026-11-01T02:38:36.240Z][0m [UserStorage] no available persist userInfo to restore.
+[90m[main 2026-11-01T02:39:36.239Z][0m [UserStorage] no available persist userInfo to restore.
+[90m[main 2026-11-01T02:40:12.115Z][0m [BootService] network recheck triggered
+[AbstractNetworkChecker] setValue: isFirstSet=false, isChange=false, suppressFirstEvent=true, value="none", cachedValue="none"
+[AbstractNetworkChecker] no change, not firing event
+[AbstractNetworkChecker] setValue: isFirstSet=false, isChange=false, suppressFirstEvent=true, value=false, cachedValue=false
+[AbstractNetworkChecker] no change, not firing event
+[90m[main 2026-11-01T02:40:14.132Z][0m [AhaIpcServer] broadcast new event event:DynamicConfigService.onDidUpdateConfig
+[90m[main 2026-11-01T02:40:14.139Z][0m [ICubeProcessManager] resolve CKG product policy from config { enabled: false, resolved: false }
+[90m[main 2026-11-01T02:40:14.147Z][0m [MainICubeAuthWatchManagementService] reconcileCheckTimer shouldRunTimer: false , authCheckIntervalMs -1
+[90m[main 2026-11-01T02:40:14.147Z][0m [MainGtmService] Loaded 2 conditions from dynamic config
+[90m[main 2026-11-01T02:40:14.150Z][0m [NetworkProxy] Using default system proxy mode without explicit proxy configuration
+[90m[main 2026-11-01T02:40:14.151Z][0m [NetworkProxy][SystemProxyDetection] Resolved system proxy status {
+  platform: 'linux',
+  source: 'env',
+  queryStatus: 'not_required',
+  result: 'configured',
+  reason: undefined
+}
+[Logsdk] [trace] report appid with 711126
+[Logsdk] [trace] Composed event {
+  id: 'ec2p3uf75fg',
+  originatedBy: 'logsdk',
+  createdAt: 1793500814151,
+  event: {
+    server_time: 1793500815,
+    caller: '',
+    user: {
+      user_unique_id: '2574430945438160',
+      user_id: '0',
+      device_id: '2574430945438160',
+      user_is_login: false
+    },
+    header: {
+      custom: '{"icube_uid":"0","user_id":"0","biz_user_id":"0","user_is_login":false,"user_unique_id":"2574430945438160","device_id":"2574430945438160","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602","arch":"x64","system":"linux","scope":"unknown","build_version":"2.3.98528","vscode_version":"1.107.1","region":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"7a9027d4-82b7-474b-9a47-e613b3f3b1a8","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
+      app_id: 711126,
+      platform: 'electron',
+      os_name: 'linux',
+      tz_offset: -28800,
+      sdk_version: '3.0.12',
+      app_version: '3.4.11',
+      os_version: 'Ubuntu 24.04 LTS',
+      device_model: '',
+      language: 'en',
+      app_language: 'en'
+    },
+    events: [
+      {
+        event: 'native_ide_network_proxy_resolved',
+        params: '{"proxy_mode":"system","proxy_endpoint":"127.0.0.1:18080","bypass_list":""}',
+        time: 1793500815,
+        _staging_flag: undefined
+      },
+      [length]: 1
+    ]
+  }
+}
+[Logsdk.http] [trace] with channel domain https://mcs.zijieapi.com
+[Logsdk.http] [trace] new sent events [ 'ec2p3uf75fg', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
+[Logsdk.http] [trace] queue drained, last sent 1
+[90m[main 2026-11-01T02:40:36.239Z][0m [UserStorage] no available persist userInfo to restore.
+[90m[main 2026-11-01T02:41:36.239Z][0m [UserStorage] no available persist userInfo to restore.
+[90m[main 2026-11-01T02:42:36.241Z][0m [UserStorage] no available persist userInfo to restore.
+[90m[main 2026-11-01T02:43:36.238Z][0m [UserStorage] no available persist userInfo to restore.
+[90m[main 2026-11-01T02:44:36.239Z][0m [UserStorage] no available persist userInfo to restore.
+[90m[main 2026-11-01T02:45:12.049Z][0m SupabaseOAuthLocalServer#OAuth callback server closed
+[90m[main 2026-11-01T02:45:12.114Z][0m [BootService] network recheck triggered
+[AbstractNetworkChecker] setValue: isFirstSet=false, isChange=false, suppressFirstEvent=true, value=false, cachedValue=false
+[AbstractNetworkChecker] no change, not firing event
+[AbstractNetworkChecker] setValue: isFirstSet=false, isChange=false, suppressFirstEvent=true, value="none", cachedValue="none"
+[AbstractNetworkChecker] no change, not firing event
+[90m[main 2026-11-01T02:45:14.131Z][0m ttnet fetch request https://api.trae.com.cn/icube/api/v1/native/config/query?mid=e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602&did=2574430945438160&packageType=stable_cn&productCode=TRAE&platform=Linux&branch=release_desktop_yoma_linux_cn&arch=x64&appVersion=3.4.11&buildVersion=2.3.98528&traeVersionCode=20250325
+[90m[main 2026-11-01T02:45:14.219Z][0m ttnet fetch response https://api.trae.com.cn/icube/api/v1/native/config/query?mid=e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602&did=2574430945438160&packageType=stable_cn&productCode=TRAE&platform=Linux&branch=release_desktop_yoma_linux_cn&arch=x64&appVersion=3.4.11&buildVersion=2.3.98528&traeVersionCode=20250325 304 Not Modified
+[90m[main 2026-11-01T02:45:14.221Z][0m [AhaIpcServer] broadcast new event event:DynamicConfigService.onDidUpdateConfig
+[90m[main 2026-11-01T02:45:14.226Z][0m [ICubeProcessManager] resolve CKG product policy from config { enabled: false, resolved: false }
+[90m[main 2026-11-01T02:45:14.233Z][0m [MainICubeAuthWatchManagementService] reconcileCheckTimer shouldRunTimer: false , authCheckIntervalMs -1
+[90m[main 2026-11-01T02:45:14.233Z][0m [MainGtmService] Loaded 2 conditions from dynamic config
+[90m[main 2026-11-01T02:45:14.241Z][0m [NetworkProxy] Using default system proxy mode without explicit proxy configuration
+[90m[main 2026-11-01T02:45:14.241Z][0m [NetworkProxy][SystemProxyDetection] Resolved system proxy status {
+  platform: 'linux',
+  source: 'env',
+  queryStatus: 'not_required',
+  result: 'configured',
+  reason: undefined
+}
+[Logsdk] [trace] report appid with 711126
+[Logsdk] [trace] Composed event {
+  id: 'qsk79sfov7o',
+  originatedBy: 'logsdk',
+  createdAt: 1793501114242,
+  event: {
+    server_time: 1793501115,
+    caller: '',
+    user: {
+      user_unique_id: '2574430945438160',
+      user_id: '0',
+      device_id: '2574430945438160',
+      user_is_login: false
+    },
+    header: {
+      custom: '{"icube_uid":"0","user_id":"0","biz_user_id":"0","user_is_login":false,"user_unique_id":"2574430945438160","device_id":"2574430945438160","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602","arch":"x64","system":"linux","scope":"unknown","build_version":"2.3.98528","vscode_version":"1.107.1","region":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"7a9027d4-82b7-474b-9a47-e613b3f3b1a8","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
+      app_id: 711126,
+      platform: 'electron',
+      os_name: 'linux',
+      tz_offset: -28800,
+      sdk_version: '3.0.12',
+      app_version: '3.4.11',
+      os_version: 'Ubuntu 24.04 LTS',
+      device_model: '',
+      language: 'en',
+      app_language: 'en'
+    },
+    events: [
+      {
+        event: 'native_ide_network_proxy_resolved',
+        params: '{"proxy_mode":"system","proxy_endpoint":"127.0.0.1:18080","bypass_list":""}',
+        time: 1793501115,
+        _staging_flag: undefined
+      },
+      [length]: 1
+    ]
+  }
+}
+[Logsdk.http] [trace] with channel domain https://mcs.zijieapi.com
+[Logsdk.http] [trace] new sent events [ 'qsk79sfov7o', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
+[Logsdk.http] [trace] queue drained, last sent 1
+[90m[main 2026-11-01T02:45:36.239Z][0m [UserStorage] no available persist userInfo to restore.
+[90m[main 2026-11-01T02:46:36.240Z][0m [UserStorage] no available persist userInfo to restore.
+[90m[main 2026-11-01T02:47:36.240Z][0m [UserStorage] no available persist userInfo to restore.
+[91m[main 2026-11-01T02:47:42.166Z][0m [MainICubeAuthManagementService] login failed with error Error: CloudIDETokenError:LoginTimeoutError
+    at Timeout._onTimeout (file:///usr/share/trae-cn/resources/app/out/main.js:1192:11277)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7)
+Error occurred in handler for 'vscode:sandbox::main-invoke-login': Error: CloudIDETokenError:LoginTimeoutError
+    at Timeout._onTimeout (file:///usr/share/trae-cn/resources/app/out/main.js:1192:11277)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7)
+[90m[main 2026-11-01T02:47:42.167Z][0m [MainICubeAuthManagementService] reportTeaEvent, app_id:  711126
+[Logsdk] [trace] report appid with 711126
+[Logsdk] [trace] Composed event {
+  id: 'j8a5kv3jrak',
+  originatedBy: 'logsdk',
+  createdAt: 1793501262168,
+  event: {
+    server_time: 1793501263,
+    caller: '',
+    user: {
+      user_unique_id: '2574430945438160',
+      user_id: '0',
+      device_id: '2574430945438160',
+      user_is_login: false
+    },
+    header: {
+      custom: '{"icube_uid":"0","user_id":"0","biz_user_id":"0","user_is_login":false,"user_unique_id":"2574430945438160","device_id":"2574430945438160","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602","arch":"x64","system":"linux","scope":"unknown","build_version":"2.3.98528","vscode_version":"1.107.1","region":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"7a9027d4-82b7-474b-9a47-e613b3f3b1a8","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
+      app_id: 711126,
+      platform: 'electron',
+      os_name: 'linux',
+      tz_offset: -28800,
+      sdk_version: '3.0.12',
+      app_version: '3.4.11',
+      os_version: 'Ubuntu 24.04 LTS',
+      device_model: '',
+      language: 'en',
+      app_language: 'en'
+    },
+    events: [
+      {
+        event: 'icube_login_failure',
+        params: '{"provider":"marscode","duration":1800010,"message":"CloudIDETokenError:LoginTimeoutError"}',
+        time: 1793501263,
+        _staging_flag: undefined
+      },
+      [length]: 1
+    ]
+  }
+}
+[Logsdk.http] [trace] with channel domain https://mcs.zijieapi.com
+[Logsdk.http] [trace] new sent events [ 'j8a5kv3jrak', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
+[Logsdk.http] [trace] queue drained, last sent 1
+[90m[main 2026-11-01T02:48:28.512Z][0m [UserStorage] no available persist userInfo to restore.
+[90m[main 2026-11-01T02:48:30.539Z][0m [UserStorage] no available persist userInfo to restore.
+[90m[main 2026-11-01T02:48:36.238Z][0m [UserStorage] no available persist userInfo to restore.
+[90m[main 2026-11-01T02:48:48.512Z][0m [UserStorage] no available persist userInfo to restore.
+[90m[main 2026-11-01T02:49:03.143Z][0m [MainICubeAuthManagementService] handleOpenLoginWindow
+[90m[main 2026-11-01T02:49:03.143Z][0m OAuthenticator#start a server to listen for oauth result
+[90m[main 2026-11-01T02:49:03.144Z][0m OAuthenticator#open oauth url Yinli
+[90m[main 2026-11-01T02:49:03.144Z][0m OAuthenticator# openLogin in port:  35063 3
+[90m[main 2026-11-01T02:49:03.144Z][0m [MainICubeAuthManagementService] reportTeaEvent, app_id:  711126
+[Logsdk] [trace] report appid with 711126
+[Logsdk] [trace] Composed event {
+  id: 'gtphv54u5t',
+  originatedBy: 'logsdk',
+  createdAt: 1793501343144,
+  event: {
+    server_time: 1793501344,
+    caller: '',
+    user: {
+      user_unique_id: '2574430945438160',
+      user_id: '0',
+      device_id: '2574430945438160',
+      user_is_login: false
+    },
+    header: {
+      custom: '{"icube_uid":"0","user_id":"0","biz_user_id":"0","user_is_login":false,"user_unique_id":"2574430945438160","device_id":"2574430945438160","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602","arch":"x64","system":"linux","scope":"unknown","build_version":"2.3.98528","vscode_version":"1.107.1","region":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"7a9027d4-82b7-474b-9a47-e613b3f3b1a8","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
+      app_id: 711126,
+      platform: 'electron',
+      os_name: 'linux',
+      tz_offset: -28800,
+      sdk_version: '3.0.12',
+      app_version: '3.4.11',
+      os_version: 'Ubuntu 24.04 LTS',
+      device_model: '',
+      language: 'en',
+      app_language: 'en'
+    },
+    events: [
+      {
+        event: 'icube_login_start',
+        params: '{"provider":"marscode"}',
+        time: 1793501344,
+        _staging_flag: undefined
+      },
+      [length]: 1
+    ]
+  }
+}
+[Logsdk.http] [trace] with channel domain https://mcs.zijieapi.com
+[90m[main 2026-11-01T02:49:03.146Z][0m OAuthenticator# openLogin getLoginUrl https://www.trae.cn/authorization?login_version=1&auth_from=trae&login_channel=native_ide&plugin_version=2.3.98528&auth_type=local&client_id=ono9krqynydwx5&redirect=0&login_trace_id=7274ddda-09ab-4e94-8827-7e76915a3396&auth_callback_url=http://127.0.0.1:35063/authorize&machine_id=e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602&device_id=2574430945438160&x_device_id=2574430945438160&x_machine_id=e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602&x_device_brand=&x_device_type=linux&x_os_version=Ubuntu%2024.04%20LTS&x_env=&x_app_version=3.4.11&x_app_type=stable&code_challenge=xXhFQpDWQGtub_OKIUIFKiDdeYEutelHnkIsk0u5f-U&code_challenge_method=S256&channel_name=common
+[90m[main 2026-11-01T02:49:03.155Z][0m NativeHostMainService#openBrowser success https://www.trae.cn/authorization?login_version=1&auth_from=trae&login_channel=native_ide&plugin_version=2.3.98528&auth_type=local&client_id=ono9krqynydwx5&redirect=0&login_trace_id=7274ddda-09ab-4e94-8827-7e76915a3396&auth_callback_url=http://127.0.0.1:35063/authorize&machine_id=e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602&device_id=2574430945438160&x_device_id=2574430945438160&x_machine_id=e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602&x_device_brand=&x_device_type=linux&x_os_version=Ubuntu%2024.04%20LTS&x_env=&x_app_version=3.4.11&x_app_type=stable&code_challenge=xXhFQpDWQGtub_OKIUIFKiDdeYEutelHnkIsk0u5f-U&code_challenge_method=S256&channel_name=common undefined undefined
+[Logsdk.http] [trace] new sent events [ 'gtphv54u5t', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
+[Logsdk.http] [trace] queue drained, last sent 1
+/usr/bin/xdg-open: 882: x-www-browser: not found
+/usr/bin/xdg-open: 882: firefox: not found
+/usr/bin/xdg-open: 882: iceweasel: not found
+/usr/bin/xdg-open: 882: seamonkey: not found
+/usr/bin/xdg-open: 882: mozilla: not found
+/usr/bin/xdg-open: 882: epiphany: not found
+/usr/bin/xdg-open: 882: konqueror: not found
+/usr/bin/xdg-open: 882: chromium: not found
+/usr/bin/xdg-open: 882: chromium-browser: not found
+/usr/bin/xdg-open: 882: google-chrome: not found
+/usr/bin/xdg-open: 882: www-browser: not found
+/usr/bin/xdg-open: 882: links2: not found
+/usr/bin/xdg-open: 882: elinks: not found
+/usr/bin/xdg-open: 882: links: not found
+/usr/bin/xdg-open: 882: lynx: not found
+/usr/bin/xdg-open: 882: w3m: not found
+xdg-open: no method available for opening 'https://www.trae.cn/authorization?login_version=1&auth_from=trae&login_channel=native_ide&plugin_version=2.3.98528&auth_type=local&client_id=ono9krqynydwx5&redirect=0&login_trace_id=7274ddda-09ab-4e94-8827-7e76915a3396&auth_callback_url=http://127.0.0.1:35063/authorize&machine_id=e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602&device_id=2574430945438160&x_device_id=2574430945438160&x_machine_id=e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602&x_device_brand=&x_device_type=linux&x_os_version=Ubuntu%2024.04%20LTS&x_env=&x_app_version=3.4.11&x_app_type=stable&code_challenge=xXhFQpDWQGtub_OKIUIFKiDdeYEutelHnkIsk0u5f-U&code_challenge_method=S256&channel_name=common'
+[90m[main 2026-11-01T02:49:04.160Z][0m [UserStorage] no available persist userInfo to restore.
