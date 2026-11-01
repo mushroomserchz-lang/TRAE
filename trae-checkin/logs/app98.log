@@ -3389,3 +3389,63 @@ Error occurred in handler for 'vscode:sandbox::main-invoke-login': Error: CloudI
 /usr/bin/xdg-open: 882: w3m: not found
 xdg-open: no method available for opening 'https://www.trae.cn/authorization?login_version=1&auth_from=trae&login_channel=native_ide&plugin_version=2.3.98528&auth_type=local&client_id=ono9krqynydwx5&redirect=0&login_trace_id=7274ddda-09ab-4e94-8827-7e76915a3396&auth_callback_url=http://127.0.0.1:35063/authorize&machine_id=e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602&device_id=2574430945438160&x_device_id=2574430945438160&x_machine_id=e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602&x_device_brand=&x_device_type=linux&x_os_version=Ubuntu%2024.04%20LTS&x_env=&x_app_version=3.4.11&x_app_type=stable&code_challenge=xXhFQpDWQGtub_OKIUIFKiDdeYEutelHnkIsk0u5f-U&code_challenge_method=S256&channel_name=common'
 [90m[main 2026-11-01T02:49:04.160Z][0m [UserStorage] no available persist userInfo to restore.
+[90m[main 2026-11-01T02:49:36.239Z][0m [UserStorage] no available persist userInfo to restore.
+[90m[main 2026-11-01T02:50:12.115Z][0m [BootService] network recheck triggered
+[AbstractNetworkChecker] setValue: isFirstSet=false, isChange=false, suppressFirstEvent=true, value="none", cachedValue="none"
+[AbstractNetworkChecker] no change, not firing event
+[AbstractNetworkChecker] setValue: isFirstSet=false, isChange=false, suppressFirstEvent=true, value=false, cachedValue=false
+[AbstractNetworkChecker] no change, not firing event
+[90m[main 2026-11-01T02:50:14.132Z][0m [AhaIpcServer] broadcast new event event:DynamicConfigService.onDidUpdateConfig
+[90m[main 2026-11-01T02:50:14.139Z][0m [ICubeProcessManager] resolve CKG product policy from config { enabled: false, resolved: false }
+[90m[main 2026-11-01T02:50:14.154Z][0m [MainICubeAuthWatchManagementService] reconcileCheckTimer shouldRunTimer: false , authCheckIntervalMs -1
+[90m[main 2026-11-01T02:50:14.154Z][0m [MainGtmService] Loaded 2 conditions from dynamic config
+[90m[main 2026-11-01T02:50:14.157Z][0m [NetworkProxy] Using default system proxy mode without explicit proxy configuration
+[90m[main 2026-11-01T02:50:14.158Z][0m [NetworkProxy][SystemProxyDetection] Resolved system proxy status {
+  platform: 'linux',
+  source: 'env',
+  queryStatus: 'not_required',
+  result: 'configured',
+  reason: undefined
+}
+[Logsdk] [trace] report appid with 711126
+[Logsdk] [trace] Composed event {
+  id: 'e20spmud1t',
+  originatedBy: 'logsdk',
+  createdAt: 1793501414158,
+  event: {
+    server_time: 1793501415,
+    caller: '',
+    user: {
+      user_unique_id: '2574430945438160',
+      user_id: '0',
+      device_id: '2574430945438160',
+      user_is_login: false
+    },
+    header: {
+      custom: '{"icube_uid":"0","user_id":"0","biz_user_id":"0","user_is_login":false,"user_unique_id":"2574430945438160","device_id":"2574430945438160","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"e4fe375d202a2b1d0b68a34ed3e468cf78a903d4032276403e4f7ebacf985602","arch":"x64","system":"linux","scope":"unknown","build_version":"2.3.98528","vscode_version":"1.107.1","region":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"7a9027d4-82b7-474b-9a47-e613b3f3b1a8","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
+      app_id: 711126,
+      platform: 'electron',
+      os_name: 'linux',
+      tz_offset: -28800,
+      sdk_version: '3.0.12',
+      app_version: '3.4.11',
+      os_version: 'Ubuntu 24.04 LTS',
+      device_model: '',
+      language: 'en',
+      app_language: 'en'
+    },
+    events: [
+      {
+        event: 'native_ide_network_proxy_resolved',
+        params: '{"proxy_mode":"system","proxy_endpoint":"127.0.0.1:18080","bypass_list":""}',
+        time: 1793501415,
+        _staging_flag: undefined
+      },
+      [length]: 1
+    ]
+  }
+}
+[Logsdk.http] [trace] with channel domain https://mcs.zijieapi.com
+[Logsdk.http] [trace] new sent events [ 'e20spmud1t', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
+[Logsdk.http] [trace] queue drained, last sent 1
+[90m[main 2026-11-01T02:50:36.239Z][0m [UserStorage] no available persist userInfo to restore.
