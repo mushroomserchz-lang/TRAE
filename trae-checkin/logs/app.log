@@ -1,19 +1,19 @@
 ProcessMonitor constructor
 No config file found
-(node:3649) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(node:3540) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
 (Use `trae-cn --trace-deprecation ...` to show where the warning was created)
-[90m[main 2026-11-01T13:25:01.555Z][0m Main->SharedProcess#connect
-[90m[main 2026-11-01T13:25:01.559Z][0m [SupabaseOAuthServiceImpl#constructor] Token save path: file:///home/trae/.config/Trae%20CN/User/supabase-token.json
-[90m[main 2026-11-01T13:25:01.565Z][0m SupabaseOAuthLocalServer#Found available port: 17788
-[90m[main 2026-11-01T13:25:01.568Z][0m [ICDRS] (constructor) did: 0, ldid: aha-91ebdad43358ed46b21e6ed919bd7e68, rdid: 0
-[90m[main 2026-11-01T13:25:01.569Z][0m [UserStorage] no available persist userInfo to restore.
-[90m[main 2026-11-01T13:25:01.580Z][0m [AhaIpcServer] ElectronAhaIpcServer registerService BootService
-[90m[main 2026-11-01T13:25:01.580Z][0m [AhaIpcServer] ElectronAhaIpcServer registerService DynamicConfigService
-[90m[main 2026-11-01T13:25:01.581Z][0m TRAE Config IPC Servers initialized
-[90m[main 2026-11-01T13:25:01.582Z][0m [GitBlameMainService] Proxy service constructed
-[90m[main 2026-11-01T13:25:01.582Z][0m [GitBlameMainService] Registering IPC handler for: vscode:sandbox::main-start-git-blame-analysis
-[90m[main 2026-11-01T13:25:01.582Z][0m [GitBlameMainService] IPC handlers registered
-[90m[main 2026-11-01T13:25:01.584Z][0m ICUBE:Linux:update#constructor -> LinuxUpdateService initialized {
+[90m[main 2026-11-01T23:12:18.139Z][0m Main->SharedProcess#connect
+[90m[main 2026-11-01T23:12:18.144Z][0m [SupabaseOAuthServiceImpl#constructor] Token save path: file:///home/trae/.config/Trae%20CN/User/supabase-token.json
+[90m[main 2026-11-01T23:12:18.150Z][0m SupabaseOAuthLocalServer#Found available port: 17788
+[90m[main 2026-11-01T23:12:18.153Z][0m [ICDRS] (constructor) did: 0, ldid: aha-91ebdad43358ed46b21e6ed919bd7e68, rdid: 0
+[90m[main 2026-11-01T23:12:18.154Z][0m [UserStorage] no available persist userInfo to restore.
+[90m[main 2026-11-01T23:12:18.167Z][0m [AhaIpcServer] ElectronAhaIpcServer registerService BootService
+[90m[main 2026-11-01T23:12:18.167Z][0m [AhaIpcServer] ElectronAhaIpcServer registerService DynamicConfigService
+[90m[main 2026-11-01T23:12:18.167Z][0m TRAE Config IPC Servers initialized
+[90m[main 2026-11-01T23:12:18.169Z][0m [GitBlameMainService] Proxy service constructed
+[90m[main 2026-11-01T23:12:18.169Z][0m [GitBlameMainService] Registering IPC handler for: vscode:sandbox::main-start-git-blame-analysis
+[90m[main 2026-11-01T23:12:18.169Z][0m [GitBlameMainService] IPC handlers registered
+[90m[main 2026-11-01T23:12:18.171Z][0m ICUBE:Linux:update#constructor -> LinuxUpdateService initialized {
   platform: 'linux',
   isBuilt: true,
   disableUpdates: false,
@@ -21,20 +21,20 @@ No config file found
   productVersion: '1.107.1',
   tronBuildVersion: '2.3.98528'
 }
-[90m[main 2026-11-01T13:25:01.588Z][0m [FloatingChat] Restoring state: undefined
-[90m[main 2026-11-01T13:25:01.590Z][0m [NetworkQualityMainService] Initialized, listening for network quality events
-[90m[main 2026-11-01T13:25:01.590Z][0m [WidgetSandbox:main] WidgetSandboxServiceImpl constructed
-[90m[main 2026-11-01T13:25:01.595Z][0m [NetworkProxy] Proxy mode changed { previousMode: undefined, mode: 'system' }
-[90m[main 2026-11-01T13:25:01.595Z][0m lifecycle (main): phase changed (value: 2)
-[90m[main 2026-11-01T13:25:01.596Z][0m [iCubeCrawler] PolicyProvider initialized with 34 blocked hostnames and 34 wildcard patterns (user configured: 0 patterns)
-[90m[main 2026-11-01T13:25:01.597Z][0m [iCubeCrawler] Crawler task pool initialized, maxSize: 1, cpuCount: 3
-[90m[main 2026-11-01T13:25:01.598Z][0m [iCubeCrawler] PolicyProvider initialized with 34 blocked hostnames and 34 wildcard patterns (user configured: 0 patterns)
-[90m[main 2026-11-01T13:25:01.598Z][0m [iCubeCrawler] WebSearch crawler task pool initialized, maxSize: 3, cpuCount: 3
-[90m[main 2026-11-01T13:25:01.599Z][0m [MainICubeAuthWatchManagementService] reconcileCheckTimer shouldRunTimer: false , authCheckIntervalMs -1
-[90m[main 2026-11-01T13:25:01.600Z][0m [iCubeProcessExplorerService] starting FD monitor: interval=30000, threshold=0.9
-[90m[main 2026-11-01T13:25:01.602Z][0m [NetworkProxy] Using default system proxy mode without explicit proxy configuration
-[90m[main 2026-11-01T13:25:01.603Z][0m [UserStorage] no available persist userInfo to restore.
-[90m[main 2026-11-01T13:25:01.604Z][0m [MainGtmService] [gtm-force-hidden] settings_read {
+[90m[main 2026-11-01T23:12:18.175Z][0m [FloatingChat] Restoring state: undefined
+[90m[main 2026-11-01T23:12:18.176Z][0m [NetworkQualityMainService] Initialized, listening for network quality events
+[90m[main 2026-11-01T23:12:18.177Z][0m [WidgetSandbox:main] WidgetSandboxServiceImpl constructed
+[90m[main 2026-11-01T23:12:18.181Z][0m [NetworkProxy] Proxy mode changed { previousMode: undefined, mode: 'system' }
+[90m[main 2026-11-01T23:12:18.182Z][0m lifecycle (main): phase changed (value: 2)
+[90m[main 2026-11-01T23:12:18.183Z][0m [iCubeCrawler] PolicyProvider initialized with 34 blocked hostnames and 34 wildcard patterns (user configured: 0 patterns)
+[90m[main 2026-11-01T23:12:18.183Z][0m [iCubeCrawler] Crawler task pool initialized, maxSize: 1, cpuCount: 3
+[90m[main 2026-11-01T23:12:18.184Z][0m [iCubeCrawler] PolicyProvider initialized with 34 blocked hostnames and 34 wildcard patterns (user configured: 0 patterns)
+[90m[main 2026-11-01T23:12:18.184Z][0m [iCubeCrawler] WebSearch crawler task pool initialized, maxSize: 3, cpuCount: 3
+[90m[main 2026-11-01T23:12:18.184Z][0m [MainICubeAuthWatchManagementService] reconcileCheckTimer shouldRunTimer: false , authCheckIntervalMs -1
+[90m[main 2026-11-01T23:12:18.185Z][0m [iCubeProcessExplorerService] starting FD monitor: interval=30000, threshold=0.9
+[90m[main 2026-11-01T23:12:18.188Z][0m [NetworkProxy] Using default system proxy mode without explicit proxy configuration
+[90m[main 2026-11-01T23:12:18.189Z][0m [UserStorage] no available persist userInfo to restore.
+[90m[main 2026-11-01T23:12:18.189Z][0m [MainGtmService] [gtm-force-hidden] settings_read {
   source: 'initialize',
   key: 'gtm.dialog.forceHidden',
   rawType: 'boolean',
@@ -42,24 +42,24 @@ No config file found
   normalized: false,
   previous: false
 }
-[90m[main 2026-11-01T13:25:01.605Z][0m [MainICubeAuthManagementService] registerListeners
-[90m[main 2026-11-01T13:25:01.606Z][0m [NetworkProxy][SystemProxyDetection] Resolved system proxy status {
+[90m[main 2026-11-01T23:12:18.190Z][0m [MainICubeAuthManagementService] registerListeners
+[90m[main 2026-11-01T23:12:18.191Z][0m [NetworkProxy][SystemProxyDetection] Resolved system proxy status {
   platform: 'linux',
   source: 'env',
   queryStatus: 'not_required',
   result: 'configured',
   reason: undefined
 }
-[90m[main 2026-11-01T13:25:01.607Z][0m getStoreRegion { countryCode: '', countryCodeSrc: 'did', region: 'CN' }
-[93m[main 2026-11-01T13:25:01.621Z][0m [MainGtmService] [switch_cn_billing_version] pay_status_evaluated { billingState: 'missing', billingField: 'unavailable' }
-[93m[main 2026-11-01T13:25:01.622Z][0m [MainGtmService] [switch_cn_billing_version] trigger_skipped_invalid_state { billingState: 'missing' }
-[90m[main 2026-11-01T13:25:01.623Z][0m [Startup] check setup state INIT
-[90m[main 2026-11-01T13:25:01.630Z][0m [UserStorage] no available persist userInfo to restore.
-dbus-daemon[3648]: [session uid=1001 pid=3648] Activating service name='org.a11y.Bus' requested by ':1.2' (uid=1001 pid=3649 comm="/usr/share/trae-cn/trae-cn --no-sandbox --disable-")
-dbus-daemon[3648]: [session uid=1001 pid=3648] Successfully activated service 'org.a11y.Bus'
-[90m[main 2026-11-01T13:25:01.707Z][0m [app] web-contents-created type: window id: 1 url: 
-[90m[main 2026-11-01T13:25:01.744Z][0m [MainICubeSetupManagementService] new window to load setupMain.html
-[90m[main 2026-11-01T13:25:01.760Z][0m ICUBE:Linux:update#detectLinuxDistribution -> Reading /etc/os-release {
+[90m[main 2026-11-01T23:12:18.191Z][0m getStoreRegion { countryCode: '', countryCodeSrc: 'did', region: 'CN' }
+[93m[main 2026-11-01T23:12:18.206Z][0m [MainGtmService] [switch_cn_billing_version] pay_status_evaluated { billingState: 'missing', billingField: 'unavailable' }
+[93m[main 2026-11-01T23:12:18.206Z][0m [MainGtmService] [switch_cn_billing_version] trigger_skipped_invalid_state { billingState: 'missing' }
+[90m[main 2026-11-01T23:12:18.207Z][0m [Startup] check setup state INIT
+[90m[main 2026-11-01T23:12:18.215Z][0m [UserStorage] no available persist userInfo to restore.
+dbus-daemon[3539]: [session uid=1001 pid=3539] Activating service name='org.a11y.Bus' requested by ':1.2' (uid=1001 pid=3540 comm="/usr/share/trae-cn/trae-cn --no-sandbox --disable-")
+dbus-daemon[3539]: [session uid=1001 pid=3539] Successfully activated service 'org.a11y.Bus'
+[90m[main 2026-11-01T23:12:18.286Z][0m [app] web-contents-created type: window id: 1 url: 
+[90m[main 2026-11-01T23:12:18.315Z][0m [MainICubeSetupManagementService] new window to load setupMain.html
+[90m[main 2026-11-01T23:12:18.335Z][0m ICUBE:Linux:update#detectLinuxDistribution -> Reading /etc/os-release {
   content: 'PRETTY_NAME="Ubuntu 24.04 LTS"\n' +
     'NAME="Ubuntu"\n' +
     'VERSION_ID="24.04"\n' +
@@ -70,23 +70,25 @@ dbus-daemon[3648]: [session uid=1001 pid=3648] Successfully activated service 'o
     'HOME_URL="https://www.ubuntu.com/"\n' +
     'SUPPORT_URL="https'
 }
-[90m[main 2026-11-01T13:25:01.760Z][0m ICUBE:Linux:update#detectLinuxDistribution -> Detected Debian-based system
-[90m[main 2026-11-01T13:25:02.010Z][0m setup page getTheme Light
-[90m[main 2026-11-01T13:25:02.014Z][0m getStoreRegion { countryCode: '', countryCodeSrc: 'did', region: 'CN' }
-[90m[main 2026-11-01T13:25:02.016Z][0m [UserStorage] no available persist userInfo to restore.
-[90m[main 2026-11-01T13:25:02.019Z][0m getStoreRegion { countryCode: '', countryCodeSrc: 'did', region: 'CN' }
-[90m[main 2026-11-01T13:25:02.057Z][0m [ICDRS] (init) resolve rdid: 3471632598865673
-[90m[main 2026-11-01T13:25:02.058Z][0m [ICDRS] (init) initialization done, did: 3471632598865673, ldid: aha-91ebdad43358ed46b21e6ed919bd7e68, rdid: 3471632598865673
+[90m[main 2026-11-01T23:12:18.336Z][0m ICUBE:Linux:update#detectLinuxDistribution -> Detected Debian-based system
+[90m[main 2026-11-01T23:12:18.550Z][0m setup page getTheme Light
+[90m[main 2026-11-01T23:12:18.553Z][0m getStoreRegion { countryCode: '', countryCodeSrc: 'did', region: 'CN' }
+[90m[main 2026-11-01T23:12:18.554Z][0m [UserStorage] no available persist userInfo to restore.
+[90m[main 2026-11-01T23:12:18.555Z][0m getStoreRegion { countryCode: '', countryCodeSrc: 'did', region: 'CN' }
+[90m[main 2026-11-01T23:12:18.597Z][0m [ICDRS] (init) resolve rdid: 2292956278576539
+[90m[main 2026-11-01T23:12:18.599Z][0m [ICDRS] (init) initialization done, did: 2292956278576539, ldid: aha-91ebdad43358ed46b21e6ed919bd7e68, rdid: 2292956278576539
 [AbstractNetworkChecker] setValue: isFirstSet=true, isChange=true, suppressFirstEvent=true, value=false, cachedValue=undefined
 [AbstractNetworkChecker] suppressing first event
-[91m[main 2026-11-01T13:25:02.620Z][0m [cdnLocation] all cdn check endpoints failed [Error [AggregateError]: All promises were rejected]
+[91m[main 2026-11-01T23:12:19.201Z][0m [cdnLocation] all cdn check endpoints failed [Error [AggregateError]: All promises were rejected]
 [AbstractNetworkChecker] setValue: isFirstSet=true, isChange=true, suppressFirstEvent=true, value="none", cachedValue=undefined
 [AbstractNetworkChecker] suppressing first event
 [AbstractNetworkChecker] setValue: isFirstSet=false, isChange=false, suppressFirstEvent=true, value=false, cachedValue=false
 [AbstractNetworkChecker] no change, not firing event
-[90m[main 2026-11-01T13:25:03.634Z][0m ttnet fetch request https://api.trae.com.cn/icube/api/v1/native/config/query?mid=adec9dfaced948ba9893314a0f9e4ddd0caeabe44c226e4a7e84a38c1194d3d2&did=3471632598865673&packageType=stable_cn&productCode=TRAE&platform=Linux&branch=release_desktop_yoma_linux_cn&arch=x64&appVersion=3.4.11&buildVersion=2.3.98528&traeVersionCode=20250325
-[90m[main 2026-11-01T13:25:03.638Z][0m getStoreRegion { countryCode: '', countryCodeSrc: 'did', region: 'CN' }
-[90m[main 2026-11-01T13:25:03.642Z][0m [icubeEventReportSerice] register slardar clientType instanceId---- slardar trae_cn
+[AbstractNetworkChecker] setValue: isFirstSet=false, isChange=false, suppressFirstEvent=true, value="none", cachedValue="none"
+[AbstractNetworkChecker] no change, not firing event
+[90m[main 2026-11-01T23:12:20.219Z][0m ttnet fetch request https://api.trae.com.cn/icube/api/v1/native/config/query?mid=96854e511969dcd7c5a57498452188efca0fbe71d8ca6037570b179d7f0a5221&did=2292956278576539&packageType=stable_cn&productCode=TRAE&platform=Linux&branch=release_desktop_yoma_linux_cn&arch=x64&appVersion=3.4.11&buildVersion=2.3.98528&traeVersionCode=20250325
+[90m[main 2026-11-01T23:12:20.224Z][0m getStoreRegion { countryCode: '', countryCodeSrc: 'did', region: 'CN' }
+[90m[main 2026-11-01T23:12:20.227Z][0m [icubeEventReportSerice] register slardar clientType instanceId---- slardar trae_cn
 [Logsdk] [trace] initialized success with options {
   logLevel: 'verbose',
   retry: 5,
@@ -129,28 +131,28 @@ dbus-daemon[3648]: [session uid=1001 pid=3648] Successfully activated service 'o
   app_language: 'en'
 }
 [Logsdk] [trace] Re-configure user with {
-  user_unique_id: '3471632598865673',
+  user_unique_id: '2292956278576539',
   user_id: '0',
-  device_id: '3471632598865673',
+  device_id: '2292956278576539',
   user_is_login: false
 }
-[90m[main 2026-11-01T13:25:03.645Z][0m [icubeEventReportSerice] register tea clientType app_id---- tea 711126
+[90m[main 2026-11-01T23:12:20.229Z][0m [icubeEventReportSerice] register tea clientType app_id---- tea 711126
 [Logsdk] [trace] report appid with 711126
 [Logsdk] [trace] Composed event {
-  id: 'hmfkjae59t8',
+  id: 'dgvk61j166o',
   originatedBy: 'logsdk',
-  createdAt: 1793539503646,
+  createdAt: 1793574740230,
   event: {
-    server_time: 1793539504,
+    server_time: 1793574741,
     caller: '',
     user: {
-      user_unique_id: '3471632598865673',
+      user_unique_id: '2292956278576539',
       user_id: '0',
-      device_id: '3471632598865673',
+      device_id: '2292956278576539',
       user_is_login: false
     },
     header: {
-      custom: '{"icube_uid":"0","user_id":"0","biz_user_id":"0","user_is_login":false,"user_unique_id":"3471632598865673","device_id":"3471632598865673","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"adec9dfaced948ba9893314a0f9e4ddd0caeabe44c226e4a7e84a38c1194d3d2","arch":"x64","system":"linux","scope":"unknown","build_version":"2.3.98528","vscode_version":"1.107.1","region":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"dd90bf49-2887-490b-9227-c1dfd4b4dccf","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
+      custom: '{"icube_uid":"0","user_id":"0","biz_user_id":"0","user_is_login":false,"user_unique_id":"2292956278576539","device_id":"2292956278576539","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"96854e511969dcd7c5a57498452188efca0fbe71d8ca6037570b179d7f0a5221","arch":"x64","system":"linux","scope":"unknown","build_version":"2.3.98528","vscode_version":"1.107.1","region":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"f910b20e-a241-4d05-8fdf-8a69690af8e2","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
       app_id: 711126,
       platform: 'electron',
       os_name: 'linux',
@@ -166,7 +168,7 @@ dbus-daemon[3648]: [session uid=1001 pid=3648] Successfully activated service 'o
       {
         event: 'native_ide_installed',
         params: '{"action":"first_install"}',
-        time: 1793539504,
+        time: 1793574741,
         _staging_flag: undefined
       },
       [length]: 1
@@ -176,20 +178,20 @@ dbus-daemon[3648]: [session uid=1001 pid=3648] Successfully activated service 'o
 [Logsdk.http] [trace] with channel domain https://mcs.zijieapi.com
 [Logsdk] [trace] report appid with 711126
 [Logsdk] [trace] Composed event {
-  id: 's4re3vol3m8',
+  id: 'tdidm51ofmk',
   originatedBy: 'logsdk',
-  createdAt: 1793539503648,
+  createdAt: 1793574740233,
   event: {
-    server_time: 1793539504,
+    server_time: 1793574741,
     caller: '',
     user: {
-      user_unique_id: '3471632598865673',
+      user_unique_id: '2292956278576539',
       user_id: '0',
-      device_id: '3471632598865673',
+      device_id: '2292956278576539',
       user_is_login: false
     },
     header: {
-      custom: '{"icube_uid":"0","user_id":"0","biz_user_id":"0","user_is_login":false,"user_unique_id":"3471632598865673","device_id":"3471632598865673","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"adec9dfaced948ba9893314a0f9e4ddd0caeabe44c226e4a7e84a38c1194d3d2","arch":"x64","system":"linux","scope":"unknown","build_version":"2.3.98528","vscode_version":"1.107.1","region":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"dd90bf49-2887-490b-9227-c1dfd4b4dccf","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
+      custom: '{"icube_uid":"0","user_id":"0","biz_user_id":"0","user_is_login":false,"user_unique_id":"2292956278576539","device_id":"2292956278576539","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"96854e511969dcd7c5a57498452188efca0fbe71d8ca6037570b179d7f0a5221","arch":"x64","system":"linux","scope":"unknown","build_version":"2.3.98528","vscode_version":"1.107.1","region":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"f910b20e-a241-4d05-8fdf-8a69690af8e2","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
       app_id: 711126,
       platform: 'electron',
       os_name: 'linux',
@@ -205,89 +207,85 @@ dbus-daemon[3648]: [session uid=1001 pid=3648] Successfully activated service 'o
       {
         event: 'native_ide_network_proxy_resolved',
         params: '{"proxy_mode":"system","proxy_endpoint":"127.0.0.1:18080","bypass_list":""}',
-        time: 1793539504,
+        time: 1793574741,
         _staging_flag: undefined
       },
       [length]: 1
     ]
   }
 }
-[90m[main 2026-11-01T13:25:03.674Z][0m [AhaIpcServer] broadcast new event event:BootService.onDidBootConfigChanged
+[90m[main 2026-11-01T23:12:20.259Z][0m [AhaIpcServer] broadcast new event event:BootService.onDidBootConfigChanged
 [BootService] broadcastToAllCodeWindows, channel: vscode:main::sandbox-boot-config-change windowCount: 0
-[90m[main 2026-11-01T13:25:03.675Z][0m enter node enviroment
-[Logsdk.http] [trace] new sent events [ 'hmfkjae59t8', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
+[90m[main 2026-11-01T23:12:20.259Z][0m enter node enviroment
+[90m[main 2026-11-01T23:12:20.324Z][0m ttnet fetch response https://api.trae.com.cn/icube/api/v1/native/config/query?mid=96854e511969dcd7c5a57498452188efca0fbe71d8ca6037570b179d7f0a5221&did=2292956278576539&packageType=stable_cn&productCode=TRAE&platform=Linux&branch=release_desktop_yoma_linux_cn&arch=x64&appVersion=3.4.11&buildVersion=2.3.98528&traeVersionCode=20250325 200 OK
+[Logsdk.http] [trace] new sent events [ 'dgvk61j166o', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
 [Logsdk.http] [trace] with channel domain https://mcs.zijieapi.com
-[AbstractNetworkChecker] setValue: isFirstSet=false, isChange=false, suppressFirstEvent=true, value="none", cachedValue="none"
-[AbstractNetworkChecker] no change, not firing event
-[90m[main 2026-11-01T13:25:03.836Z][0m ttnet fetch response https://api.trae.com.cn/icube/api/v1/native/config/query?mid=adec9dfaced948ba9893314a0f9e4ddd0caeabe44c226e4a7e84a38c1194d3d2&did=3471632598865673&packageType=stable_cn&productCode=TRAE&platform=Linux&branch=release_desktop_yoma_linux_cn&arch=x64&appVersion=3.4.11&buildVersion=2.3.98528&traeVersionCode=20250325 200 OK
-[Logsdk.http] [trace] new sent events [ 's4re3vol3m8', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
-[Logsdk.http] [trace] queue drained, last sent 1
-[90m[main 2026-11-01T13:25:03.936Z][0m [AhaIpcServer] broadcast new event event:DynamicConfigService.onDidUpdateConfig
-[90m[main 2026-11-01T13:25:03.937Z][0m [ICubeProcessManager] resolve CKG product policy from config { enabled: false, resolved: false }
-[90m[main 2026-11-01T13:25:03.937Z][0m [MainICubeAuthWatchManagementService] reconcileCheckTimer shouldRunTimer: false , authCheckIntervalMs -1
-[90m[main 2026-11-01T13:25:03.938Z][0m [MainGtmService] Loaded 2 conditions from dynamic config
-[90m[main 2026-11-01T13:25:03.939Z][0m [AhaIpcServer] broadcast new event event:DynamicConfigService.onDidUpdateMFConfig
-[90m[main 2026-11-01T13:25:03.944Z][0m [MainGtmService] Loaded 2 conditions from dynamic config
-[90m[main 2026-11-01T13:25:03.945Z][0m [NetworkProxy] Using default system proxy mode without explicit proxy configuration
-[90m[main 2026-11-01T13:25:03.945Z][0m [ICubeProcessManager] resolved initial CKG product policy { enabled: false, identityAware: false }
-[90m[main 2026-11-01T13:25:03.947Z][0m [ICubeProcessManager] startup environment resolved {
+[90m[main 2026-11-01T23:12:20.368Z][0m [AhaIpcServer] broadcast new event event:DynamicConfigService.onDidUpdateConfig
+[90m[main 2026-11-01T23:12:20.368Z][0m [ICubeProcessManager] resolve CKG product policy from config { enabled: false, resolved: false }
+[90m[main 2026-11-01T23:12:20.369Z][0m [MainICubeAuthWatchManagementService] reconcileCheckTimer shouldRunTimer: false , authCheckIntervalMs -1
+[90m[main 2026-11-01T23:12:20.369Z][0m [MainGtmService] Loaded 2 conditions from dynamic config
+[90m[main 2026-11-01T23:12:20.370Z][0m [AhaIpcServer] broadcast new event event:DynamicConfigService.onDidUpdateMFConfig
+[90m[main 2026-11-01T23:12:20.374Z][0m [MainGtmService] Loaded 2 conditions from dynamic config
+[90m[main 2026-11-01T23:12:20.374Z][0m [NetworkProxy] Using default system proxy mode without explicit proxy configuration
+[90m[main 2026-11-01T23:12:20.374Z][0m [ICubeProcessManager] resolved initial CKG product policy { enabled: false, identityAware: false }
+[90m[main 2026-11-01T23:12:20.380Z][0m [ICubeProcessManager] startup environment resolved {
   isRemote: false,
   isProduct: true,
   enableHarness: true,
   enableSingletonCueServer: false,
   enableCkgAhaRequest: false
 }
-[90m[main 2026-11-01T13:25:03.947Z][0m [ICubeProcessManager] process manager initialized {
+[90m[main 2026-11-01T23:12:20.380Z][0m [ICubeProcessManager] process manager initialized {
   moduleName: 'ai-agent',
   isRemote: false,
   isProduct: true,
   enableHarness: true
 }
-[90m[main 2026-11-01T13:25:03.949Z][0m [ICubeProcessManager] process manager initialized {
+[90m[main 2026-11-01T23:12:20.382Z][0m [ICubeProcessManager] process manager initialized {
   moduleName: 'ckg',
   isRemote: false,
   isProduct: true,
   enableHarness: true
 }
-[90m[main 2026-11-01T13:25:03.949Z][0m [ICubeProcessManager] process manager initialized {
+[90m[main 2026-11-01T23:12:20.382Z][0m [ICubeProcessManager] process manager initialized {
   moduleName: 'libtoolhost',
   isRemote: false,
   isProduct: true,
   enableHarness: true
 }
-[90m[main 2026-11-01T13:25:03.949Z][0m [ICubeProcessManager] process manager initialized {
+[90m[main 2026-11-01T23:12:20.383Z][0m [ICubeProcessManager] process manager initialized {
   moduleName: 'cue-server',
   isRemote: false,
   isProduct: true,
   enableHarness: true
 }
-[90m[main 2026-11-01T13:25:03.949Z][0m [ICubeProcessManager] CKG product policy changed, enabled: false
-[90m[main 2026-11-01T13:25:03.950Z][0m [NetworkProxy][SystemProxyDetection] Resolved system proxy status {
+[90m[main 2026-11-01T23:12:20.383Z][0m [ICubeProcessManager] CKG product policy changed, enabled: false
+[90m[main 2026-11-01T23:12:20.383Z][0m [NetworkProxy][SystemProxyDetection] Resolved system proxy status {
   platform: 'linux',
   source: 'env',
   queryStatus: 'not_required',
   result: 'configured',
   reason: undefined
 }
-[90m[main 2026-11-01T13:25:03.950Z][0m ttnet fetch request https://api.trae.com.cn/icube/api/v1/native/config/query?mid=adec9dfaced948ba9893314a0f9e4ddd0caeabe44c226e4a7e84a38c1194d3d2&did=3471632598865673&packageType=stable_cn&productCode=TRAE&platform=Linux&branch=release_desktop_yoma_linux_cn&arch=x64&appVersion=3.4.11&buildVersion=2.3.98528&traeVersionCode=20250325
-[90m[main 2026-11-01T13:25:03.951Z][0m [AhaRpcClient] ahaIpc connected: ai-agent
-[90m[main 2026-11-01T13:25:03.951Z][0m [ICubeProcessManager] start
+[90m[main 2026-11-01T23:12:20.384Z][0m ttnet fetch request https://api.trae.com.cn/icube/api/v1/native/config/query?mid=96854e511969dcd7c5a57498452188efca0fbe71d8ca6037570b179d7f0a5221&did=2292956278576539&packageType=stable_cn&productCode=TRAE&platform=Linux&branch=release_desktop_yoma_linux_cn&arch=x64&appVersion=3.4.11&buildVersion=2.3.98528&traeVersionCode=20250325
+[90m[main 2026-11-01T23:12:20.385Z][0m [AhaRpcClient] ahaIpc connected: ai-agent
+[90m[main 2026-11-01T23:12:20.386Z][0m [ICubeProcessManager] start
 [Logsdk] [trace] report appid with 711126
 [Logsdk] [trace] Composed event {
-  id: 'inaqbsnoeu8',
+  id: 'btaofc0sn1k',
   originatedBy: 'logsdk',
-  createdAt: 1793539503952,
+  createdAt: 1793574740386,
   event: {
-    server_time: 1793539504,
+    server_time: 1793574741,
     caller: '',
     user: {
-      user_unique_id: '3471632598865673',
+      user_unique_id: '2292956278576539',
       user_id: '0',
-      device_id: '3471632598865673',
+      device_id: '2292956278576539',
       user_is_login: false
     },
     header: {
-      custom: '{"icube_uid":"0","user_id":"0","biz_user_id":"0","user_is_login":false,"user_unique_id":"3471632598865673","device_id":"3471632598865673","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"adec9dfaced948ba9893314a0f9e4ddd0caeabe44c226e4a7e84a38c1194d3d2","arch":"x64","system":"linux","scope":"unknown","build_version":"2.3.98528","vscode_version":"1.107.1","region":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"dd90bf49-2887-490b-9227-c1dfd4b4dccf","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
+      custom: '{"icube_uid":"0","user_id":"0","biz_user_id":"0","user_is_login":false,"user_unique_id":"2292956278576539","device_id":"2292956278576539","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"96854e511969dcd7c5a57498452188efca0fbe71d8ca6037570b179d7f0a5221","arch":"x64","system":"linux","scope":"unknown","build_version":"2.3.98528","vscode_version":"1.107.1","region":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"f910b20e-a241-4d05-8fdf-8a69690af8e2","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
       app_id: 711126,
       platform: 'electron',
       os_name: 'linux',
@@ -303,86 +301,86 @@ dbus-daemon[3648]: [session uid=1001 pid=3648] Successfully activated service 'o
       {
         event: 'native_ide_network_proxy_resolved',
         params: '{"proxy_mode":"system","proxy_endpoint":"127.0.0.1:18080","bypass_list":""}',
-        time: 1793539504,
+        time: 1793574741,
         _staging_flag: undefined
       },
       [length]: 1
     ]
   }
 }
-[Logsdk.http] [trace] with channel domain https://mcs.zijieapi.com
-[90m[main 2026-11-01T13:25:03.954Z][0m [ICubeProcessManager] useIpv6: false
-[90m[main 2026-11-01T13:25:03.956Z][0m [ICubeProcessManager] get free port 51000
-[90m[main 2026-11-01T13:25:03.957Z][0m [LibToolhostProcessManager] baseDir: /usr/share/trae-cn/resources/app
-[90m[main 2026-11-01T13:25:03.957Z][0m [LibToolhostProcessManager] dylibPath: /usr/share/trae-cn/resources/app/modules/ai-agent/libtoolhost.so
-[90m[main 2026-11-01T13:25:03.957Z][0m [LibToolhostProcessManager] ctxCliPath: /usr/share/trae-cn/resources/app/modules/ai-agent/bin/ctx-cli
-[90m[main 2026-11-01T13:25:03.957Z][0m [LibToolhostProcessManager] ctxCliIpcName: /tmp/vscode-ipc-779860c2-6e72-45d5-b55e-51b9ebc24bb7.sock
-[90m[main 2026-11-01T13:25:03.958Z][0m baseDir /usr/share/trae-cn/resources/app
-[90m[main 2026-11-01T13:25:03.958Z][0m dylibPath /usr/share/trae-cn/resources/app/modules/ai-agent/libharness.so
-[90m[main 2026-11-01T13:25:03.958Z][0m [AIAgentProcessManager] selected artifact {
+[90m[main 2026-11-01T23:12:20.387Z][0m [ICubeProcessManager] useIpv6: false
+[90m[main 2026-11-01T23:12:20.389Z][0m [ICubeProcessManager] get free port 51000
+[90m[main 2026-11-01T23:12:20.389Z][0m [LibToolhostProcessManager] baseDir: /usr/share/trae-cn/resources/app
+[90m[main 2026-11-01T23:12:20.389Z][0m [LibToolhostProcessManager] dylibPath: /usr/share/trae-cn/resources/app/modules/ai-agent/libtoolhost.so
+[90m[main 2026-11-01T23:12:20.389Z][0m [LibToolhostProcessManager] ctxCliPath: /usr/share/trae-cn/resources/app/modules/ai-agent/bin/ctx-cli
+[90m[main 2026-11-01T23:12:20.389Z][0m [LibToolhostProcessManager] ctxCliIpcName: /tmp/vscode-ipc-a81319f8-8594-45d4-8e8b-07ae9657fa4d.sock
+[90m[main 2026-11-01T23:12:20.390Z][0m baseDir /usr/share/trae-cn/resources/app
+[90m[main 2026-11-01T23:12:20.390Z][0m dylibPath /usr/share/trae-cn/resources/app/modules/ai-agent/libharness.so
+[90m[main 2026-11-01T23:12:20.390Z][0m [AIAgentProcessManager] selected artifact {
   implementation: 'harness',
   enableHarness: true,
   product: 'desktop',
   artifactPath: '/usr/share/trae-cn/resources/app/modules/ai-agent/libharness.so',
   isRemote: false
 }
-[90m[main 2026-11-01T13:25:03.980Z][0m [ICubeProcessManager] libtoolhost starting {
+[90m[main 2026-11-01T23:12:20.392Z][0m [ICubeProcessManager] libtoolhost starting {
   name: 'libtoolhost',
   type: 'lib',
   path: '/usr/share/trae-cn/resources/app/modules/ai-agent/libtoolhost.so',
-  stdoutFilePath: '/home/trae/.config/Trae CN/logs/20261101T212501/Modular/libtoolhost_0_1793539503958_stdout.log',
-  stderrFilePath: '/home/trae/.config/Trae CN/logs/20261101T212501/Modular/libtoolhost_0_1793539503958_stderr.log',
+  stdoutFilePath: '/home/trae/.config/Trae CN/logs/20261102T071218/Modular/libtoolhost_0_1793574740389_stdout.log',
+  stderrFilePath: '/home/trae/.config/Trae CN/logs/20261102T071218/Modular/libtoolhost_0_1793574740389_stderr.log',
   startCount: 0,
   useIpv6: false
 }
-[90m[main 2026-11-01T13:25:03.988Z][0m [AIAgentProcessManager] startup env summary {"isSoloLiteMode":false,"hasUserEnv":false,"userEnvKeyCount":0,"userEnvKeys":[],"parentPath":{"present":true,"segmentCount":7,"head":["/usr/local/sbin","/usr/local/bin","/usr/sbin","/usr/bin"],"tail":["/usr/bin","/sbin","/bin","/snap/bin"]},"userEnvPath":{"present":false,"segmentCount":0,"head":[],"tail":[]},"finalAiAgentPath":{"present":true,"segmentCount":8,"head":["/usr/local/sbin","/usr/local/bin","/usr/sbin","/usr/bin"],"tail":["/sbin","/bin","/snap/bin","/usr/share/trae-cn/resources/app/bin/lib"]},"dllLibDir":"/usr/share/trae-cn/resources/app/bin/lib","toolhostPathSuffix":"/usr/share/trae-cn/resources/app/node_modules/@vscode/ripgrep/bin","toolhostTransport":"ipc","aiNativeEnv":"desktop"}
-[90m[main 2026-11-01T13:25:03.989Z][0m [ICubeProcessManager] cue-server starting {
+[90m[main 2026-11-01T23:12:20.398Z][0m [AIAgentProcessManager] startup env summary {"isSoloLiteMode":false,"hasUserEnv":false,"userEnvKeyCount":0,"userEnvKeys":[],"parentPath":{"present":true,"segmentCount":7,"head":["/usr/local/sbin","/usr/local/bin","/usr/sbin","/usr/bin"],"tail":["/usr/bin","/sbin","/bin","/snap/bin"]},"userEnvPath":{"present":false,"segmentCount":0,"head":[],"tail":[]},"finalAiAgentPath":{"present":true,"segmentCount":8,"head":["/usr/local/sbin","/usr/local/bin","/usr/sbin","/usr/bin"],"tail":["/sbin","/bin","/snap/bin","/usr/share/trae-cn/resources/app/bin/lib"]},"dllLibDir":"/usr/share/trae-cn/resources/app/bin/lib","toolhostPathSuffix":"/usr/share/trae-cn/resources/app/node_modules/@vscode/ripgrep/bin","toolhostTransport":"ipc","aiNativeEnv":"desktop"}
+[90m[main 2026-11-01T23:12:20.398Z][0m [ICubeProcessManager] cue-server starting {
   name: 'cueServer',
   type: 'nodejs',
   path: '/usr/share/trae-cn/resources/app/extensions/ai-completion/resource/aiserver/cue.js',
-  stdoutFilePath: '/home/trae/.config/Trae CN/logs/20261101T212501/Modular/cue-server_0_1793539503979_stdout.log',
-  stderrFilePath: '/home/trae/.config/Trae CN/logs/20261101T212501/Modular/cue-server_0_1793539503979_stderr.log',
+  stdoutFilePath: '/home/trae/.config/Trae CN/logs/20261102T071218/Modular/cue-server_0_1793574740391_stdout.log',
+  stderrFilePath: '/home/trae/.config/Trae CN/logs/20261102T071218/Modular/cue-server_0_1793574740391_stderr.log',
   startCount: 0,
   useIpv6: false
 }
-[90m[main 2026-11-01T13:25:04.023Z][0m [ICubeProcessManager] cue-server ping request sent
-[90m[main 2026-11-01T13:25:04.025Z][0m [ICubeProcessManager] libtoolhost process health check succeeded
-[90m[main 2026-11-01T13:25:04.025Z][0m [ICubeProcessManager] ai-agent starting {
+[90m[main 2026-11-01T23:12:20.448Z][0m [ICubeProcessManager] cue-server ping request sent
+[90m[main 2026-11-01T23:12:20.450Z][0m [ICubeProcessManager] libtoolhost process health check succeeded
+[90m[main 2026-11-01T23:12:20.451Z][0m [ICubeProcessManager] ai-agent starting {
   name: 'ai',
   type: 'lib',
   path: '/usr/share/trae-cn/resources/app/modules/ai-agent/libharness.so',
-  stdoutFilePath: '/home/trae/.config/Trae CN/logs/20261101T212501/Modular/ai-agent_0_1793539503959_stdout.log',
-  stderrFilePath: '/home/trae/.config/Trae CN/logs/20261101T212501/Modular/ai-agent_0_1793539503959_stderr.log',
+  stdoutFilePath: '/home/trae/.config/Trae CN/logs/20261102T071218/Modular/ai-agent_0_1793574740391_stdout.log',
+  stderrFilePath: '/home/trae/.config/Trae CN/logs/20261102T071218/Modular/ai-agent_0_1793574740391_stderr.log',
   startCount: 0,
   useIpv6: false
 }
-[90m[main 2026-11-01T13:25:04.030Z][0m [ICubeProcessManager] doRequest, service=healthcheck, method=ping, channel_id=215b366d-a0e5-4bf6-8dd5-920f4a2e9cef
-[90m[main 2026-11-01T13:25:04.030Z][0m [AhaRpcClient] ahaIpc connected: cueServer
-[90m[main 2026-11-01T13:25:04.034Z][0m [ICubeProcessManager] libtoolhost process is healthy and ready
-[90m[main 2026-11-01T13:25:04.080Z][0m [ICubeProcessManager] libtoolhost process spawned, pid: 3875
-[90m[main 2026-11-01T13:25:04.086Z][0m [ICubeProcessManager] cue-server process spawned, pid: 3876
-[90m[main 2026-11-01T13:25:04.087Z][0m [ICubeProcessManager] cue-server process pid is 3876, set isSingletonCueServer to true
-[90m[main 2026-11-01T13:25:04.089Z][0m [ICubeProcessManager] ai-agent process spawned, pid: 3877
-[90m[main 2026-11-01T13:25:04.091Z][0m [ICubeProcessManager] cleanup log files succeeded
-[90m[main 2026-11-01T13:25:04.092Z][0m [ICubeProcessManager] cleanup log files succeeded
-[90m[main 2026-11-01T13:25:04.092Z][0m [ICubeProcessManager] cleanup log files succeeded
-[90m[main 2026-11-01T13:25:04.105Z][0m ttnet fetch response https://api.trae.com.cn/icube/api/v1/native/config/query?mid=adec9dfaced948ba9893314a0f9e4ddd0caeabe44c226e4a7e84a38c1194d3d2&did=3471632598865673&packageType=stable_cn&productCode=TRAE&platform=Linux&branch=release_desktop_yoma_linux_cn&arch=x64&appVersion=3.4.11&buildVersion=2.3.98528&traeVersionCode=20250325 200 OK
+[90m[main 2026-11-01T23:12:20.459Z][0m [ICubeProcessManager] doRequest, service=healthcheck, method=ping, channel_id=1ae7a767-3cff-4ebd-a758-000f53e7be37
+[90m[main 2026-11-01T23:12:20.460Z][0m [AhaRpcClient] ahaIpc connected: cueServer
+[90m[main 2026-11-01T23:12:20.461Z][0m [ICubeProcessManager] libtoolhost process is healthy and ready
+[90m[main 2026-11-01T23:12:20.519Z][0m [ICubeProcessManager] libtoolhost process spawned, pid: 3760
+[90m[main 2026-11-01T23:12:20.523Z][0m [ICubeProcessManager] cue-server process spawned, pid: 3761
+[90m[main 2026-11-01T23:12:20.524Z][0m [ICubeProcessManager] cue-server process pid is 3761, set isSingletonCueServer to true
+[90m[main 2026-11-01T23:12:20.527Z][0m [ICubeProcessManager] ai-agent process spawned, pid: 3762
+[90m[main 2026-11-01T23:12:20.531Z][0m [ICubeProcessManager] cleanup log files succeeded
+[90m[main 2026-11-01T23:12:20.531Z][0m [ICubeProcessManager] cleanup log files succeeded
+[90m[main 2026-11-01T23:12:20.531Z][0m [ICubeProcessManager] cleanup log files succeeded
+[Logsdk.http] [trace] new sent events [ 'tdidm51ofmk', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
+[Logsdk.http] [trace] with channel domain https://mcs.zijieapi.com
 [Logsdk] [trace] report appid with 711126
 [Logsdk] [trace] Composed event {
-  id: 'kf5ujbih5vk',
+  id: 'gkivsoh9u68',
   originatedBy: 'logsdk',
-  createdAt: 1793539504120,
+  createdAt: 1793574740577,
   event: {
-    server_time: 1793539505,
+    server_time: 1793574741,
     caller: '',
     user: {
-      user_unique_id: '3471632598865673',
+      user_unique_id: '2292956278576539',
       user_id: '0',
-      device_id: '3471632598865673',
+      device_id: '2292956278576539',
       user_is_login: false
     },
     header: {
-      custom: '{"icube_uid":"0","user_id":"0","biz_user_id":"0","user_is_login":false,"user_unique_id":"3471632598865673","device_id":"3471632598865673","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"adec9dfaced948ba9893314a0f9e4ddd0caeabe44c226e4a7e84a38c1194d3d2","arch":"x64","system":"linux","scope":"unknown","build_version":"2.3.98528","vscode_version":"1.107.1","region":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"dd90bf49-2887-490b-9227-c1dfd4b4dccf","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
+      custom: '{"icube_uid":"0","user_id":"0","biz_user_id":"0","user_is_login":false,"user_unique_id":"2292956278576539","device_id":"2292956278576539","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"96854e511969dcd7c5a57498452188efca0fbe71d8ca6037570b179d7f0a5221","arch":"x64","system":"linux","scope":"unknown","build_version":"2.3.98528","vscode_version":"1.107.1","region":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"f910b20e-a241-4d05-8fdf-8a69690af8e2","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
       app_id: 711126,
       platform: 'electron',
       os_name: 'linux',
@@ -398,19 +396,23 @@ dbus-daemon[3648]: [session uid=1001 pid=3648] Successfully activated service 'o
       {
         event: 'companion_appearance_switch',
         params: '{"from_appearance":"ball","to_appearance":"traebao"}',
-        time: 1793539505,
+        time: 1793574741,
         _staging_flag: undefined
       },
       [length]: 1
     ]
   }
 }
-[90m[main 2026-11-01T13:25:04.130Z][0m [AhaIpcServer] broadcast new event event:DynamicConfigService.onDidUpdateConfig
-[90m[main 2026-11-01T13:25:04.130Z][0m [ICubeProcessManager] resolve CKG product policy from config { enabled: false, resolved: false }
-[90m[main 2026-11-01T13:25:04.131Z][0m [MainICubeAuthWatchManagementService] reconcileCheckTimer shouldRunTimer: false , authCheckIntervalMs -1
-[90m[main 2026-11-01T13:25:04.131Z][0m [MainGtmService] Loaded 2 conditions from dynamic config
-[90m[main 2026-11-01T13:25:04.135Z][0m [NetworkProxy] Using default system proxy mode without explicit proxy configuration
-[90m[main 2026-11-01T13:25:04.137Z][0m [NetworkProxy][SystemProxyDetection] Resolved system proxy status {
+[90m[main 2026-11-01T23:12:20.630Z][0m [Main] Create shared process
+[90m[main 2026-11-01T23:12:20.721Z][0m ttnet fetch response https://api.trae.com.cn/icube/api/v1/native/config/query?mid=96854e511969dcd7c5a57498452188efca0fbe71d8ca6037570b179d7f0a5221&did=2292956278576539&packageType=stable_cn&productCode=TRAE&platform=Linux&branch=release_desktop_yoma_linux_cn&arch=x64&appVersion=3.4.11&buildVersion=2.3.98528&traeVersionCode=20250325 200 OK
+[Logsdk.http] [trace] new sent events [ 'btaofc0sn1k', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
+[Logsdk.http] [trace] with channel domain https://mcs.zijieapi.com
+[90m[main 2026-11-01T23:12:20.781Z][0m [AhaIpcServer] broadcast new event event:DynamicConfigService.onDidUpdateConfig
+[90m[main 2026-11-01T23:12:20.782Z][0m [ICubeProcessManager] resolve CKG product policy from config { enabled: false, resolved: false }
+[90m[main 2026-11-01T23:12:20.782Z][0m [MainICubeAuthWatchManagementService] reconcileCheckTimer shouldRunTimer: false , authCheckIntervalMs -1
+[90m[main 2026-11-01T23:12:20.783Z][0m [MainGtmService] Loaded 2 conditions from dynamic config
+[90m[main 2026-11-01T23:12:20.791Z][0m [NetworkProxy] Using default system proxy mode without explicit proxy configuration
+[90m[main 2026-11-01T23:12:20.793Z][0m [NetworkProxy][SystemProxyDetection] Resolved system proxy status {
   platform: 'linux',
   source: 'env',
   queryStatus: 'not_required',
@@ -419,20 +421,20 @@ dbus-daemon[3648]: [session uid=1001 pid=3648] Successfully activated service 'o
 }
 [Logsdk] [trace] report appid with 711126
 [Logsdk] [trace] Composed event {
-  id: 'c2ndhbb13uk',
+  id: '94rfq9kdqfc',
   originatedBy: 'logsdk',
-  createdAt: 1793539504137,
+  createdAt: 1793574740794,
   event: {
-    server_time: 1793539505,
+    server_time: 1793574741,
     caller: '',
     user: {
-      user_unique_id: '3471632598865673',
+      user_unique_id: '2292956278576539',
       user_id: '0',
-      device_id: '3471632598865673',
+      device_id: '2292956278576539',
       user_is_login: false
     },
     header: {
-      custom: '{"icube_uid":"0","user_id":"0","biz_user_id":"0","user_is_login":false,"user_unique_id":"3471632598865673","device_id":"3471632598865673","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"adec9dfaced948ba9893314a0f9e4ddd0caeabe44c226e4a7e84a38c1194d3d2","arch":"x64","system":"linux","scope":"unknown","build_version":"2.3.98528","vscode_version":"1.107.1","region":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"dd90bf49-2887-490b-9227-c1dfd4b4dccf","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
+      custom: '{"icube_uid":"0","user_id":"0","biz_user_id":"0","user_is_login":false,"user_unique_id":"2292956278576539","device_id":"2292956278576539","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"96854e511969dcd7c5a57498452188efca0fbe71d8ca6037570b179d7f0a5221","arch":"x64","system":"linux","scope":"unknown","build_version":"2.3.98528","vscode_version":"1.107.1","region":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"f910b20e-a241-4d05-8fdf-8a69690af8e2","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
       app_id: 711126,
       platform: 'electron',
       os_name: 'linux',
@@ -448,66 +450,112 @@ dbus-daemon[3648]: [session uid=1001 pid=3648] Successfully activated service 'o
       {
         event: 'native_ide_network_proxy_resolved',
         params: '{"proxy_mode":"system","proxy_endpoint":"127.0.0.1:18080","bypass_list":""}',
-        time: 1793539505,
+        time: 1793574741,
         _staging_flag: undefined
       },
       [length]: 1
     ]
   }
 }
-[Logsdk.http] [trace] new sent events [ 'inaqbsnoeu8', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
+[Logsdk.http] [trace] new sent events [ 'gkivsoh9u68', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
 [Logsdk.http] [trace] with channel domain https://mcs.zijieapi.com
-[90m[main 2026-11-01T13:25:04.237Z][0m [Main] Create shared process
-[Logsdk.http] [trace] new sent events [ 'kf5ujbih5vk', 'c2ndhbb13uk', [length]: 2 ] result { e: 0, sc: 2, tc: 2 }
-[Logsdk.http] [trace] queue drained, last sent 2
-[90m[main 2026-11-01T13:25:04.333Z][0m [ElectronAhaIpcServer] handleConnection RecvConnection {
+[Logsdk.http] [trace] new sent events [ '94rfq9kdqfc', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
+[Logsdk.http] [trace] queue drained, last sent 1
+[90m[main 2026-11-01T23:12:20.888Z][0m [ElectronAhaIpcServer] handleConnection RecvConnection {
   _events: [Object: null prototype] {},
   _eventsCount: 0,
   _maxListeners: undefined,
   [Symbol(shapeMode)]: false,
   [Symbol(kCapture)]: false
 }
-[90m[main 2026-11-01T13:25:04.335Z][0m [AhaIpcServer] ElectronAhaIpcServer handleConnection
-[90m[main 2026-11-01T13:25:04.336Z][0m [AhaIpcServer] ElectronAhaIpcServer handleRequest [0] BootService.getBootConfig undefined
-[90m[main 2026-11-01T13:25:04.336Z][0m [AhaIpcServer] ElectronAhaIpcServer handleRequest [0] BootService.getBootConfig success hasResult: true duration: 0ms
-[90m[main 2026-11-01T13:25:04.931Z][0m [ElectronAhaIpcServer] handleConnection RecvConnection {
+[90m[main 2026-11-01T23:12:20.890Z][0m [AhaIpcServer] ElectronAhaIpcServer handleConnection
+[90m[main 2026-11-01T23:12:20.894Z][0m [AhaIpcServer] ElectronAhaIpcServer handleRequest [0] BootService.getBootConfig undefined
+[90m[main 2026-11-01T23:12:20.895Z][0m [AhaIpcServer] ElectronAhaIpcServer handleRequest [0] BootService.getBootConfig success hasResult: true duration: 0ms
+[90m[main 2026-11-01T23:12:21.519Z][0m [AhaRpcClient] ahaIpc request timeout
+[90m[main 2026-11-01T23:12:21.632Z][0m [ElectronAhaIpcServer] handleConnection RecvConnection {
   _events: [Object: null prototype] {},
   _eventsCount: 0,
   _maxListeners: undefined,
   [Symbol(shapeMode)]: false,
   [Symbol(kCapture)]: false
 }
-[90m[main 2026-11-01T13:25:04.932Z][0m [AhaIpcServer] ElectronAhaIpcServer handleConnection
-[90m[main 2026-11-01T13:25:04.933Z][0m [AhaIpcServer] ElectronAhaIpcServer handleRequest [0] BootService.getBootConfig undefined
-[90m[main 2026-11-01T13:25:04.933Z][0m [AhaIpcServer] ElectronAhaIpcServer handleRequest [0] BootService.getBootConfig success hasResult: true duration: 0ms
-[90m[main 2026-11-01T13:25:04.934Z][0m [AhaIpcServer] ElectronAhaIpcServer handleRequest [1] BootService.getBootConfig undefined
-[90m[main 2026-11-01T13:25:04.935Z][0m [AhaIpcServer] ElectronAhaIpcServer handleRequest [1] BootService.getBootConfig success hasResult: true duration: 0ms
-[90m[main 2026-11-01T13:25:05.028Z][0m [AhaRpcClient] close started
-[90m[main 2026-11-01T13:25:05.028Z][0m [AhaRpcClient] close finished
-[90m[main 2026-11-01T13:25:05.029Z][0m [ICubeProcessManager] cue-server process health check succeeded
-[90m[main 2026-11-01T13:25:05.029Z][0m [ICubeProcessManager] cue-server process is healthy and ready
-[91m[main 2026-11-01T13:25:05.190Z][0m [SharedProcess] stderr: (node:3902) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+[90m[main 2026-11-01T23:12:21.632Z][0m [AhaIpcServer] ElectronAhaIpcServer handleConnection
+[90m[main 2026-11-01T23:12:21.632Z][0m [AhaIpcServer] ElectronAhaIpcServer handleRequest [0] BootService.getBootConfig undefined
+[90m[main 2026-11-01T23:12:21.632Z][0m [AhaIpcServer] ElectronAhaIpcServer handleRequest [0] BootService.getBootConfig success hasResult: true duration: 0ms
+[90m[main 2026-11-01T23:12:21.633Z][0m [AhaIpcServer] ElectronAhaIpcServer handleRequest [1] BootService.getBootConfig undefined
+[90m[main 2026-11-01T23:12:21.633Z][0m [AhaIpcServer] ElectronAhaIpcServer handleRequest [1] BootService.getBootConfig success hasResult: true duration: 0ms
+[91m[main 2026-11-01T23:12:21.721Z][0m [SharedProcess] stderr: (node:3797) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
 (Use `exe --trace-deprecation ...` to show where the warning was created)
 
-[90m[main 2026-11-01T13:25:05.281Z][0m [AhaIpcServer] ElectronAhaIpcServer handleRequest [1] DynamicConfigService.getConfigWhenPullDone undefined
-[90m[main 2026-11-01T13:25:05.281Z][0m [AhaIpcServer] ElectronAhaIpcServer handleRequest [1] DynamicConfigService.getConfigWhenPullDone success hasResult: true duration: 0ms
-[90m[main 2026-11-01T13:25:05.305Z][0m [Main] [SharedProcess] IPC ready
-[90m[main 2026-11-01T13:25:05.306Z][0m Main->SharedProcess#connect: connection established
-[90m[main 2026-11-01T13:25:05.308Z][0m [GitBlameMainService] Shared process channel set
-[90m[main 2026-11-01T13:25:05.351Z][0m [ICubeProcessManager] doRequest, response: {"code":0,"message":"success","data":{"message":"pong"}}
-[90m[main 2026-11-01T13:25:05.352Z][0m [ICubeProcessManager] ai-agent process health check succeeded
-[90m[main 2026-11-01T13:25:05.352Z][0m [ICubeProcessManager] ai-agent process is healthy and ready
-[90m[main 2026-11-01T13:25:05.382Z][0m getStoreRegion { countryCode: '', countryCodeSrc: 'did', region: 'CN' }
-[90m[main 2026-11-01T13:25:05.384Z][0m [UserStorage] no available persist userInfo to restore.
-[90m[main 2026-11-01T13:25:05.399Z][0m [UserStorage] no available persist userInfo to restore.
-[90m[main 2026-11-01T13:25:05.415Z][0m getStoreRegion { countryCode: '', countryCodeSrc: 'did', region: 'CN' }
-[90m[main 2026-11-01T13:25:05.433Z][0m [UserStorage] no available persist userInfo to restore.
-[90m[main 2026-11-01T13:25:06.639Z][0m [AhaIpcServer] broadcast new event event:DynamicConfigService.onDidUpdateConfig
-[90m[main 2026-11-01T13:25:06.645Z][0m [ICubeProcessManager] resolve CKG product policy from config { enabled: false, resolved: false }
-[90m[main 2026-11-01T13:25:06.654Z][0m [MainICubeAuthWatchManagementService] reconcileCheckTimer shouldRunTimer: false , authCheckIntervalMs -1
-[90m[main 2026-11-01T13:25:06.654Z][0m [MainGtmService] Loaded 2 conditions from dynamic config
-[90m[main 2026-11-01T13:25:06.658Z][0m [NetworkProxy] Using default system proxy mode without explicit proxy configuration
-[90m[main 2026-11-01T13:25:06.658Z][0m [NetworkProxy][SystemProxyDetection] Resolved system proxy status {
+[90m[main 2026-11-01T23:12:21.834Z][0m [Main] [SharedProcess] IPC ready
+[90m[main 2026-11-01T23:12:21.835Z][0m Main->SharedProcess#connect: connection established
+[90m[main 2026-11-01T23:12:21.836Z][0m [GitBlameMainService] Shared process channel set
+[90m[main 2026-11-01T23:12:21.898Z][0m getStoreRegion { countryCode: '', countryCodeSrc: 'did', region: 'CN' }
+[90m[main 2026-11-01T23:12:21.899Z][0m [UserStorage] no available persist userInfo to restore.
+[90m[main 2026-11-01T23:12:21.904Z][0m [UserStorage] no available persist userInfo to restore.
+[90m[main 2026-11-01T23:12:21.932Z][0m getStoreRegion { countryCode: '', countryCodeSrc: 'did', region: 'CN' }
+[90m[main 2026-11-01T23:12:21.953Z][0m [UserStorage] no available persist userInfo to restore.
+[91m[main 2026-11-01T23:12:21.988Z][0m [ICubeProcessManager] ai-agent process exit with code 256, description: , restarting...
+[90m[main 2026-11-01T23:12:21.991Z][0m [ICubeProcessManager] ai-agent wait 0ms before restart
+[90m[main 2026-11-01T23:12:21.993Z][0m [AhaRpcClient] ahaIpc connect server disconnected, try to reconnect
+[90m[main 2026-11-01T23:12:21.994Z][0m [AhaRpcClient] close started
+[90m[main 2026-11-01T23:12:21.995Z][0m [AhaRpcClient] close finished
+[90m[main 2026-11-01T23:12:21.995Z][0m [AhaRpcClient] ahaIpc connected: ai-agent
+[91m[main 2026-11-01T23:12:21.996Z][0m [ICubeProcessManager] ai-agent process health check failed: Error: disconnected
+[90m[main 2026-11-01T23:12:21.996Z][0m [AhaRpcClient] ahaIpc connect server disconnected, try to reconnect
+[90m[main 2026-11-01T23:12:21.997Z][0m [AhaRpcClient] close started
+[90m[main 2026-11-01T23:12:21.997Z][0m [AhaRpcClient] close finished
+[90m[main 2026-11-01T23:12:21.999Z][0m [AhaRpcClient] ahaIpc connected: ai-agent
+[90m[main 2026-11-01T23:12:22.004Z][0m baseDir /usr/share/trae-cn/resources/app
+[90m[main 2026-11-01T23:12:22.004Z][0m dylibPath /usr/share/trae-cn/resources/app/modules/ai-agent/libharness.so
+[90m[main 2026-11-01T23:12:22.005Z][0m [AIAgentProcessManager] selected artifact {
+  implementation: 'harness',
+  enableHarness: true,
+  product: 'desktop',
+  artifactPath: '/usr/share/trae-cn/resources/app/modules/ai-agent/libharness.so',
+  isRemote: false
+}
+[90m[main 2026-11-01T23:12:22.005Z][0m [AIAgentProcessManager] startup env summary {"isSoloLiteMode":false,"hasUserEnv":false,"userEnvKeyCount":0,"userEnvKeys":[],"parentPath":{"present":true,"segmentCount":7,"head":["/usr/local/sbin","/usr/local/bin","/usr/sbin","/usr/bin"],"tail":["/usr/bin","/sbin","/bin","/snap/bin"]},"userEnvPath":{"present":false,"segmentCount":0,"head":[],"tail":[]},"finalAiAgentPath":{"present":true,"segmentCount":8,"head":["/usr/local/sbin","/usr/local/bin","/usr/sbin","/usr/bin"],"tail":["/sbin","/bin","/snap/bin","/usr/share/trae-cn/resources/app/bin/lib"]},"dllLibDir":"/usr/share/trae-cn/resources/app/bin/lib","toolhostPathSuffix":"/usr/share/trae-cn/resources/app/node_modules/@vscode/ripgrep/bin","toolhostTransport":"ipc","aiNativeEnv":"desktop"}
+[90m[main 2026-11-01T23:12:22.006Z][0m [ICubeProcessManager] ai-agent starting {
+  name: 'ai',
+  type: 'lib',
+  path: '/usr/share/trae-cn/resources/app/modules/ai-agent/libharness.so',
+  stdoutFilePath: '/home/trae/.config/Trae CN/logs/20261102T071218/Modular/ai-agent_1_1793574742005_stdout.log',
+  stderrFilePath: '/home/trae/.config/Trae CN/logs/20261102T071218/Modular/ai-agent_1_1793574742005_stderr.log',
+  startCount: 1,
+  useIpv6: false
+}
+[90m[main 2026-11-01T23:12:22.010Z][0m [ICubeProcessManager] doRequest, service=healthcheck, method=ping, channel_id=4c9fb918-2b91-4cfb-874c-15edbccf6486
+[90m[main 2026-11-01T23:12:22.016Z][0m [ICubeProcessManager] ai-agent process spawned, pid: 3943
+[90m[main 2026-11-01T23:12:22.026Z][0m [ICubeProcessManager] cleanup log files succeeded
+[90m[main 2026-11-01T23:12:22.027Z][0m [ICubeProcessManager] ai-agent recordProcessDisconnectReason {
+  hasExitEvent: true,
+  exitCode: 256,
+  exitType: 'crash',
+  description: '',
+  stderrTailLength: 63
+}
+[90m[main 2026-11-01T23:12:22.222Z][0m [ElectronAhaIpcServer] handleConnection RecvConnection {
+  _events: [Object: null prototype] {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  [Symbol(shapeMode)]: false,
+  [Symbol(kCapture)]: false
+}
+[90m[main 2026-11-01T23:12:22.223Z][0m [AhaIpcServer] ElectronAhaIpcServer handleConnection
+[90m[main 2026-11-01T23:12:22.224Z][0m [AhaIpcServer] ElectronAhaIpcServer handleRequest [0] BootService.getBootConfig undefined
+[90m[main 2026-11-01T23:12:22.224Z][0m [AhaIpcServer] ElectronAhaIpcServer handleRequest [0] BootService.getBootConfig success hasResult: true duration: 0ms
+[90m[main 2026-11-01T23:12:22.367Z][0m [AhaIpcServer] ElectronAhaIpcServer handleRequest [1] DynamicConfigService.getConfigWhenPullDone undefined
+[90m[main 2026-11-01T23:12:22.367Z][0m [AhaIpcServer] ElectronAhaIpcServer handleRequest [1] DynamicConfigService.getConfigWhenPullDone success hasResult: true duration: 0ms
+[90m[main 2026-11-01T23:12:22.440Z][0m [ICubeProcessManager] doRequest, response: {"code":0,"message":"success","data":{"message":"pong"}}
+[90m[main 2026-11-01T23:12:22.442Z][0m [ICubeProcessManager] ai-agent process health check succeeded
+[90m[main 2026-11-01T23:12:22.442Z][0m [ICubeProcessManager] ai-agent process is healthy and ready
+[90m[main 2026-11-01T23:12:23.226Z][0m [AhaIpcServer] broadcast new event event:DynamicConfigService.onDidUpdateConfig
+[90m[main 2026-11-01T23:12:23.231Z][0m [ICubeProcessManager] resolve CKG product policy from config { enabled: false, resolved: false }
+[90m[main 2026-11-01T23:12:23.239Z][0m [MainICubeAuthWatchManagementService] reconcileCheckTimer shouldRunTimer: false , authCheckIntervalMs -1
+[90m[main 2026-11-01T23:12:23.239Z][0m [MainGtmService] Loaded 2 conditions from dynamic config
+[90m[main 2026-11-01T23:12:23.242Z][0m [NetworkProxy] Using default system proxy mode without explicit proxy configuration
+[90m[main 2026-11-01T23:12:23.242Z][0m [NetworkProxy][SystemProxyDetection] Resolved system proxy status {
   platform: 'linux',
   source: 'env',
   queryStatus: 'not_required',
@@ -516,20 +564,20 @@ dbus-daemon[3648]: [session uid=1001 pid=3648] Successfully activated service 'o
 }
 [Logsdk] [trace] report appid with 711126
 [Logsdk] [trace] Composed event {
-  id: 'e4ef0l12v4',
+  id: 'famf83irvno',
   originatedBy: 'logsdk',
-  createdAt: 1793539506659,
+  createdAt: 1793574743242,
   event: {
-    server_time: 1793539507,
+    server_time: 1793574744,
     caller: '',
     user: {
-      user_unique_id: '3471632598865673',
+      user_unique_id: '2292956278576539',
       user_id: '0',
-      device_id: '3471632598865673',
+      device_id: '2292956278576539',
       user_is_login: false
     },
     header: {
-      custom: '{"icube_uid":"0","user_id":"0","biz_user_id":"0","user_is_login":false,"user_unique_id":"3471632598865673","device_id":"3471632598865673","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"adec9dfaced948ba9893314a0f9e4ddd0caeabe44c226e4a7e84a38c1194d3d2","arch":"x64","system":"linux","scope":"unknown","build_version":"2.3.98528","vscode_version":"1.107.1","region":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"dd90bf49-2887-490b-9227-c1dfd4b4dccf","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
+      custom: '{"icube_uid":"0","user_id":"0","biz_user_id":"0","user_is_login":false,"user_unique_id":"2292956278576539","device_id":"2292956278576539","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"96854e511969dcd7c5a57498452188efca0fbe71d8ca6037570b179d7f0a5221","arch":"x64","system":"linux","scope":"unknown","build_version":"2.3.98528","vscode_version":"1.107.1","region":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"f910b20e-a241-4d05-8fdf-8a69690af8e2","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
       app_id: 711126,
       platform: 'electron',
       os_name: 'linux',
@@ -545,7 +593,7 @@ dbus-daemon[3648]: [session uid=1001 pid=3648] Successfully activated service 'o
       {
         event: 'native_ide_network_proxy_resolved',
         params: '{"proxy_mode":"system","proxy_endpoint":"127.0.0.1:18080","bypass_list":""}',
-        time: 1793539507,
+        time: 1793574744,
         _staging_flag: undefined
       },
       [length]: 1
@@ -553,30 +601,39 @@ dbus-daemon[3648]: [session uid=1001 pid=3648] Successfully activated service 'o
   }
 }
 [Logsdk.http] [trace] with channel domain https://mcs.zijieapi.com
-[Logsdk.http] [trace] new sent events [ 'e4ef0l12v4', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
+[Logsdk.http] [trace] new sent events [ 'famf83irvno', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
 [Logsdk.http] [trace] queue drained, last sent 1
-[90m[main 2026-11-01T13:25:47.917Z][0m changeSetupState { region: 'cn', language: 'en', theme: '' } /home/trae/.trae-cn/argv.json
-[90m[main 2026-11-01T13:25:47.920Z][0m changeSetupState setting /home/trae/.config/Trae CN/User/settings.json 
-[90m[main 2026-11-01T13:25:58.149Z][0m installKeybindExtension vscode
-[90m[main 2026-11-01T13:26:13.232Z][0m login
-[90m[main 2026-11-01T13:26:13.233Z][0m OAuthenticator#start a server to listen for oauth result
-[90m[main 2026-11-01T13:26:13.233Z][0m [MainICubeAuthManagementService] reportTeaEvent, app_id:  711126
+[91m[main 2026-11-01T23:12:25.452Z][0m [ICubeProcessManager] cue-server ping failed Error: response_timeout
+    at Timeout._onTimeout (file:///usr/share/trae-cn/resources/app/out/main.js:916:21836)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7)
+[90m[main 2026-11-01T23:12:27.453Z][0m [ICubeProcessManager] cue-server ping request sent
+[90m[main 2026-11-01T23:12:27.476Z][0m [AhaRpcClient] close started
+[90m[main 2026-11-01T23:12:27.477Z][0m [AhaRpcClient] close finished
+[90m[main 2026-11-01T23:12:27.477Z][0m [ICubeProcessManager] cue-server process health check succeeded
+[90m[main 2026-11-01T23:12:27.477Z][0m [ICubeProcessManager] cue-server process is healthy and ready
+[90m[main 2026-11-01T23:12:45.566Z][0m changeSetupState { region: 'cn', language: 'en', theme: '' } /home/trae/.trae-cn/argv.json
+[90m[main 2026-11-01T23:12:45.570Z][0m changeSetupState setting /home/trae/.config/Trae CN/User/settings.json 
+[90m[main 2026-11-01T23:12:48.680Z][0m installKeybindExtension vscode
+[90m[main 2026-11-01T23:12:53.096Z][0m login
+[90m[main 2026-11-01T23:12:53.096Z][0m OAuthenticator#start a server to listen for oauth result
+[90m[main 2026-11-01T23:12:53.097Z][0m [MainICubeAuthManagementService] reportTeaEvent, app_id:  711126
 [Logsdk] [trace] report appid with 711126
 [Logsdk] [trace] Composed event {
-  id: '2toptesscis',
+  id: 'qfncrol75u4',
   originatedBy: 'logsdk',
-  createdAt: 1793539573234,
+  createdAt: 1793574773097,
   event: {
-    server_time: 1793539574,
+    server_time: 1793574774,
     caller: '',
     user: {
-      user_unique_id: '3471632598865673',
+      user_unique_id: '2292956278576539',
       user_id: '0',
-      device_id: '3471632598865673',
+      device_id: '2292956278576539',
       user_is_login: false
     },
     header: {
-      custom: '{"icube_uid":"0","user_id":"0","biz_user_id":"0","user_is_login":false,"user_unique_id":"3471632598865673","device_id":"3471632598865673","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"adec9dfaced948ba9893314a0f9e4ddd0caeabe44c226e4a7e84a38c1194d3d2","arch":"x64","system":"linux","scope":"unknown","build_version":"2.3.98528","vscode_version":"1.107.1","region":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"dd90bf49-2887-490b-9227-c1dfd4b4dccf","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
+      custom: '{"icube_uid":"0","user_id":"0","biz_user_id":"0","user_is_login":false,"user_unique_id":"2292956278576539","device_id":"2292956278576539","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"96854e511969dcd7c5a57498452188efca0fbe71d8ca6037570b179d7f0a5221","arch":"x64","system":"linux","scope":"unknown","build_version":"2.3.98528","vscode_version":"1.107.1","region":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"f910b20e-a241-4d05-8fdf-8a69690af8e2","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
       app_id: 711126,
       platform: 'electron',
       os_name: 'linux',
@@ -592,7 +649,7 @@ dbus-daemon[3648]: [session uid=1001 pid=3648] Successfully activated service 'o
       {
         event: 'icube_login_start',
         params: '{"provider":"marscode"}',
-        time: 1793539574,
+        time: 1793574774,
         _staging_flag: undefined
       },
       [length]: 1
@@ -600,12 +657,12 @@ dbus-daemon[3648]: [session uid=1001 pid=3648] Successfully activated service 'o
   }
 }
 [Logsdk.http] [trace] with channel domain https://mcs.zijieapi.com
-[90m[main 2026-11-01T13:26:13.235Z][0m OAuthLocalServer#[Server] Listening on port 45907.
-[90m[main 2026-11-01T13:26:13.236Z][0m OAuthenticator#open oauth url Yinli
-[90m[main 2026-11-01T13:26:13.236Z][0m OAuthenticator# openLogin in port:  45907 undefined
-[90m[main 2026-11-01T13:26:13.237Z][0m OAuthenticator# openLogin getLoginUrl https://www.trae.cn/authorization?login_version=1&auth_from=trae&login_channel=native_ide&plugin_version=2.3.98528&auth_type=local&client_id=ono9krqynydwx5&redirect=0&login_trace_id=4f6b3d03-e27b-414d-b19d-56d413fa3fc8&auth_callback_url=http://127.0.0.1:45907/authorize&machine_id=adec9dfaced948ba9893314a0f9e4ddd0caeabe44c226e4a7e84a38c1194d3d2&device_id=3471632598865673&x_device_id=3471632598865673&x_machine_id=adec9dfaced948ba9893314a0f9e4ddd0caeabe44c226e4a7e84a38c1194d3d2&x_device_brand=&x_device_type=linux&x_os_version=Ubuntu%2024.04%20LTS&x_env=&x_app_version=3.4.11&x_app_type=stable&code_challenge=ek32q2gqgKbwDGKKlRwcjEfO1_SdIL08jLxiY8IIE-8&code_challenge_method=S256&channel_name=common
-[90m[main 2026-11-01T13:26:13.240Z][0m NativeHostMainService#openBrowser success https://www.trae.cn/authorization?login_version=1&auth_from=trae&login_channel=native_ide&plugin_version=2.3.98528&auth_type=local&client_id=ono9krqynydwx5&redirect=0&login_trace_id=4f6b3d03-e27b-414d-b19d-56d413fa3fc8&auth_callback_url=http://127.0.0.1:45907/authorize&machine_id=adec9dfaced948ba9893314a0f9e4ddd0caeabe44c226e4a7e84a38c1194d3d2&device_id=3471632598865673&x_device_id=3471632598865673&x_machine_id=adec9dfaced948ba9893314a0f9e4ddd0caeabe44c226e4a7e84a38c1194d3d2&x_device_brand=&x_device_type=linux&x_os_version=Ubuntu%2024.04%20LTS&x_env=&x_app_version=3.4.11&x_app_type=stable&code_challenge=ek32q2gqgKbwDGKKlRwcjEfO1_SdIL08jLxiY8IIE-8&code_challenge_method=S256&channel_name=common undefined undefined
-[Logsdk.http] [trace] new sent events [ '2toptesscis', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
+[90m[main 2026-11-01T23:12:53.099Z][0m OAuthLocalServer#[Server] Listening on port 41637.
+[90m[main 2026-11-01T23:12:53.100Z][0m OAuthenticator#open oauth url Yinli
+[90m[main 2026-11-01T23:12:53.100Z][0m OAuthenticator# openLogin in port:  41637 undefined
+[90m[main 2026-11-01T23:12:53.101Z][0m OAuthenticator# openLogin getLoginUrl https://www.trae.cn/authorization?login_version=1&auth_from=trae&login_channel=native_ide&plugin_version=2.3.98528&auth_type=local&client_id=ono9krqynydwx5&redirect=0&login_trace_id=0ace42ad-8d53-45d8-8aad-1bb2a652cb5e&auth_callback_url=http://127.0.0.1:41637/authorize&machine_id=96854e511969dcd7c5a57498452188efca0fbe71d8ca6037570b179d7f0a5221&device_id=2292956278576539&x_device_id=2292956278576539&x_machine_id=96854e511969dcd7c5a57498452188efca0fbe71d8ca6037570b179d7f0a5221&x_device_brand=&x_device_type=linux&x_os_version=Ubuntu%2024.04%20LTS&x_env=&x_app_version=3.4.11&x_app_type=stable&code_challenge=AIjfG8Bw8niAOxolmps2X12zAu6XfX1mS0wPKLvTr2M&code_challenge_method=S256&channel_name=common
+[90m[main 2026-11-01T23:12:53.104Z][0m NativeHostMainService#openBrowser success https://www.trae.cn/authorization?login_version=1&auth_from=trae&login_channel=native_ide&plugin_version=2.3.98528&auth_type=local&client_id=ono9krqynydwx5&redirect=0&login_trace_id=0ace42ad-8d53-45d8-8aad-1bb2a652cb5e&auth_callback_url=http://127.0.0.1:41637/authorize&machine_id=96854e511969dcd7c5a57498452188efca0fbe71d8ca6037570b179d7f0a5221&device_id=2292956278576539&x_device_id=2292956278576539&x_machine_id=96854e511969dcd7c5a57498452188efca0fbe71d8ca6037570b179d7f0a5221&x_device_brand=&x_device_type=linux&x_os_version=Ubuntu%2024.04%20LTS&x_env=&x_app_version=3.4.11&x_app_type=stable&code_challenge=AIjfG8Bw8niAOxolmps2X12zAu6XfX1mS0wPKLvTr2M&code_challenge_method=S256&channel_name=common undefined undefined
+[Logsdk.http] [trace] new sent events [ 'qfncrol75u4', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
 [Logsdk.http] [trace] queue drained, last sent 1
 /usr/bin/xdg-open: 882: x-www-browser: not found
 /usr/bin/xdg-open: 882: firefox: not found
@@ -623,16 +680,18 @@ dbus-daemon[3648]: [session uid=1001 pid=3648] Successfully activated service 'o
 /usr/bin/xdg-open: 882: links: not found
 /usr/bin/xdg-open: 882: lynx: not found
 /usr/bin/xdg-open: 882: w3m: not found
-xdg-open: no method available for opening 'https://www.trae.cn/authorization?login_version=1&auth_from=trae&login_channel=native_ide&plugin_version=2.3.98528&auth_type=local&client_id=ono9krqynydwx5&redirect=0&login_trace_id=4f6b3d03-e27b-414d-b19d-56d413fa3fc8&auth_callback_url=http://127.0.0.1:45907/authorize&machine_id=adec9dfaced948ba9893314a0f9e4ddd0caeabe44c226e4a7e84a38c1194d3d2&device_id=3471632598865673&x_device_id=3471632598865673&x_machine_id=adec9dfaced948ba9893314a0f9e4ddd0caeabe44c226e4a7e84a38c1194d3d2&x_device_brand=&x_device_type=linux&x_os_version=Ubuntu%2024.04%20LTS&x_env=&x_app_version=3.4.11&x_app_type=stable&code_challenge=ek32q2gqgKbwDGKKlRwcjEfO1_SdIL08jLxiY8IIE-8&code_challenge_method=S256&channel_name=common'
-[90m[main 2026-11-01T13:30:01.641Z][0m [BootService] network recheck triggered
+xdg-open: no method available for opening 'https://www.trae.cn/authorization?login_version=1&auth_from=trae&login_channel=native_ide&plugin_version=2.3.98528&auth_type=local&client_id=ono9krqynydwx5&redirect=0&login_trace_id=0ace42ad-8d53-45d8-8aad-1bb2a652cb5e&auth_callback_url=http://127.0.0.1:41637/authorize&machine_id=96854e511969dcd7c5a57498452188efca0fbe71d8ca6037570b179d7f0a5221&device_id=2292956278576539&x_device_id=2292956278576539&x_machine_id=96854e511969dcd7c5a57498452188efca0fbe71d8ca6037570b179d7f0a5221&x_device_brand=&x_device_type=linux&x_os_version=Ubuntu%2024.04%20LTS&x_env=&x_app_version=3.4.11&x_app_type=stable&code_challenge=AIjfG8Bw8niAOxolmps2X12zAu6XfX1mS0wPKLvTr2M&code_challenge_method=S256&channel_name=common'
+[90m[main 2026-11-01T23:17:18.215Z][0m [BootService] network recheck triggered
 [AbstractNetworkChecker] setValue: isFirstSet=false, isChange=false, suppressFirstEvent=true, value=false, cachedValue=false
 [AbstractNetworkChecker] no change, not firing event
-[90m[main 2026-11-01T13:30:03.641Z][0m [AhaIpcServer] broadcast new event event:DynamicConfigService.onDidUpdateConfig
-[90m[main 2026-11-01T13:30:03.648Z][0m [ICubeProcessManager] resolve CKG product policy from config { enabled: false, resolved: false }
-[90m[main 2026-11-01T13:30:03.659Z][0m [MainICubeAuthWatchManagementService] reconcileCheckTimer shouldRunTimer: false , authCheckIntervalMs -1
-[90m[main 2026-11-01T13:30:03.659Z][0m [MainGtmService] Loaded 2 conditions from dynamic config
-[90m[main 2026-11-01T13:30:03.662Z][0m [NetworkProxy] Using default system proxy mode without explicit proxy configuration
-[90m[main 2026-11-01T13:30:03.663Z][0m [NetworkProxy][SystemProxyDetection] Resolved system proxy status {
+[AbstractNetworkChecker] setValue: isFirstSet=false, isChange=false, suppressFirstEvent=true, value="none", cachedValue="none"
+[AbstractNetworkChecker] no change, not firing event
+[90m[main 2026-11-01T23:17:20.229Z][0m [AhaIpcServer] broadcast new event event:DynamicConfigService.onDidUpdateConfig
+[90m[main 2026-11-01T23:17:20.235Z][0m [ICubeProcessManager] resolve CKG product policy from config { enabled: false, resolved: false }
+[90m[main 2026-11-01T23:17:20.245Z][0m [MainICubeAuthWatchManagementService] reconcileCheckTimer shouldRunTimer: false , authCheckIntervalMs -1
+[90m[main 2026-11-01T23:17:20.245Z][0m [MainGtmService] Loaded 2 conditions from dynamic config
+[90m[main 2026-11-01T23:17:20.248Z][0m [NetworkProxy] Using default system proxy mode without explicit proxy configuration
+[90m[main 2026-11-01T23:17:20.249Z][0m [NetworkProxy][SystemProxyDetection] Resolved system proxy status {
   platform: 'linux',
   source: 'env',
   queryStatus: 'not_required',
@@ -641,20 +700,20 @@ xdg-open: no method available for opening 'https://www.trae.cn/authorization?log
 }
 [Logsdk] [trace] report appid with 711126
 [Logsdk] [trace] Composed event {
-  id: 'ii8lfpfo2ho',
+  id: 'eeek7ddubmc',
   originatedBy: 'logsdk',
-  createdAt: 1793539803663,
+  createdAt: 1793575040249,
   event: {
-    server_time: 1793539804,
+    server_time: 1793575041,
     caller: '',
     user: {
-      user_unique_id: '3471632598865673',
+      user_unique_id: '2292956278576539',
       user_id: '0',
-      device_id: '3471632598865673',
+      device_id: '2292956278576539',
       user_is_login: false
     },
     header: {
-      custom: '{"icube_uid":"0","user_id":"0","biz_user_id":"0","user_is_login":false,"user_unique_id":"3471632598865673","device_id":"3471632598865673","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"adec9dfaced948ba9893314a0f9e4ddd0caeabe44c226e4a7e84a38c1194d3d2","arch":"x64","system":"linux","scope":"unknown","build_version":"2.3.98528","vscode_version":"1.107.1","region":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"dd90bf49-2887-490b-9227-c1dfd4b4dccf","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
+      custom: '{"icube_uid":"0","user_id":"0","biz_user_id":"0","user_is_login":false,"user_unique_id":"2292956278576539","device_id":"2292956278576539","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"96854e511969dcd7c5a57498452188efca0fbe71d8ca6037570b179d7f0a5221","arch":"x64","system":"linux","scope":"unknown","build_version":"2.3.98528","vscode_version":"1.107.1","region":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"f910b20e-a241-4d05-8fdf-8a69690af8e2","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
       app_id: 711126,
       platform: 'electron',
       os_name: 'linux',
@@ -670,7 +729,7 @@ xdg-open: no method available for opening 'https://www.trae.cn/authorization?log
       {
         event: 'native_ide_network_proxy_resolved',
         params: '{"proxy_mode":"system","proxy_endpoint":"127.0.0.1:18080","bypass_list":""}',
-        time: 1793539804,
+        time: 1793575041,
         _staging_flag: undefined
       },
       [length]: 1
@@ -678,23 +737,21 @@ xdg-open: no method available for opening 'https://www.trae.cn/authorization?log
   }
 }
 [Logsdk.http] [trace] with channel domain https://mcs.zijieapi.com
-[Logsdk.http] [trace] new sent events [ 'ii8lfpfo2ho', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
+[Logsdk.http] [trace] new sent events [ 'eeek7ddubmc', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
 [Logsdk.http] [trace] queue drained, last sent 1
+[90m[main 2026-11-01T23:22:18.217Z][0m [BootService] network recheck triggered
 [AbstractNetworkChecker] setValue: isFirstSet=false, isChange=false, suppressFirstEvent=true, value="none", cachedValue="none"
 [AbstractNetworkChecker] no change, not firing event
-[90m[main 2026-11-01T13:35:01.655Z][0m [BootService] network recheck triggered
 [AbstractNetworkChecker] setValue: isFirstSet=false, isChange=false, suppressFirstEvent=true, value=false, cachedValue=false
 [AbstractNetworkChecker] no change, not firing event
-[AbstractNetworkChecker] setValue: isFirstSet=false, isChange=false, suppressFirstEvent=true, value="none", cachedValue="none"
-[AbstractNetworkChecker] no change, not firing event
-[90m[main 2026-11-01T13:35:03.644Z][0m ttnet fetch request https://api.trae.com.cn/icube/api/v1/native/config/query?mid=adec9dfaced948ba9893314a0f9e4ddd0caeabe44c226e4a7e84a38c1194d3d2&did=3471632598865673&packageType=stable_cn&productCode=TRAE&platform=Linux&branch=release_desktop_yoma_linux_cn&arch=x64&appVersion=3.4.11&buildVersion=2.3.98528&traeVersionCode=20250325
-[90m[main 2026-11-01T13:35:03.704Z][0m ttnet fetch response https://api.trae.com.cn/icube/api/v1/native/config/query?mid=adec9dfaced948ba9893314a0f9e4ddd0caeabe44c226e4a7e84a38c1194d3d2&did=3471632598865673&packageType=stable_cn&productCode=TRAE&platform=Linux&branch=release_desktop_yoma_linux_cn&arch=x64&appVersion=3.4.11&buildVersion=2.3.98528&traeVersionCode=20250325 304 Not Modified
-[90m[main 2026-11-01T13:35:03.708Z][0m [AhaIpcServer] broadcast new event event:DynamicConfigService.onDidUpdateConfig
-[90m[main 2026-11-01T13:35:03.717Z][0m [ICubeProcessManager] resolve CKG product policy from config { enabled: false, resolved: false }
-[90m[main 2026-11-01T13:35:03.728Z][0m [MainICubeAuthWatchManagementService] reconcileCheckTimer shouldRunTimer: false , authCheckIntervalMs -1
-[90m[main 2026-11-01T13:35:03.729Z][0m [MainGtmService] Loaded 2 conditions from dynamic config
-[90m[main 2026-11-01T13:35:03.733Z][0m [NetworkProxy] Using default system proxy mode without explicit proxy configuration
-[90m[main 2026-11-01T13:35:03.733Z][0m [NetworkProxy][SystemProxyDetection] Resolved system proxy status {
+[90m[main 2026-11-01T23:22:20.229Z][0m ttnet fetch request https://api.trae.com.cn/icube/api/v1/native/config/query?mid=96854e511969dcd7c5a57498452188efca0fbe71d8ca6037570b179d7f0a5221&did=2292956278576539&packageType=stable_cn&productCode=TRAE&platform=Linux&branch=release_desktop_yoma_linux_cn&arch=x64&appVersion=3.4.11&buildVersion=2.3.98528&traeVersionCode=20250325
+[90m[main 2026-11-01T23:22:20.326Z][0m ttnet fetch response https://api.trae.com.cn/icube/api/v1/native/config/query?mid=96854e511969dcd7c5a57498452188efca0fbe71d8ca6037570b179d7f0a5221&did=2292956278576539&packageType=stable_cn&productCode=TRAE&platform=Linux&branch=release_desktop_yoma_linux_cn&arch=x64&appVersion=3.4.11&buildVersion=2.3.98528&traeVersionCode=20250325 304 Not Modified
+[90m[main 2026-11-01T23:22:20.328Z][0m [AhaIpcServer] broadcast new event event:DynamicConfigService.onDidUpdateConfig
+[90m[main 2026-11-01T23:22:20.333Z][0m [ICubeProcessManager] resolve CKG product policy from config { enabled: false, resolved: false }
+[90m[main 2026-11-01T23:22:20.348Z][0m [MainICubeAuthWatchManagementService] reconcileCheckTimer shouldRunTimer: false , authCheckIntervalMs -1
+[90m[main 2026-11-01T23:22:20.348Z][0m [MainGtmService] Loaded 2 conditions from dynamic config
+[90m[main 2026-11-01T23:22:20.351Z][0m [NetworkProxy] Using default system proxy mode without explicit proxy configuration
+[90m[main 2026-11-01T23:22:20.351Z][0m [NetworkProxy][SystemProxyDetection] Resolved system proxy status {
   platform: 'linux',
   source: 'env',
   queryStatus: 'not_required',
@@ -703,20 +760,20 @@ xdg-open: no method available for opening 'https://www.trae.cn/authorization?log
 }
 [Logsdk] [trace] report appid with 711126
 [Logsdk] [trace] Composed event {
-  id: 'tbtfhkhks2o',
+  id: 'clc172injfo',
   originatedBy: 'logsdk',
-  createdAt: 1793540103734,
+  createdAt: 1793575340352,
   event: {
-    server_time: 1793540104,
+    server_time: 1793575341,
     caller: '',
     user: {
-      user_unique_id: '3471632598865673',
+      user_unique_id: '2292956278576539',
       user_id: '0',
-      device_id: '3471632598865673',
+      device_id: '2292956278576539',
       user_is_login: false
     },
     header: {
-      custom: '{"icube_uid":"0","user_id":"0","biz_user_id":"0","user_is_login":false,"user_unique_id":"3471632598865673","device_id":"3471632598865673","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"adec9dfaced948ba9893314a0f9e4ddd0caeabe44c226e4a7e84a38c1194d3d2","arch":"x64","system":"linux","scope":"unknown","build_version":"2.3.98528","vscode_version":"1.107.1","region":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"dd90bf49-2887-490b-9227-c1dfd4b4dccf","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
+      custom: '{"icube_uid":"0","user_id":"0","biz_user_id":"0","user_is_login":false,"user_unique_id":"2292956278576539","device_id":"2292956278576539","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"96854e511969dcd7c5a57498452188efca0fbe71d8ca6037570b179d7f0a5221","arch":"x64","system":"linux","scope":"unknown","build_version":"2.3.98528","vscode_version":"1.107.1","region":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"f910b20e-a241-4d05-8fdf-8a69690af8e2","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
       app_id: 711126,
       platform: 'electron',
       os_name: 'linux',
@@ -732,7 +789,7 @@ xdg-open: no method available for opening 'https://www.trae.cn/authorization?log
       {
         event: 'native_ide_network_proxy_resolved',
         params: '{"proxy_mode":"system","proxy_endpoint":"127.0.0.1:18080","bypass_list":""}',
-        time: 1793540104,
+        time: 1793575341,
         _staging_flag: undefined
       },
       [length]: 1
@@ -740,41 +797,193 @@ xdg-open: no method available for opening 'https://www.trae.cn/authorization?log
   }
 }
 [Logsdk.http] [trace] with channel domain https://mcs.zijieapi.com
-[Logsdk.http] [trace] new sent events [ 'tbtfhkhks2o', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
+[Logsdk.http] [trace] new sent events [ 'clc172injfo', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
 [Logsdk.http] [trace] queue drained, last sent 1
-[90m[main 2026-11-01T13:40:01.662Z][0m [BootService] network recheck triggered
-[AbstractNetworkChecker] setValue: isFirstSet=false, isChange=false, suppressFirstEvent=true, value=false, cachedValue=false
-[AbstractNetworkChecker] no change, not firing event
-[AbstractNetworkChecker] setValue: isFirstSet=false, isChange=false, suppressFirstEvent=true, value="none", cachedValue="none"
-[AbstractNetworkChecker] no change, not firing event
-[90m[main 2026-11-01T13:40:03.649Z][0m [AhaIpcServer] broadcast new event event:DynamicConfigService.onDidUpdateConfig
-[90m[main 2026-11-01T13:40:03.655Z][0m [ICubeProcessManager] resolve CKG product policy from config { enabled: false, resolved: false }
-[90m[main 2026-11-01T13:40:03.662Z][0m [MainICubeAuthWatchManagementService] reconcileCheckTimer shouldRunTimer: false , authCheckIntervalMs -1
-[90m[main 2026-11-01T13:40:03.662Z][0m [MainGtmService] Loaded 2 conditions from dynamic config
-[90m[main 2026-11-01T13:40:03.669Z][0m [NetworkProxy] Using default system proxy mode without explicit proxy configuration
-[90m[main 2026-11-01T13:40:03.670Z][0m [NetworkProxy][SystemProxyDetection] Resolved system proxy status {
+[90m[main 2026-11-01T23:26:39.038Z][0m Lifecycle#app.on(before-quit)
+[90m[main 2026-11-01T23:26:39.040Z][0m Lifecycle#onBeforeShutdown.fire()
+[90m[main 2026-11-01T23:26:39.042Z][0m [MainICubeSetupManagementService] login window closed by user
+[91m[main 2026-11-01T23:26:39.058Z][0m SetupWindow: renderer process gone (reason: clean-exit, code: <unknown>)
+[90m[main 2026-11-01T23:26:39.551Z][0m [MainICubeSetupManagementService] login window closed
+[90m[main 2026-11-01T23:26:39.552Z][0m Lifecycle#quit() - begin (willRestart: undefined)
+[90m[main 2026-11-01T23:26:39.552Z][0m Lifecycle#quit() - calling app.quit()
+[91m[main 2026-11-01T23:26:39.552Z][0m Canceled: Canceled
+    at M4e.cancel (file:///usr/share/trae-cn/resources/app/out/main.js:30:92911)
+    at BrowserWindow.<anonymous> (file:///usr/share/trae-cn/resources/app/out/main.js:2637:61232)
+    at Object.onceWrapper (node:events:634:26)
+    at BrowserWindow.emit (node:events:531:35)
+[90m[main 2026-11-01T23:26:39.552Z][0m Lifecycle#kill()
+[90m[main 2026-11-01T23:26:39.552Z][0m Lifecycle#onWillShutdown.fire()
+[90m[main 2026-11-01T23:26:39.555Z][0m [ICubeProcessManager] dispose
+[90m[main 2026-11-01T23:26:39.555Z][0m [ICubeProcessManager] ai-agent is quitting, kill process 3943
+[90m[main 2026-11-01T23:26:39.556Z][0m [ICubeProcessManager] libtoolhost is quitting, kill process 3760
+[90m[main 2026-11-01T23:26:39.557Z][0m [ICubeProcessManager] cue-server is quitting, kill process 3761
+[90m[main 2026-11-01T23:26:39.558Z][0m [FloatingChat] Persisting state: {"pinnedOnTop":false}
+[90m[main 2026-11-01T23:26:39.560Z][0m Lifecycle#app.on(will-quit) - begin
+[90m[main 2026-11-01T23:26:39.568Z][0m [ICubeProcessManager] cue-server process exit with code 0, description: undefined, restart disabled, skip restart
+[90m[main 2026-11-01T23:26:39.578Z][0m [AhaRpcClient] ahaIpc connect server disconnected, try to reconnect
+[90m[main 2026-11-01T23:26:39.578Z][0m [AhaRpcClient] close started
+[90m[main 2026-11-01T23:26:39.578Z][0m [AhaRpcClient] close finished
+[90m[main 2026-11-01T23:26:39.579Z][0m [AhaRpcClient] ahaIpc connected: ai-agent
+[90m[main 2026-11-01T23:26:39.581Z][0m [ICubeProcessManager] libtoolhost process exit with code 15, description: , restart disabled, skip restart
+[90m[main 2026-11-01T23:26:39.582Z][0m Lifecycle#app.on(will-quit) - after fireOnWillShutdown
+[90m[main 2026-11-01T23:26:39.582Z][0m Lifecycle#app.on(will-quit) - calling app.quit()
+ProcessMonitor constructor
+(node:4560) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `trae-cn --trace-deprecation ...` to show where the warning was created)
+[90m[main 2026-11-01T23:26:43.479Z][0m Main->SharedProcess#connect
+[90m[main 2026-11-01T23:26:43.484Z][0m [SupabaseOAuthServiceImpl#constructor] Token save path: file:///home/trae/.config/Trae%20CN/User/supabase-token.json
+[90m[main 2026-11-01T23:26:43.490Z][0m SupabaseOAuthLocalServer#Found available port: 17788
+[90m[main 2026-11-01T23:26:43.497Z][0m [ICDRS] (constructor) did: 2292956278576539, ldid: aha-91ebdad43358ed46b21e6ed919bd7e68, rdid: 2292956278576539
+[90m[main 2026-11-01T23:26:43.498Z][0m [UserStorage] no available persist userInfo to restore.
+[90m[main 2026-11-01T23:26:43.508Z][0m [AhaIpcServer] ElectronAhaIpcServer registerService BootService
+[90m[main 2026-11-01T23:26:43.509Z][0m [AhaIpcServer] ElectronAhaIpcServer registerService DynamicConfigService
+[90m[main 2026-11-01T23:26:43.509Z][0m TRAE Config IPC Servers initialized
+[90m[main 2026-11-01T23:26:43.510Z][0m [GitBlameMainService] Proxy service constructed
+[90m[main 2026-11-01T23:26:43.510Z][0m [GitBlameMainService] Registering IPC handler for: vscode:sandbox::main-start-git-blame-analysis
+[90m[main 2026-11-01T23:26:43.510Z][0m [GitBlameMainService] IPC handlers registered
+[90m[main 2026-11-01T23:26:43.512Z][0m ICUBE:Linux:update#constructor -> LinuxUpdateService initialized {
+  platform: 'linux',
+  isBuilt: true,
+  disableUpdates: false,
+  productName: 'Trae CN',
+  productVersion: '1.107.1',
+  tronBuildVersion: '2.3.98528'
+}
+[90m[main 2026-11-01T23:26:43.516Z][0m [FloatingChat] Restoring state: {"pinnedOnTop":false}
+[90m[main 2026-11-01T23:26:43.516Z][0m [FloatingChat] State restored, button: false chat: false chatSize: false pinned: false
+[90m[main 2026-11-01T23:26:43.518Z][0m [NetworkQualityMainService] Initialized, listening for network quality events
+[90m[main 2026-11-01T23:26:43.518Z][0m [WidgetSandbox:main] WidgetSandboxServiceImpl constructed
+[90m[main 2026-11-01T23:26:43.522Z][0m [NetworkProxy] Proxy mode changed { previousMode: undefined, mode: 'system' }
+[90m[main 2026-11-01T23:26:43.523Z][0m lifecycle (main): phase changed (value: 2)
+[90m[main 2026-11-01T23:26:43.524Z][0m [iCubeCrawler] PolicyProvider initialized with 34 blocked hostnames and 34 wildcard patterns (user configured: 0 patterns)
+[90m[main 2026-11-01T23:26:43.525Z][0m [iCubeCrawler] Crawler task pool initialized, maxSize: 1, cpuCount: 3
+[90m[main 2026-11-01T23:26:43.525Z][0m [iCubeCrawler] PolicyProvider initialized with 34 blocked hostnames and 34 wildcard patterns (user configured: 0 patterns)
+[90m[main 2026-11-01T23:26:43.525Z][0m [iCubeCrawler] WebSearch crawler task pool initialized, maxSize: 3, cpuCount: 3
+[90m[main 2026-11-01T23:26:43.526Z][0m [MainICubeAuthWatchManagementService] reconcileCheckTimer shouldRunTimer: false , authCheckIntervalMs -1
+[90m[main 2026-11-01T23:26:43.527Z][0m [iCubeProcessExplorerService] starting FD monitor: interval=30000, threshold=0.9
+[90m[main 2026-11-01T23:26:43.529Z][0m [NetworkProxy] Using default system proxy mode without explicit proxy configuration
+[90m[main 2026-11-01T23:26:43.530Z][0m [UserStorage] no available persist userInfo to restore.
+[90m[main 2026-11-01T23:26:43.530Z][0m [MainGtmService] [gtm-force-hidden] settings_read {
+  source: 'initialize',
+  key: 'gtm.dialog.forceHidden',
+  rawType: 'boolean',
+  rawValue: false,
+  normalized: false,
+  previous: false
+}
+[90m[main 2026-11-01T23:26:43.531Z][0m [MainGtmService] Loaded 2 conditions from dynamic config
+[90m[main 2026-11-01T23:26:43.531Z][0m [MainICubeAuthManagementService] registerListeners
+[90m[main 2026-11-01T23:26:43.532Z][0m [NetworkProxy][SystemProxyDetection] Resolved system proxy status {
   platform: 'linux',
   source: 'env',
   queryStatus: 'not_required',
   result: 'configured',
   reason: undefined
 }
+[90m[main 2026-11-01T23:26:43.533Z][0m getStoreRegion { countryCode: '', countryCodeSrc: 'did', region: 'CN' }
+[93m[main 2026-11-01T23:26:43.548Z][0m [MainGtmService] [switch_cn_billing_version] pay_status_evaluated { billingState: 'missing', billingField: 'unavailable' }
+[93m[main 2026-11-01T23:26:43.548Z][0m [MainGtmService] [switch_cn_billing_version] trigger_skipped_invalid_state { billingState: 'missing' }
+[90m[main 2026-11-01T23:26:43.549Z][0m [Startup] check setup state INIT
+dbus-daemon[4559]: [session uid=1001 pid=4559] Activating service name='org.a11y.Bus' requested by ':1.2' (uid=1001 pid=4560 comm="/usr/share/trae-cn/trae-cn --no-sandbox --disable-")
+dbus-daemon[4559]: [session uid=1001 pid=4559] Successfully activated service 'org.a11y.Bus'
+[90m[main 2026-11-01T23:26:43.630Z][0m [app] web-contents-created type: window id: 1 url: 
+[90m[main 2026-11-01T23:26:43.654Z][0m [MainICubeSetupManagementService] new window to load setupMain.html
+[90m[main 2026-11-01T23:26:43.672Z][0m ICUBE:Linux:update#detectLinuxDistribution -> Reading /etc/os-release {
+  content: 'PRETTY_NAME="Ubuntu 24.04 LTS"\n' +
+    'NAME="Ubuntu"\n' +
+    'VERSION_ID="24.04"\n' +
+    'VERSION="24.04 LTS (Noble Numbat)"\n' +
+    'VERSION_CODENAME=noble\n' +
+    'ID=ubuntu\n' +
+    'ID_LIKE=debian\n' +
+    'HOME_URL="https://www.ubuntu.com/"\n' +
+    'SUPPORT_URL="https'
+}
+[90m[main 2026-11-01T23:26:43.673Z][0m ICUBE:Linux:update#detectLinuxDistribution -> Detected Debian-based system
+[90m[main 2026-11-01T23:26:43.675Z][0m [UserStorage] no available persist userInfo to restore.
+[90m[main 2026-11-01T23:26:43.852Z][0m setup page getTheme Light
+[90m[main 2026-11-01T23:26:43.882Z][0m [ICDRS] (init) resolve rdid: 2292956278576539
+[90m[main 2026-11-01T23:26:43.883Z][0m [ICDRS] (init) initialization done, did: 2292956278576539, ldid: aha-91ebdad43358ed46b21e6ed919bd7e68, rdid: 2292956278576539
+[90m[main 2026-11-01T23:26:43.887Z][0m [OAuthMarscodeService] loaded device key pair from storage
+[90m[main 2026-11-01T23:26:43.897Z][0m getStoreRegion { countryCode: '', countryCodeSrc: 'did', region: 'CN' }
+[90m[main 2026-11-01T23:26:43.899Z][0m [UserStorage] no available persist userInfo to restore.
+[90m[main 2026-11-01T23:26:43.909Z][0m getStoreRegion { countryCode: '', countryCodeSrc: 'did', region: 'CN' }
+[AbstractNetworkChecker] setValue: isFirstSet=true, isChange=true, suppressFirstEvent=true, value=false, cachedValue=undefined
+[AbstractNetworkChecker] suppressing first event
+[91m[main 2026-11-01T23:26:44.546Z][0m [cdnLocation] all cdn check endpoints failed [Error [AggregateError]: All promises were rejected]
+[AbstractNetworkChecker] setValue: isFirstSet=true, isChange=true, suppressFirstEvent=true, value="none", cachedValue=undefined
+[AbstractNetworkChecker] suppressing first event
+[AbstractNetworkChecker] setValue: isFirstSet=false, isChange=false, suppressFirstEvent=true, value=false, cachedValue=false
+[AbstractNetworkChecker] no change, not firing event
+[AbstractNetworkChecker] setValue: isFirstSet=false, isChange=false, suppressFirstEvent=true, value="none", cachedValue="none"
+[AbstractNetworkChecker] no change, not firing event
+[90m[main 2026-11-01T23:26:45.559Z][0m ttnet fetch request https://api.trae.com.cn/icube/api/v1/native/config/query?mid=96854e511969dcd7c5a57498452188efca0fbe71d8ca6037570b179d7f0a5221&did=2292956278576539&packageType=stable_cn&productCode=TRAE&platform=Linux&branch=release_desktop_yoma_linux_cn&arch=x64&appVersion=3.4.11&buildVersion=2.3.98528&traeVersionCode=20250325
+[90m[main 2026-11-01T23:26:45.564Z][0m getStoreRegion { countryCode: '', countryCodeSrc: 'did', region: 'CN' }
+[90m[main 2026-11-01T23:26:45.571Z][0m [icubeEventReportSerice] register slardar clientType instanceId---- slardar trae_cn
+[Logsdk] [trace] initialized success with options {
+  logLevel: 'verbose',
+  retry: 5,
+  disable_auto_pv: true,
+  enable_ttwebid: true,
+  cross_subdomain: true,
+  verifyHost: 'https://mcs.bytedance.net',
+  debugHost: 'https://data.bytedance.net',
+  appId: 711126,
+  libraDomain: 'https://abtestvm.bytedance.com',
+  channelDomain: 'https://mcs.zijieapi.com',
+  supportChangeAppId: false,
+  engine: 'tea',
+  app_id: 711126,
+  transport: [AsyncFunction: Bve] {
+    [length]: 2,
+    [name]: 'Bve',
+    [Symbol(Symbol.toStringTag)]: 'AsyncFunction'
+  },
+  channel_domain: 'https://mcs.zijieapi.com',
+  ab_channel_domain: 'https://abtestvm.bytedance.com',
+  abServiceOrigin: 'https://abtestvm.bytedance.com',
+  enable_ab_test: true,
+  clientType: 'tea',
+  event_verify_url: undefined,
+  report_time: 1000,
+  max_report: 20
+}
+[Logsdk] [trace] initialized sdk version '3.0.10'
+[Logsdk.http] [trace] http-plugin version 4.0.10
+[Logsdk] [trace] Plugin http installed
+[Logsdk] [trace] Re-configure header with {
+  app_id: 711126,
+  app_version: '3.4.11',
+  os_name: 'linux',
+  os_version: 'Ubuntu 24.04 LTS',
+  device_model: '',
+  platform: 'electron',
+  language: 'en',
+  app_language: 'en'
+}
+[Logsdk] [trace] Re-configure user with {
+  user_unique_id: '2292956278576539',
+  user_id: '0',
+  device_id: '2292956278576539',
+  user_is_login: false
+}
+[90m[main 2026-11-01T23:26:45.573Z][0m [icubeEventReportSerice] register tea clientType app_id---- tea 711126
 [Logsdk] [trace] report appid with 711126
 [Logsdk] [trace] Composed event {
-  id: 'p1enmr3dqqk',
+  id: 'pekiiuvigr',
   originatedBy: 'logsdk',
-  createdAt: 1793540403670,
+  createdAt: 1793575605574,
   event: {
-    server_time: 1793540404,
+    server_time: 1793575606,
     caller: '',
     user: {
-      user_unique_id: '3471632598865673',
+      user_unique_id: '2292956278576539',
       user_id: '0',
-      device_id: '3471632598865673',
+      device_id: '2292956278576539',
       user_is_login: false
     },
     header: {
-      custom: '{"icube_uid":"0","user_id":"0","biz_user_id":"0","user_is_login":false,"user_unique_id":"3471632598865673","device_id":"3471632598865673","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"adec9dfaced948ba9893314a0f9e4ddd0caeabe44c226e4a7e84a38c1194d3d2","arch":"x64","system":"linux","scope":"unknown","build_version":"2.3.98528","vscode_version":"1.107.1","region":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"dd90bf49-2887-490b-9227-c1dfd4b4dccf","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
+      custom: '{"icube_uid":"0","user_id":"0","biz_user_id":"0","user_is_login":false,"user_unique_id":"2292956278576539","device_id":"2292956278576539","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"96854e511969dcd7c5a57498452188efca0fbe71d8ca6037570b179d7f0a5221","arch":"x64","system":"linux","scope":"unknown","build_version":"2.3.98528","vscode_version":"1.107.1","region":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"3046f74f-12f9-41d5-a06f-77084e92c493","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
       app_id: 711126,
       platform: 'electron',
       os_name: 'linux',
@@ -790,7 +999,7 @@ xdg-open: no method available for opening 'https://www.trae.cn/authorization?log
       {
         event: 'native_ide_network_proxy_resolved',
         params: '{"proxy_mode":"system","proxy_endpoint":"127.0.0.1:18080","bypass_list":""}',
-        time: 1793540404,
+        time: 1793575606,
         _staging_flag: undefined
       },
       [length]: 1
@@ -798,43 +1007,75 @@ xdg-open: no method available for opening 'https://www.trae.cn/authorization?log
   }
 }
 [Logsdk.http] [trace] with channel domain https://mcs.zijieapi.com
-[Logsdk.http] [trace] new sent events [ 'p1enmr3dqqk', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
-[Logsdk.http] [trace] queue drained, last sent 1
-[90m[main 2026-11-01T13:45:01.662Z][0m [BootService] network recheck triggered
-[AbstractNetworkChecker] setValue: isFirstSet=false, isChange=false, suppressFirstEvent=true, value=false, cachedValue=false
-[AbstractNetworkChecker] no change, not firing event
-[AbstractNetworkChecker] setValue: isFirstSet=false, isChange=false, suppressFirstEvent=true, value="none", cachedValue="none"
-[AbstractNetworkChecker] no change, not firing event
-[90m[main 2026-11-01T13:45:03.650Z][0m ttnet fetch request https://api.trae.com.cn/icube/api/v1/native/config/query?mid=adec9dfaced948ba9893314a0f9e4ddd0caeabe44c226e4a7e84a38c1194d3d2&did=3471632598865673&packageType=stable_cn&productCode=TRAE&platform=Linux&branch=release_desktop_yoma_linux_cn&arch=x64&appVersion=3.4.11&buildVersion=2.3.98528&traeVersionCode=20250325
-[90m[main 2026-11-01T13:45:05.450Z][0m ttnet fetch response https://api.trae.com.cn/icube/api/v1/native/config/query?mid=adec9dfaced948ba9893314a0f9e4ddd0caeabe44c226e4a7e84a38c1194d3d2&did=3471632598865673&packageType=stable_cn&productCode=TRAE&platform=Linux&branch=release_desktop_yoma_linux_cn&arch=x64&appVersion=3.4.11&buildVersion=2.3.98528&traeVersionCode=20250325 304 Not Modified
-[90m[main 2026-11-01T13:45:05.453Z][0m [AhaIpcServer] broadcast new event event:DynamicConfigService.onDidUpdateConfig
-[90m[main 2026-11-01T13:45:05.458Z][0m [ICubeProcessManager] resolve CKG product policy from config { enabled: false, resolved: false }
-[90m[main 2026-11-01T13:45:05.466Z][0m [MainICubeAuthWatchManagementService] reconcileCheckTimer shouldRunTimer: false , authCheckIntervalMs -1
-[90m[main 2026-11-01T13:45:05.466Z][0m [MainGtmService] Loaded 2 conditions from dynamic config
-[90m[main 2026-11-01T13:45:05.469Z][0m [NetworkProxy] Using default system proxy mode without explicit proxy configuration
-[90m[main 2026-11-01T13:45:05.470Z][0m [NetworkProxy][SystemProxyDetection] Resolved system proxy status {
+[90m[main 2026-11-01T23:26:45.592Z][0m ttnet fetch response https://api.trae.com.cn/icube/api/v1/native/config/query?mid=96854e511969dcd7c5a57498452188efca0fbe71d8ca6037570b179d7f0a5221&did=2292956278576539&packageType=stable_cn&productCode=TRAE&platform=Linux&branch=release_desktop_yoma_linux_cn&arch=x64&appVersion=3.4.11&buildVersion=2.3.98528&traeVersionCode=20250325 200 OK
+[90m[main 2026-11-01T23:26:45.601Z][0m [AhaIpcServer] broadcast new event event:BootService.onDidBootConfigChanged
+[BootService] broadcastToAllCodeWindows, channel: vscode:main::sandbox-boot-config-change windowCount: 0
+[90m[main 2026-11-01T23:26:45.601Z][0m enter node enviroment
+[90m[main 2026-11-01T23:26:45.610Z][0m [AhaIpcServer] broadcast new event event:DynamicConfigService.onDidUpdateConfig
+[90m[main 2026-11-01T23:26:45.611Z][0m [ICubeProcessManager] resolve CKG product policy from config { enabled: false, resolved: false }
+[90m[main 2026-11-01T23:26:45.611Z][0m [MainICubeAuthWatchManagementService] reconcileCheckTimer shouldRunTimer: false , authCheckIntervalMs -1
+[90m[main 2026-11-01T23:26:45.612Z][0m [MainGtmService] Loaded 2 conditions from dynamic config
+[90m[main 2026-11-01T23:26:45.612Z][0m [AhaIpcServer] broadcast new event event:DynamicConfigService.onDidUpdateMFConfig
+[90m[main 2026-11-01T23:26:45.616Z][0m [MainGtmService] Loaded 2 conditions from dynamic config
+[90m[main 2026-11-01T23:26:45.617Z][0m [NetworkProxy] Using default system proxy mode without explicit proxy configuration
+[90m[main 2026-11-01T23:26:45.617Z][0m [ICubeProcessManager] resolved initial CKG product policy { enabled: false, identityAware: false }
+[90m[main 2026-11-01T23:26:45.619Z][0m [ICubeProcessManager] startup environment resolved {
+  isRemote: false,
+  isProduct: true,
+  enableHarness: true,
+  enableSingletonCueServer: true,
+  enableCkgAhaRequest: true
+}
+[90m[main 2026-11-01T23:26:45.620Z][0m [ICubeProcessManager] process manager initialized {
+  moduleName: 'ai-agent',
+  isRemote: false,
+  isProduct: true,
+  enableHarness: true
+}
+[90m[main 2026-11-01T23:26:45.621Z][0m [ICubeProcessManager] process manager initialized {
+  moduleName: 'ckg',
+  isRemote: false,
+  isProduct: true,
+  enableHarness: true
+}
+[90m[main 2026-11-01T23:26:45.622Z][0m [ICubeProcessManager] process manager initialized {
+  moduleName: 'libtoolhost',
+  isRemote: false,
+  isProduct: true,
+  enableHarness: true
+}
+[90m[main 2026-11-01T23:26:45.622Z][0m [ICubeProcessManager] process manager initialized {
+  moduleName: 'cue-server',
+  isRemote: false,
+  isProduct: true,
+  enableHarness: true
+}
+[90m[main 2026-11-01T23:26:45.622Z][0m [ICubeProcessManager] CKG product policy changed, enabled: false
+[90m[main 2026-11-01T23:26:45.622Z][0m [NetworkProxy][SystemProxyDetection] Resolved system proxy status {
   platform: 'linux',
   source: 'env',
   queryStatus: 'not_required',
   result: 'configured',
   reason: undefined
 }
+[90m[main 2026-11-01T23:26:45.622Z][0m [AhaRpcClient] ahaIpc connected: ai-agent
+[90m[main 2026-11-01T23:26:45.623Z][0m [ICubeProcessManager] start
 [Logsdk] [trace] report appid with 711126
 [Logsdk] [trace] Composed event {
-  id: 'hmop2nhc0s',
+  id: '3u422buqof8',
   originatedBy: 'logsdk',
-  createdAt: 1793540705470,
+  createdAt: 1793575605623,
   event: {
-    server_time: 1793540706,
+    server_time: 1793575606,
     caller: '',
     user: {
-      user_unique_id: '3471632598865673',
+      user_unique_id: '2292956278576539',
       user_id: '0',
-      device_id: '3471632598865673',
+      device_id: '2292956278576539',
       user_is_login: false
     },
     header: {
-      custom: '{"icube_uid":"0","user_id":"0","biz_user_id":"0","user_is_login":false,"user_unique_id":"3471632598865673","device_id":"3471632598865673","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"adec9dfaced948ba9893314a0f9e4ddd0caeabe44c226e4a7e84a38c1194d3d2","arch":"x64","system":"linux","scope":"unknown","build_version":"2.3.98528","vscode_version":"1.107.1","region":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"dd90bf49-2887-490b-9227-c1dfd4b4dccf","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
+      custom: '{"icube_uid":"0","user_id":"0","biz_user_id":"0","user_is_login":false,"user_unique_id":"2292956278576539","device_id":"2292956278576539","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"96854e511969dcd7c5a57498452188efca0fbe71d8ca6037570b179d7f0a5221","arch":"x64","system":"linux","scope":"unknown","build_version":"2.3.98528","vscode_version":"1.107.1","region":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"3046f74f-12f9-41d5-a06f-77084e92c493","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
       app_id: 711126,
       platform: 'electron',
       os_name: 'linux',
@@ -850,23 +1091,120 @@ xdg-open: no method available for opening 'https://www.trae.cn/authorization?log
       {
         event: 'native_ide_network_proxy_resolved',
         params: '{"proxy_mode":"system","proxy_endpoint":"127.0.0.1:18080","bypass_list":""}',
-        time: 1793540706,
+        time: 1793575606,
         _staging_flag: undefined
       },
       [length]: 1
     ]
   }
 }
+[90m[main 2026-11-01T23:26:45.624Z][0m [ICubeProcessManager] useIpv6: false
+[90m[main 2026-11-01T23:26:45.626Z][0m [ICubeProcessManager] get free port 51000
+[90m[main 2026-11-01T23:26:45.626Z][0m [LibToolhostProcessManager] baseDir: /usr/share/trae-cn/resources/app
+[90m[main 2026-11-01T23:26:45.626Z][0m [LibToolhostProcessManager] dylibPath: /usr/share/trae-cn/resources/app/modules/ai-agent/libtoolhost.so
+[90m[main 2026-11-01T23:26:45.626Z][0m [LibToolhostProcessManager] ctxCliPath: /usr/share/trae-cn/resources/app/modules/ai-agent/bin/ctx-cli
+[90m[main 2026-11-01T23:26:45.626Z][0m [LibToolhostProcessManager] ctxCliIpcName: /tmp/vscode-ipc-15038b7a-1814-4afc-a080-b6ceca191839.sock
+[90m[main 2026-11-01T23:26:45.627Z][0m baseDir /usr/share/trae-cn/resources/app
+[90m[main 2026-11-01T23:26:45.627Z][0m dylibPath /usr/share/trae-cn/resources/app/modules/ai-agent/libharness.so
+[90m[main 2026-11-01T23:26:45.628Z][0m [AIAgentProcessManager] selected artifact {
+  implementation: 'harness',
+  enableHarness: true,
+  product: 'desktop',
+  artifactPath: '/usr/share/trae-cn/resources/app/modules/ai-agent/libharness.so',
+  isRemote: false
+}
+[90m[main 2026-11-01T23:26:45.629Z][0m [ICubeProcessManager] libtoolhost starting {
+  name: 'libtoolhost',
+  type: 'lib',
+  path: '/usr/share/trae-cn/resources/app/modules/ai-agent/libtoolhost.so',
+  stdoutFilePath: '/home/trae/.config/Trae CN/logs/20261102T072643/Modular/libtoolhost_0_1793575605627_stdout.log',
+  stderrFilePath: '/home/trae/.config/Trae CN/logs/20261102T072643/Modular/libtoolhost_0_1793575605627_stderr.log',
+  startCount: 0,
+  useIpv6: false
+}
+[90m[main 2026-11-01T23:26:45.635Z][0m [AIAgentProcessManager] startup env summary {"isSoloLiteMode":false,"hasUserEnv":false,"userEnvKeyCount":0,"userEnvKeys":[],"parentPath":{"present":true,"segmentCount":7,"head":["/usr/local/sbin","/usr/local/bin","/usr/sbin","/usr/bin"],"tail":["/usr/bin","/sbin","/bin","/snap/bin"]},"userEnvPath":{"present":false,"segmentCount":0,"head":[],"tail":[]},"finalAiAgentPath":{"present":true,"segmentCount":8,"head":["/usr/local/sbin","/usr/local/bin","/usr/sbin","/usr/bin"],"tail":["/sbin","/bin","/snap/bin","/usr/share/trae-cn/resources/app/bin/lib"]},"dllLibDir":"/usr/share/trae-cn/resources/app/bin/lib","toolhostPathSuffix":"/usr/share/trae-cn/resources/app/node_modules/@vscode/ripgrep/bin","toolhostTransport":"ipc","aiNativeEnv":"desktop"}
+[90m[main 2026-11-01T23:26:45.635Z][0m [ICubeProcessManager] cue-server starting {
+  name: 'cueServer',
+  type: 'nodejs',
+  path: '/usr/share/trae-cn/resources/app/extensions/ai-completion/resource/aiserver/cue.js',
+  stdoutFilePath: '/home/trae/.config/Trae CN/logs/20261102T072643/Modular/cue-server_0_1793575605628_stdout.log',
+  stderrFilePath: '/home/trae/.config/Trae CN/logs/20261102T072643/Modular/cue-server_0_1793575605628_stderr.log',
+  startCount: 0,
+  useIpv6: false
+}
+[90m[main 2026-11-01T23:26:45.665Z][0m [ICubeProcessManager] cue-server ping request sent
+[90m[main 2026-11-01T23:26:45.668Z][0m [ICubeProcessManager] libtoolhost process health check succeeded
+[90m[main 2026-11-01T23:26:45.669Z][0m [ICubeProcessManager] ai-agent starting {
+  name: 'ai',
+  type: 'lib',
+  path: '/usr/share/trae-cn/resources/app/modules/ai-agent/libharness.so',
+  stdoutFilePath: '/home/trae/.config/Trae CN/logs/20261102T072643/Modular/ai-agent_0_1793575605628_stdout.log',
+  stderrFilePath: '/home/trae/.config/Trae CN/logs/20261102T072643/Modular/ai-agent_0_1793575605628_stderr.log',
+  startCount: 0,
+  useIpv6: false
+}
+[90m[main 2026-11-01T23:26:45.702Z][0m [ICubeProcessManager] doRequest, service=healthcheck, method=ping, channel_id=2666193f-6966-4265-b15d-9bb14ae16639
+[90m[main 2026-11-01T23:26:45.705Z][0m [AhaRpcClient] ahaIpc connected: cueServer
+[90m[main 2026-11-01T23:26:45.706Z][0m [ICubeProcessManager] libtoolhost process is healthy and ready
+[90m[main 2026-11-01T23:26:45.733Z][0m [ICubeProcessManager] libtoolhost process spawned, pid: 4787
+[90m[main 2026-11-01T23:26:45.741Z][0m [ICubeProcessManager] cue-server process spawned, pid: 4788
+[90m[main 2026-11-01T23:26:45.742Z][0m [ICubeProcessManager] cue-server process pid is 4788, set isSingletonCueServer to true
+[90m[main 2026-11-01T23:26:45.745Z][0m [ICubeProcessManager] ai-agent process spawned, pid: 4789
+[90m[main 2026-11-01T23:26:45.748Z][0m [ICubeProcessManager] cleanup log files succeeded
+[90m[main 2026-11-01T23:26:45.748Z][0m [ICubeProcessManager] cleanup log files succeeded
+[90m[main 2026-11-01T23:26:45.749Z][0m [ICubeProcessManager] cleanup log files succeeded
+[Logsdk.http] [trace] new sent events [ 'pekiiuvigr', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
 [Logsdk.http] [trace] with channel domain https://mcs.zijieapi.com
-[Logsdk.http] [trace] new sent events [ 'hmop2nhc0s', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
+[90m[main 2026-11-01T23:26:45.855Z][0m [Main] Create shared process
+[Logsdk.http] [trace] new sent events [ '3u422buqof8', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
 [Logsdk.http] [trace] queue drained, last sent 1
-[90m[main 2026-11-01T13:50:01.679Z][0m [BootService] network recheck triggered
-[90m[main 2026-11-01T13:50:03.653Z][0m [AhaIpcServer] broadcast new event event:DynamicConfigService.onDidUpdateConfig
-[90m[main 2026-11-01T13:50:03.659Z][0m [ICubeProcessManager] resolve CKG product policy from config { enabled: false, resolved: false }
-[90m[main 2026-11-01T13:50:03.669Z][0m [MainICubeAuthWatchManagementService] reconcileCheckTimer shouldRunTimer: false , authCheckIntervalMs -1
-[90m[main 2026-11-01T13:50:03.669Z][0m [MainGtmService] Loaded 2 conditions from dynamic config
-[90m[main 2026-11-01T13:50:03.675Z][0m [NetworkProxy] Using default system proxy mode without explicit proxy configuration
-[90m[main 2026-11-01T13:50:03.675Z][0m [NetworkProxy][SystemProxyDetection] Resolved system proxy status {
+[90m[main 2026-11-01T23:26:45.949Z][0m [ElectronAhaIpcServer] handleConnection RecvConnection {
+  _events: [Object: null prototype] {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  [Symbol(shapeMode)]: false,
+  [Symbol(kCapture)]: false
+}
+[90m[main 2026-11-01T23:26:45.973Z][0m [AhaIpcServer] ElectronAhaIpcServer handleConnection
+[90m[main 2026-11-01T23:26:45.975Z][0m [AhaIpcServer] ElectronAhaIpcServer handleRequest [0] BootService.getBootConfig undefined
+[90m[main 2026-11-01T23:26:45.978Z][0m [AhaIpcServer] ElectronAhaIpcServer handleRequest [0] BootService.getBootConfig success hasResult: true duration: 2ms
+[90m[main 2026-11-01T23:26:46.384Z][0m [AhaIpcServer] ElectronAhaIpcServer handleRequest [1] DynamicConfigService.getConfigWhenPullDone undefined
+[90m[main 2026-11-01T23:26:46.384Z][0m [AhaIpcServer] ElectronAhaIpcServer handleRequest [1] DynamicConfigService.getConfigWhenPullDone success hasResult: true duration: 0ms
+[90m[main 2026-11-01T23:26:46.525Z][0m [ICubeProcessManager] doRequest, response: {"code":0,"message":"success","data":{"message":"pong"}}
+[90m[main 2026-11-01T23:26:46.527Z][0m [ICubeProcessManager] ai-agent process health check succeeded
+[90m[main 2026-11-01T23:26:46.528Z][0m [ICubeProcessManager] ai-agent process is healthy and ready
+[90m[main 2026-11-01T23:26:46.797Z][0m [AhaRpcClient] ahaIpc request timeout
+[90m[main 2026-11-01T23:26:46.803Z][0m [ElectronAhaIpcServer] handleConnection RecvConnection {
+  _events: [Object: null prototype] {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  [Symbol(shapeMode)]: false,
+  [Symbol(kCapture)]: false
+}
+[90m[main 2026-11-01T23:26:46.803Z][0m [AhaIpcServer] ElectronAhaIpcServer handleConnection
+[90m[main 2026-11-01T23:26:46.803Z][0m [AhaIpcServer] ElectronAhaIpcServer handleRequest [0] BootService.getBootConfig undefined
+[90m[main 2026-11-01T23:26:46.804Z][0m [AhaIpcServer] ElectronAhaIpcServer handleRequest [0] BootService.getBootConfig success hasResult: true duration: 0ms
+[90m[main 2026-11-01T23:26:46.804Z][0m [AhaIpcServer] ElectronAhaIpcServer handleRequest [1] BootService.getBootConfig undefined
+[90m[main 2026-11-01T23:26:46.804Z][0m [AhaIpcServer] ElectronAhaIpcServer handleRequest [1] BootService.getBootConfig success hasResult: true duration: 0ms
+[91m[main 2026-11-01T23:26:46.914Z][0m [SharedProcess] stderr: (node:4820) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+
+[90m[main 2026-11-01T23:26:46.999Z][0m [Main] [SharedProcess] IPC ready
+[90m[main 2026-11-01T23:26:47.000Z][0m Main->SharedProcess#connect: connection established
+[90m[main 2026-11-01T23:26:47.000Z][0m [GitBlameMainService] Shared process channel set
+[90m[main 2026-11-01T23:26:47.057Z][0m getStoreRegion { countryCode: '', countryCodeSrc: 'did', region: 'CN' }
+[90m[main 2026-11-01T23:26:47.060Z][0m [UserStorage] no available persist userInfo to restore.
+[90m[main 2026-11-01T23:26:47.065Z][0m [UserStorage] no available persist userInfo to restore.
+[90m[main 2026-11-01T23:26:47.089Z][0m getStoreRegion { countryCode: '', countryCodeSrc: 'did', region: 'CN' }
+[90m[main 2026-11-01T23:26:47.105Z][0m [UserStorage] no available persist userInfo to restore.
+[90m[main 2026-11-01T23:26:48.563Z][0m ttnet fetch request https://api.trae.com.cn/icube/api/v1/native/config/query?mid=96854e511969dcd7c5a57498452188efca0fbe71d8ca6037570b179d7f0a5221&did=2292956278576539&packageType=stable_cn&productCode=TRAE&platform=Linux&branch=release_desktop_yoma_linux_cn&arch=x64&appVersion=3.4.11&buildVersion=2.3.98528&traeVersionCode=20250325
+[90m[main 2026-11-01T23:26:48.568Z][0m ttnet fetch response https://api.trae.com.cn/icube/api/v1/native/config/query?mid=96854e511969dcd7c5a57498452188efca0fbe71d8ca6037570b179d7f0a5221&did=2292956278576539&packageType=stable_cn&productCode=TRAE&platform=Linux&branch=release_desktop_yoma_linux_cn&arch=x64&appVersion=3.4.11&buildVersion=2.3.98528&traeVersionCode=20250325 200 OK
+[90m[main 2026-11-01T23:26:48.582Z][0m [AhaIpcServer] broadcast new event event:DynamicConfigService.onDidUpdateConfig
+[90m[main 2026-11-01T23:26:48.591Z][0m [ICubeProcessManager] resolve CKG product policy from config { enabled: false, resolved: false }
+[90m[main 2026-11-01T23:26:48.599Z][0m [MainICubeAuthWatchManagementService] reconcileCheckTimer shouldRunTimer: false , authCheckIntervalMs -1
+[90m[main 2026-11-01T23:26:48.600Z][0m [MainGtmService] Loaded 2 conditions from dynamic config
+[90m[main 2026-11-01T23:26:48.603Z][0m [NetworkProxy] Using default system proxy mode without explicit proxy configuration
+[90m[main 2026-11-01T23:26:48.603Z][0m [NetworkProxy][SystemProxyDetection] Resolved system proxy status {
   platform: 'linux',
   source: 'env',
   queryStatus: 'not_required',
@@ -875,20 +1213,20 @@ xdg-open: no method available for opening 'https://www.trae.cn/authorization?log
 }
 [Logsdk] [trace] report appid with 711126
 [Logsdk] [trace] Composed event {
-  id: 'k0m6nis18pc',
+  id: 'gh1stbq04jg',
   originatedBy: 'logsdk',
-  createdAt: 1793541003675,
+  createdAt: 1793575608604,
   event: {
-    server_time: 1793541004,
+    server_time: 1793575609,
     caller: '',
     user: {
-      user_unique_id: '3471632598865673',
+      user_unique_id: '2292956278576539',
       user_id: '0',
-      device_id: '3471632598865673',
+      device_id: '2292956278576539',
       user_is_login: false
     },
     header: {
-      custom: '{"icube_uid":"0","user_id":"0","biz_user_id":"0","user_is_login":false,"user_unique_id":"3471632598865673","device_id":"3471632598865673","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"adec9dfaced948ba9893314a0f9e4ddd0caeabe44c226e4a7e84a38c1194d3d2","arch":"x64","system":"linux","scope":"unknown","build_version":"2.3.98528","vscode_version":"1.107.1","region":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"dd90bf49-2887-490b-9227-c1dfd4b4dccf","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
+      custom: '{"icube_uid":"0","user_id":"0","biz_user_id":"0","user_is_login":false,"user_unique_id":"2292956278576539","device_id":"2292956278576539","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"96854e511969dcd7c5a57498452188efca0fbe71d8ca6037570b179d7f0a5221","arch":"x64","system":"linux","scope":"unknown","build_version":"2.3.98528","vscode_version":"1.107.1","region":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"3046f74f-12f9-41d5-a06f-77084e92c493","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
       app_id: 711126,
       platform: 'electron',
       os_name: 'linux',
@@ -904,7 +1242,7 @@ xdg-open: no method available for opening 'https://www.trae.cn/authorization?log
       {
         event: 'native_ide_network_proxy_resolved',
         params: '{"proxy_mode":"system","proxy_endpoint":"127.0.0.1:18080","bypass_list":""}',
-        time: 1793541004,
+        time: 1793575609,
         _staging_flag: undefined
       },
       [length]: 1
@@ -912,98 +1250,39 @@ xdg-open: no method available for opening 'https://www.trae.cn/authorization?log
   }
 }
 [Logsdk.http] [trace] with channel domain https://mcs.zijieapi.com
-[Logsdk.http] [trace] new sent events [ 'k0m6nis18pc', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
+[Logsdk.http] [trace] new sent events [ 'gh1stbq04jg', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
 [Logsdk.http] [trace] queue drained, last sent 1
-[AbstractNetworkChecker] setValue: isFirstSet=false, isChange=false, suppressFirstEvent=true, value="none", cachedValue="none"
-[AbstractNetworkChecker] no change, not firing event
-[AbstractNetworkChecker] setValue: isFirstSet=false, isChange=false, suppressFirstEvent=true, value=false, cachedValue=false
-[AbstractNetworkChecker] no change, not firing event
-[90m[main 2026-11-01T13:55:01.573Z][0m SupabaseOAuthLocalServer#OAuth callback server closed
-[90m[main 2026-11-01T13:55:01.679Z][0m [BootService] network recheck triggered
-[AbstractNetworkChecker] setValue: isFirstSet=false, isChange=false, suppressFirstEvent=true, value="none", cachedValue="none"
-[AbstractNetworkChecker] no change, not firing event
-[AbstractNetworkChecker] setValue: isFirstSet=false, isChange=false, suppressFirstEvent=true, value=false, cachedValue=false
-[AbstractNetworkChecker] no change, not firing event
-[90m[main 2026-11-01T13:55:03.655Z][0m ttnet fetch request https://api.trae.com.cn/icube/api/v1/native/config/query?mid=adec9dfaced948ba9893314a0f9e4ddd0caeabe44c226e4a7e84a38c1194d3d2&did=3471632598865673&packageType=stable_cn&productCode=TRAE&platform=Linux&branch=release_desktop_yoma_linux_cn&arch=x64&appVersion=3.4.11&buildVersion=2.3.98528&traeVersionCode=20250325
-[90m[main 2026-11-01T13:55:03.773Z][0m ttnet fetch response https://api.trae.com.cn/icube/api/v1/native/config/query?mid=adec9dfaced948ba9893314a0f9e4ddd0caeabe44c226e4a7e84a38c1194d3d2&did=3471632598865673&packageType=stable_cn&productCode=TRAE&platform=Linux&branch=release_desktop_yoma_linux_cn&arch=x64&appVersion=3.4.11&buildVersion=2.3.98528&traeVersionCode=20250325 304 Not Modified
-[90m[main 2026-11-01T13:55:03.775Z][0m [AhaIpcServer] broadcast new event event:DynamicConfigService.onDidUpdateConfig
-[90m[main 2026-11-01T13:55:03.783Z][0m [ICubeProcessManager] resolve CKG product policy from config { enabled: false, resolved: false }
-[90m[main 2026-11-01T13:55:03.794Z][0m [MainICubeAuthWatchManagementService] reconcileCheckTimer shouldRunTimer: false , authCheckIntervalMs -1
-[90m[main 2026-11-01T13:55:03.795Z][0m [MainGtmService] Loaded 2 conditions from dynamic config
-[90m[main 2026-11-01T13:55:03.799Z][0m [NetworkProxy] Using default system proxy mode without explicit proxy configuration
-[90m[main 2026-11-01T13:55:03.799Z][0m [NetworkProxy][SystemProxyDetection] Resolved system proxy status {
-  platform: 'linux',
-  source: 'env',
-  queryStatus: 'not_required',
-  result: 'configured',
-  reason: undefined
-}
-[Logsdk] [trace] report appid with 711126
-[Logsdk] [trace] Composed event {
-  id: 'igo5qsqrc8',
-  originatedBy: 'logsdk',
-  createdAt: 1793541303799,
-  event: {
-    server_time: 1793541304,
-    caller: '',
-    user: {
-      user_unique_id: '3471632598865673',
-      user_id: '0',
-      device_id: '3471632598865673',
-      user_is_login: false
-    },
-    header: {
-      custom: '{"icube_uid":"0","user_id":"0","biz_user_id":"0","user_is_login":false,"user_unique_id":"3471632598865673","device_id":"3471632598865673","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"adec9dfaced948ba9893314a0f9e4ddd0caeabe44c226e4a7e84a38c1194d3d2","arch":"x64","system":"linux","scope":"unknown","build_version":"2.3.98528","vscode_version":"1.107.1","region":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"dd90bf49-2887-490b-9227-c1dfd4b4dccf","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
-      app_id: 711126,
-      platform: 'electron',
-      os_name: 'linux',
-      tz_offset: -28800,
-      sdk_version: '3.0.12',
-      app_version: '3.4.11',
-      os_version: 'Ubuntu 24.04 LTS',
-      device_model: '',
-      language: 'en',
-      app_language: 'en'
-    },
-    events: [
-      {
-        event: 'native_ide_network_proxy_resolved',
-        params: '{"proxy_mode":"system","proxy_endpoint":"127.0.0.1:18080","bypass_list":""}',
-        time: 1793541304,
-        _staging_flag: undefined
-      },
-      [length]: 1
-    ]
-  }
-}
-[Logsdk.http] [trace] with channel domain https://mcs.zijieapi.com
-[Logsdk.http] [trace] new sent events [ 'igo5qsqrc8', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
-[Logsdk.http] [trace] queue drained, last sent 1
-[91m[main 2026-11-01T13:56:13.259Z][0m [MainICubeAuthManagementService] login failed with error Error: CloudIDETokenError:LoginTimeoutError
-    at Timeout._onTimeout (file:///usr/share/trae-cn/resources/app/out/main.js:1192:11277)
+[91m[main 2026-11-01T23:26:50.673Z][0m [ICubeProcessManager] cue-server ping failed Error: response_timeout
+    at Timeout._onTimeout (file:///usr/share/trae-cn/resources/app/out/main.js:916:21836)
     at listOnTimeout (node:internal/timers:588:17)
     at process.processTimers (node:internal/timers:523:7)
-Error occurred in handler for 'vscode:login': Error: CloudIDETokenError:LoginTimeoutError
-    at Timeout._onTimeout (file:///usr/share/trae-cn/resources/app/out/main.js:1192:11277)
-    at listOnTimeout (node:internal/timers:588:17)
-    at process.processTimers (node:internal/timers:523:7)
-[90m[main 2026-11-01T13:56:13.260Z][0m [MainICubeAuthManagementService] reportTeaEvent, app_id:  711126
+[90m[main 2026-11-01T23:26:52.674Z][0m [ICubeProcessManager] cue-server ping request sent
+[90m[main 2026-11-01T23:26:52.694Z][0m [AhaRpcClient] close started
+[90m[main 2026-11-01T23:26:52.694Z][0m [AhaRpcClient] close finished
+[90m[main 2026-11-01T23:26:52.695Z][0m [ICubeProcessManager] cue-server process health check succeeded
+[90m[main 2026-11-01T23:26:52.695Z][0m [ICubeProcessManager] cue-server process is healthy and ready
+[90m[main 2026-11-01T23:28:27.627Z][0m changeSetupState { region: 'cn', language: 'en', theme: '' } /home/trae/.trae-cn/argv.json
+[90m[main 2026-11-01T23:28:27.629Z][0m changeSetupState setting /home/trae/.config/Trae CN/User/settings.json 
+[90m[main 2026-11-01T23:28:30.743Z][0m installKeybindExtension vscode
+[90m[main 2026-11-01T23:28:57.272Z][0m login
+[90m[main 2026-11-01T23:28:57.275Z][0m OAuthenticator#start a server to listen for oauth result
+[90m[main 2026-11-01T23:28:57.276Z][0m [MainICubeAuthManagementService] reportTeaEvent, app_id:  711126
 [Logsdk] [trace] report appid with 711126
 [Logsdk] [trace] Composed event {
-  id: 'oijh3obmfbg',
+  id: 'l1j0jg4str8',
   originatedBy: 'logsdk',
-  createdAt: 1793541373260,
+  createdAt: 1793575737276,
   event: {
-    server_time: 1793541374,
+    server_time: 1793575738,
     caller: '',
     user: {
-      user_unique_id: '3471632598865673',
+      user_unique_id: '2292956278576539',
       user_id: '0',
-      device_id: '3471632598865673',
+      device_id: '2292956278576539',
       user_is_login: false
     },
     header: {
-      custom: '{"icube_uid":"0","user_id":"0","biz_user_id":"0","user_is_login":false,"user_unique_id":"3471632598865673","device_id":"3471632598865673","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"adec9dfaced948ba9893314a0f9e4ddd0caeabe44c226e4a7e84a38c1194d3d2","arch":"x64","system":"linux","scope":"unknown","build_version":"2.3.98528","vscode_version":"1.107.1","region":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"dd90bf49-2887-490b-9227-c1dfd4b4dccf","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
+      custom: '{"icube_uid":"0","user_id":"0","biz_user_id":"0","user_is_login":false,"user_unique_id":"2292956278576539","device_id":"2292956278576539","local_device_id":"aha-91ebdad43358ed46b21e6ed919bd7e68","is_special_uuid":false,"machine_id":"96854e511969dcd7c5a57498452188efca0fbe71d8ca6037570b179d7f0a5221","arch":"x64","system":"linux","scope":"unknown","build_version":"2.3.98528","vscode_version":"1.107.1","region":"CN","quality":"stable","build_time":"2026-10-28T09:47:39.271Z","icube_main_uid":"3046f74f-12f9-41d5-a06f-77084e92c493","window_type":"IDE","app_version":"3.4.11","os_name":"linux","os_version":"Ubuntu 24.04 LTS","os_release":"24.04","platform":"electron","device_model":"","device_manufacturer":"","cpu":"Intel","cpu_brand":"INTEL(R) XEON(R) PLATINUM 8582C","cpu_speed":0,"memory":6264782848,"language":"en","app_language":"en","channel_name":"common","process_type":0,"privacy_mode":"off","aha_version":"39.2.7-release.1.60.1","store_country_code":"","store_country_code_src":"did","store_region":"CN","product_code":"TRAE"}',
       app_id: 711126,
       platform: 'electron',
       os_name: 'linux',
@@ -1017,9 +1296,9 @@ Error occurred in handler for 'vscode:login': Error: CloudIDETokenError:LoginTim
     },
     events: [
       {
-        event: 'icube_login_failure',
-        params: '{"provider":"marscode","duration":1800027,"message":"CloudIDETokenError:LoginTimeoutError"}',
-        time: 1793541374,
+        event: 'icube_login_start',
+        params: '{"provider":"marscode"}',
+        time: 1793575738,
         _staging_flag: undefined
       },
       [length]: 1
@@ -1027,5 +1306,48 @@ Error occurred in handler for 'vscode:login': Error: CloudIDETokenError:LoginTim
   }
 }
 [Logsdk.http] [trace] with channel domain https://mcs.zijieapi.com
-[Logsdk.http] [trace] new sent events [ 'oijh3obmfbg', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
+[90m[main 2026-11-01T23:28:57.278Z][0m OAuthLocalServer#[Server] Listening on port 35725.
+[90m[main 2026-11-01T23:28:57.278Z][0m OAuthenticator#open oauth url Yinli
+[90m[main 2026-11-01T23:28:57.278Z][0m OAuthenticator# openLogin in port:  35725 undefined
+[90m[main 2026-11-01T23:28:57.279Z][0m OAuthenticator# openLogin getLoginUrl https://www.trae.cn/authorization?login_version=1&auth_from=trae&login_channel=native_ide&plugin_version=2.3.98528&auth_type=local&client_id=ono9krqynydwx5&redirect=0&login_trace_id=bcbeacf7-ae0b-4ca8-8007-8935694c698f&auth_callback_url=http://127.0.0.1:35725/authorize&machine_id=96854e511969dcd7c5a57498452188efca0fbe71d8ca6037570b179d7f0a5221&device_id=2292956278576539&x_device_id=2292956278576539&x_machine_id=96854e511969dcd7c5a57498452188efca0fbe71d8ca6037570b179d7f0a5221&x_device_brand=&x_device_type=linux&x_os_version=Ubuntu%2024.04%20LTS&x_env=&x_app_version=3.4.11&x_app_type=stable&code_challenge=HYZXIdG0zZD8-qKBlO37Z61pV6kWnpOGxXumqtjLpNA&code_challenge_method=S256&channel_name=common
+[90m[main 2026-11-01T23:28:57.282Z][0m NativeHostMainService#openBrowser success https://www.trae.cn/authorization?login_version=1&auth_from=trae&login_channel=native_ide&plugin_version=2.3.98528&auth_type=local&client_id=ono9krqynydwx5&redirect=0&login_trace_id=bcbeacf7-ae0b-4ca8-8007-8935694c698f&auth_callback_url=http://127.0.0.1:35725/authorize&machine_id=96854e511969dcd7c5a57498452188efca0fbe71d8ca6037570b179d7f0a5221&device_id=2292956278576539&x_device_id=2292956278576539&x_machine_id=96854e511969dcd7c5a57498452188efca0fbe71d8ca6037570b179d7f0a5221&x_device_brand=&x_device_type=linux&x_os_version=Ubuntu%2024.04%20LTS&x_env=&x_app_version=3.4.11&x_app_type=stable&code_challenge=HYZXIdG0zZD8-qKBlO37Z61pV6kWnpOGxXumqtjLpNA&code_challenge_method=S256&channel_name=common undefined undefined
+[Logsdk.http] [trace] new sent events [ 'l1j0jg4str8', [length]: 1 ] result { e: 0, sc: 1, tc: 1 }
 [Logsdk.http] [trace] queue drained, last sent 1
+/usr/bin/xdg-open: 882: x-www-browser: not found
+/usr/bin/xdg-open: 882: firefox: not found
+/usr/bin/xdg-open: 882: iceweasel: not found
+/usr/bin/xdg-open: 882: seamonkey: not found
+/usr/bin/xdg-open: 882: mozilla: not found
+/usr/bin/xdg-open: 882: epiphany: not found
+/usr/bin/xdg-open: 882: konqueror: not found
+/usr/bin/xdg-open: 882: chromium: not found
+/usr/bin/xdg-open: 882: chromium-browser: not found
+/usr/bin/xdg-open: 882: google-chrome: not found
+/usr/bin/xdg-open: 882: www-browser: not found
+/usr/bin/xdg-open: 882: links2: not found
+/usr/bin/xdg-open: 882: elinks: not found
+/usr/bin/xdg-open: 882: links: not found
+/usr/bin/xdg-open: 882: lynx: not found
+/usr/bin/xdg-open: 882: w3m: not found
+xdg-open: no method available for opening 'https://www.trae.cn/authorization?login_version=1&auth_from=trae&login_channel=native_ide&plugin_version=2.3.98528&auth_type=local&client_id=ono9krqynydwx5&redirect=0&login_trace_id=bcbeacf7-ae0b-4ca8-8007-8935694c698f&auth_callback_url=http://127.0.0.1:35725/authorize&machine_id=96854e511969dcd7c5a57498452188efca0fbe71d8ca6037570b179d7f0a5221&device_id=2292956278576539&x_device_id=2292956278576539&x_machine_id=96854e511969dcd7c5a57498452188efca0fbe71d8ca6037570b179d7f0a5221&x_device_brand=&x_device_type=linux&x_os_version=Ubuntu%2024.04%20LTS&x_env=&x_app_version=3.4.11&x_app_type=stable&code_challenge=HYZXIdG0zZD8-qKBlO37Z61pV6kWnpOGxXumqtjLpNA&code_challenge_method=S256&channel_name=common'
+[90m[main 2026-11-01T23:29:25.125Z][0m setupComplete
+[90m[main 2026-11-01T23:29:25.229Z][0m Lifecycle#app.on(before-quit)
+[90m[main 2026-11-01T23:29:25.230Z][0m Lifecycle#onBeforeShutdown.fire()
+[90m[main 2026-11-01T23:29:25.231Z][0m [MainICubeSetupManagementService] login window closed by user
+[90m[main 2026-11-01T23:29:25.250Z][0m [MainICubeSetupManagementService] login window closed
+[90m[main 2026-11-01T23:29:25.250Z][0m Lifecycle#app.on(will-quit) - begin
+[90m[main 2026-11-01T23:29:25.251Z][0m Lifecycle#onWillShutdown.fire()
+[90m[main 2026-11-01T23:29:25.253Z][0m [ICubeProcessManager] libtoolhost graceful shutdown started, timeout: 3000ms
+[90m[main 2026-11-01T23:29:25.256Z][0m [ICubeProcessManager] dispose
+[90m[main 2026-11-01T23:29:25.257Z][0m [ICubeProcessManager] ai-agent is quitting, kill process 4789
+[90m[main 2026-11-01T23:29:25.257Z][0m [ICubeProcessManager] cue-server is quitting, kill process 4788
+[90m[main 2026-11-01T23:29:25.258Z][0m [FloatingChat] Persisting state: {"pinnedOnTop":false}
+[90m[main 2026-11-01T23:29:25.269Z][0m [ICubeProcessManager] cue-server process exit with code 0, description: undefined, restart disabled, skip restart
+[90m[main 2026-11-01T23:29:25.283Z][0m [AhaRpcClient] ahaIpc connect server disconnected, try to reconnect
+[90m[main 2026-11-01T23:29:25.283Z][0m [AhaRpcClient] close started
+[90m[main 2026-11-01T23:29:25.283Z][0m [AhaRpcClient] close finished
+[90m[main 2026-11-01T23:29:25.285Z][0m [AhaRpcClient] ahaIpc connected: ai-agent
+[90m[main 2026-11-01T23:29:25.288Z][0m [ICubeProcessManager] libtoolhost process exit with code 15, description: , restart disabled, skip restart
+[90m[main 2026-11-01T23:29:25.289Z][0m [ICubeProcessManager] ai-agent process exit with code 15, description: , restart disabled, skip restart
+[90m[main 2026-11-01T23:29:25.291Z][0m Lifecycle#app.on(will-quit) - after fireOnWillShutdown
+[90m[main 2026-11-01T23:29:25.291Z][0m Lifecycle#app.on(will-quit) - calling app.quit()
