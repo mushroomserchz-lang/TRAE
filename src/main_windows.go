@@ -4,6 +4,7 @@ package main
 
 import (
 	"encoding/binary"
+	"fmt"
 	"math"
 	"math/rand"
 	"runtime"
@@ -64,6 +65,9 @@ const (
 	DT_WORDBREAK = 0x0010
 	DT_CALCRECT  = 0x0400
 	DT_NOPREFIX  = 0x0800
+
+	MB_OK        = 0x0000
+	MB_ICONERROR = 0x0010
 )
 
 var (
@@ -164,6 +168,8 @@ var (
 	pCreateFontW        = gdi32.NewProc("CreateFontW")
 	pSetTextColor       = gdi32.NewProc("SetTextColor")
 	pSetBkMode          = gdi32.NewProc("SetBkMode")
+
+	pMessageBoxW = user32.NewProc("MessageBoxW")
 
 	pGetModuleHandleW = kernel32.NewProc("GetModuleHandleW")
 
@@ -1145,14 +1151,29 @@ func wndProc(hwnd, msg, wparam, lparam uintptr) uintptr {
 
 // ---------------------------------------------------------------- main
 
+func fatal(msg string) {
+	t, _ := syscall.UTF16PtrFromString(msg)
+	c, _ := syscall.UTF16PtrFromString("桌面小猫")
+	pMessageBoxW.Call(0, uintptr(unsafe.Pointer(t)), uintptr(unsafe.Pointer(c)), uintptr(MB_OK|MB_ICONERROR))
+}
+
 func main() {
 	runtime.LockOSThread()
+	defer func() {
+		if r := recover(); r != nil {
+			fatal(fmt.Sprintf("启动失败：%v\n\n请把这句话告诉我，我来修。", r))
+		}
+	}()
 	pSetProcessDPIAware.Call()
 	sndMeow = synthMeow()
 	sndChirp = synthChirp()
 	textRenderer = renderTextWin
 
 	app = newApp()
+	if app.hwnd == 0 || app.layer == nil {
+		fatal("窗口创建失败，可能是系统版本或显卡驱动不支持。")
+		return
+	}
 	for {
 		r, _, _ := pGetMessageW.Call(uintptr(unsafe.Pointer(&gMsg)), 0, 0, 0)
 		if int32(r) <= 0 {
